@@ -1,0 +1,916 @@
+STUDENT_ID,FULL_NAME,APPLICATION_DATE,DATE_OF_BIRTH,AGE,DEPARTMENT,COUNTRY,EMAIL,FEE_PAID,GPA,ATTENDANCE_PERCENTAGE,IS_ACTIVE,LAB_SENSOR_RPM,ENROLLMENT_STATUS
+STU00114,Farhan Farooqi,2022-04-16,1980-04-25,44,data science,India,farhan.farooqi114@gmail.com,3579.93,2.91,70.3,False,4289.049999999999,unknown
+STU00793,Riya Rana,2021-07-08,2002-12-13,21,finance,India,riya.rana793@yahoo.com,0.0,2.88,41.4,True,1430.7,Graduated
+STU00741,Karan Kapoor,2021-06-06,1989-06-21,34,electrical engineering,Pakistan,karan.kapoor741@outlook.com,4843.15,2.34,90.1,True,1093.0,Enrolled
+STU00432,Ava Siddiqui,2024-04-03,2004-03-31,20,data science,USA,ava.siddiqui432@yahoo.com,2488.48,1.86,84.9,False,4289.049999999999,Withdrawn
+STU00243,Anjali Young,2024-03-16,1989-09-22,34,business administration,UAE,anjali.young243@outlook.com,0.4503,3.53,64.0,False,2536.6,Withdrawn
+STU00418,Kiran Davies,2024-12-23,1994-01-30,32,mechanical engineering,Bangladesh,kiran.davies418@univmail.edu,0.381,3.8,82.4,True,2348.8,unknown
+STU00483,Emma Smith,2024-01-16,1992-11-10,31,finance,USA,emma.smith483@univmail.edu,0.2428,1.91,57.1,False,1850.0,Withdrawn
+STU00271,Karan Farooqi,2022-11-25,2000-03-12,24,computer science,India,karan.farooqi271@gmail.com,2226.2,1.95,75.6,False,1549.9,Enrolled
+STU00479,Neha Malik,2021-05-08,1989-05-25,37,business administration,India,neha.malik479@univmail.edu,0.1714,1.67,57.9,False,2059.5,Pending
+STU00657,Rohan Siddiqui,2023-04-12,2002-07-22,21,business administration,Bangladesh,rohan.siddiqui657@univmail.edu,2136.02,1.83,54.8,False,3075.2,unknown
+STU00859,Vikram Clark,2022-01-13,1994-11-26,29,entrepreneurship,Canada,vikram.clark859@outlook.com,1530.06,4.0,91.3,False,1505.9,Enrolled
+STU00861,Olivia Smith,2024-01-05,1995-05-10,29,data science,Saudi Arabia,olivia.smith861@univmail.edu,0.4962,1.7,92.9,False,2685.4,unknown
+STU00700,Ethan Sharma,2023-05-31,1992-09-28,31,electrical engineering,Germany,ethan.sharma700@gmail.com,2383.81,2.89,43.9,True,2395.3,unknown
+STU00494,Sara Clark,2021-05-29,1996-11-01,27,mechanical engineering,Pakistan,sara.clark494@gmail.com,1933.65,2.03,59.3,False,1725.4,Pending
+STU00778,Emma Singh,2023-05-01,1984-01-18,40,data science,Australia,emma.singh778@outlook.com,1102.67,2.88,88.5,True,2180.1,Pending
+STU00597,Zara Rana,2021-02-27,1997-11-24,29,computer science,Germany,zara.rana597@univmail.edu,0.2646,3.11,70.1,True,2877.0,unknown
+STU00409,Aarav Malik,2022-03-28,1981-03-06,43,finance,USA,aarav.malik409@gmail.com,2370.56,2.31,77.5,True,1826.9,unknown
+STU00909,Zara Farooqi,2021-01-29,2005-02-23,19,mechanical engineering,Bangladesh,zara.farooqi909@univmail.edu,2572.27,3.25,45.0,True,1668.9,unknown
+STU00781,Riya Nair,2021-04-24,1983-06-03,41,mechanical engineering,Australia,riya.nair781@gmail.com,4181.78,3.21,96.4,False,1221.2,Graduated
+STU00025,Karan Reddy,2021-06-15,1998-12-19,25,mechanical engineering,UK,karan.reddy25@gmail.com,2366.91,2.54,65.2,False,846.9,unknown
+STU00797,Emma Brown,2021-11-27,1991-03-15,33,electrical engineering,USA,emma.brown797@gmail.com,3327.2,3.93,72.8,False,2448.3,unknown
+STU00734,Riya Ansari,2024-06-09,1984-05-05,40,data science,Pakistan,riya.ansari734@outlook.com,4589.47,3.14,63.4,False,875.3,Graduated
+STU00010,Priya Singh,2024-03-15,1985-10-06,38,finance,UK,priya.singh10@gmail.com,936.19,2.53,43.3,False,1036.2,Graduated
+STU00545,Aditya Lewis,2024-03-23,1984-02-25,40,mechanical engineering,UAE,aditya.lewis545@outlook.com,0.269,2.22,99.3,False,2399.4,Withdrawn
+STU00873,Ava Kapoor,2021-06-24,1996-07-11,27,computer science,Bangladesh,ava.kapoor873@yahoo.com,1377.44,3.96,80.6,False,2123.8,unknown
+STU00026,Ethan Siddiqui,2023-03-10,1992-06-06,32,finance,UK,ethan.siddiqui26@univmail.edu,1487.4,2.47,87.9,True,3006.9,unknown
+STU00869,Noah Taylor,2024-04-15,1994-07-26,29,computer science,India,noah.taylor869@outlook.com,4969.43,3.26,46.3,False,1409.1,unknown
+STU00320,Aditya Patel,2021-05-02,2004-05-21,20,entrepreneurship,India,aditya.patel320@gmail.com,0.0,3.75,61.1,False,2590.9,Enrolled
+STU00917,Vikram Smith,2021-11-19,1989-08-16,34,entrepreneurship,UAE,vikram.smith917@yahoo.com,3732.77,2.53,67.5,False,2433.6,unknown
+STU00421,Olivia Nair,2021-12-28,1987-01-15,37,computer science,Germany,olivia.nair421@gmail.com,0.2528,1.65,85.5,True,2891.9,Pending
+STU00831,Sophia Mehta,2023-07-19,1981-06-04,43,entrepreneurship,Germany,sophia.mehta831@outlook.com,2928.38,3.81,41.6,False,2668.5,Graduated
+STU00655,Aarav Siddiqui,2024-03-07,2006-08-22,20,finance,Germany,aarav.siddiqui655@gmail.com,589.07,3.11,77.0,False,1370.4,unknown
+STU00147,Ananya Patel,2021-12-03,2002-08-12,21,mechanical engineering,UK,ananya.patel147@univmail.edu,1887.38,1.73,58.3,False,2123.8,Enrolled
+STU00563,Yusuf Malik,2024-06-15,1988-08-11,35,computer science,UK,yusuf.malik563@gmail.com,0.0,1.91,59.4,True,2737.4,unknown
+STU00061,Ishaan Singh,2023-06-25,1992-07-06,31,finance,Bangladesh,ishaan.singh61@gmail.com,0.0,3.17,70.3,True,931.5,unknown
+STU00854,Isabella Gupta,2024-06-27,1994-07-24,29,business administration,UK,isabella.gupta854@univmail.edu,0.4325,3.83,58.7,False,2212.0,unknown
+STU00709,Noor Qureshi,2022-06-02,1997-03-26,27,finance,India,noor.qureshi709@gmail.com,1350.18,2.64,75.0,True,1809.2,unknown
+STU00820,Sara Lewis,2024-03-26,2006-12-22,17,entrepreneurship,USA,sara.lewis820@gmail.com,3797.62,2.96,54.2,True,2952.1,unknown
+STU00014,Sophia Farooqi,2022-10-06,1990-12-31,33,computer science,Saudi Arabia,sophia.farooqi14@outlook.com,4680.58,4.0,46.0,True,1436.5,unknown
+STU00809,Kiran Kapoor,2023-11-16,1986-07-27,37,finance,Australia,kiran.kapoor809@univmail.edu,0.1242,3.26,56.1,True,1674.1,Enrolled
+STU00910,Diya Kapoor,2021-03-16,1989-01-15,35,mechanical engineering,Australia,diya.kapoor910@yahoo.com,0.0,1.52,62.6,False,2831.6,Pending
+STU00501,Sophia Davies,2022-10-01,1990-09-20,33,electrical engineering,USA,sophia.davies501@yahoo.com,4625.14,3.67,86.8,False,1815.4,unknown
+STU00591,Kabir Siddiqui,2023-04-21,1988-07-11,35,data science,Australia,kabir.siddiqui591@gmail.com,3198.06,2.31,74.2,False,3084.4,Pending
+STU00309,Aisha Farooqi,2022-02-25,2002-10-25,21,data science,USA,aisha.farooqi309@outlook.com,0.2518,1.8,70.3,False,3074.7,Withdrawn
+STU00100,Bilal Wilson,2022-03-24,1989-10-12,34,data science,Germany,bilal.wilson100@univmail.edu,2876.78,2.88,43.7,True,1285.2,unknown
+STU00768,Yusuf Mehta,2021-01-04,2005-09-20,18,data science,Bangladesh,yusuf.mehta768@outlook.com,3365.01,2.79,64.3,False,1791.1,Withdrawn
+STU00111,Olivia Verma,2021-01-14,1981-05-05,43,data science,USA,olivia.verma111@gmail.com,1484.24,3.04,77.0,False,837.8,Pending
+STU00297,Olivia Iqbal,2023-08-09,1987-12-08,36,entrepreneurship,Saudi Arabia,olivia.iqbal297@univmail.edu,1293.46,2.88,52.6,True,2732.4,Enrolled
+STU00642,Kabir Joshi,2024-02-15,1999-05-29,27,computer science,India,kabir.joshi642@outlook.com,2231.39,2.92,44.2,True,2290.1,Pending
+STU00868,Noah Patel,2023-01-09,1980-09-12,43,business administration,Pakistan,noah.patel868@gmail.com,3388.04,2.99,67.4,True,1413.1,unknown
+STU00664,Olivia Hall,2021-04-17,2006-09-29,17,entrepreneurship,Canada,olivia.hall664@gmail.com,1727.76,2.33,70.3,False,4289.049999999999,Graduated
+STU00835,Liam Iqbal,2023-04-25,2006-02-20,18,business administration,Pakistan,liam.iqbal835@univmail.edu,0.0,2.88,100.0,False,1057.8,Graduated
+STU00095,Riya Iqbal,2024-03-10,1987-08-15,36,entrepreneurship,Canada,riya.iqbal95@univmail.edu,0.952,4.0,64.4,False,1278.7,Enrolled
+STU00729,Arjun Rana,2021-04-27,1991-07-06,32,mechanical engineering,India,arjun.rana729@outlook.com,4719.17,2.72,95.7,True,1772.8,Pending
+STU00438,Kabir Brown,2021-10-18,1981-05-21,43,entrepreneurship,UK,kabir.brown438@outlook.com,0.0,2.87,79.0,True,999.8,Pending
+STU00109,Vikram Chaudhary,2023-08-20,1990-09-29,33,mechanical engineering,Australia,vikram.chaudhary109@yahoo.com,3835.64,3.84,65.1,True,1352.0,Withdrawn
+STU00126,Layla Malik,2023-09-30,2000-10-16,23,mechanical engineering,Bangladesh,layla.malik126@gmail.com,2065.66,3.53,57.8,False,2413.1,unknown
+STU00814,Simran Rana,2024-08-21,2004-04-25,20,electrical engineering,India,simran.rana814@yahoo.com,1301.91,2.97,44.4,False,2905.7,Enrolled
+STU00035,Meera Lewis,2024-07-13,2004-11-13,19,finance,Pakistan,meera.lewis35@yahoo.com,1033.03,3.48,71.4,False,1513.6,unknown
+STU00541,Bilal Brown,2022-08-11,1988-07-05,35,computer science,USA,bilal.brown541@univmail.edu,0.3347,3.69,100.0,True,2131.0,Graduated
+STU00171,Sophia Wilson,2022-01-04,1989-03-05,35,business administration,UAE,sophia.wilson171@yahoo.com,0.0,1.74,55.5,True,1239.4,unknown
+STU00934,Farhan Gupta,2021-05-09,2000-04-05,24,finance,Saudi Arabia,farhan.gupta934@univmail.edu,1725.29,2.64,68.8,True,4289.049999999999,Enrolled
+STU00942,Anjali Farooqi,2021-10-31,1994-01-05,32,computer science,Canada,anjali.farooqi942@gmail.com,1113.62,3.66,63.6,False,2227.8,unknown
+STU00938,Ava Lewis,2022-07-31,1988-12-21,35,entrepreneurship,UAE,ava.lewis938@outlook.com,3853.98,3.46,58.3,False,3027.2,Withdrawn
+STU00468,Zara Siddiqui,2023-02-01,1984-05-29,40,data science,Australia,zara.siddiqui468@yahoo.com,635.84,2.11,0.0,True,1927.4,unknown
+STU00871,Emma Sharma,2021-12-20,1995-03-21,29,electrical engineering,Germany,emma.sharma871@yahoo.com,1255.02,2.88,51.1,True,839.1,Enrolled
+STU00169,Anjali Nair,2022-03-23,1978-12-03,45,business administration,Australia,anjali.nair169@gmail.com,533.06,2.98,81.1,False,3172.1,unknown
+STU00598,Emma Smith,2023-02-17,2001-09-12,22,computer science,UK,emma.smith598@yahoo.com,0.0,3.47,61.4,False,2332.7,Withdrawn
+STU00669,Meera Wilson,2022-10-21,1983-05-05,41,data science,Australia,meera.wilson669@univmail.edu,2779.95,2.13,54.4,True,3123.5,unknown
+STU00802,Noah Nair,2023-11-06,1983-08-10,40,entrepreneurship,Australia,noah.nair802@gmail.com,3412.72,3.07,97.7,True,1859.4,unknown
+STU00738,Bilal Young,2022-08-10,1992-08-02,31,entrepreneurship,India,bilal.young738@yahoo.com,0.0,2.16,42.4,False,805.4,Withdrawn
+STU00245,Aarav Smith,2023-12-10,1982-07-24,41,data science,UK,aarav.smith245@yahoo.com,727.34,3.38,45.4,True,1746.4,Pending
+STU00779,Kabir Qureshi,2023-09-05,1998-02-13,26,data science,Bangladesh,kabir.qureshi779@yahoo.com,0.1268,3.02,44.4,False,1610.5,Pending
+STU00721,Layla Lewis,2023-02-23,1998-04-10,26,computer science,India,layla.lewis721@yahoo.com,0.246,2.98,48.4,True,1141.6,Withdrawn
+STU00685,Neha Gupta,2022-02-26,2004-05-16,20,finance,UK,neha.gupta685@outlook.com,2124.22,2.07,90.6,False,1543.8,unknown
+STU00229,Ethan Nair,2022-12-13,1990-07-18,33,finance,Canada,ethan.nair229@univmail.edu,1669.13,4.0,48.2,True,820.0,Enrolled
+STU00714,Aisha Sharma,2023-06-25,1991-09-24,32,computer science,Bangladesh,aisha.sharma714@yahoo.com,0.4046,2.38,82.9,False,2906.6,unknown
+STU00397,Karan Lewis,2022-07-21,1990-09-21,36,computer science,UK,karan.lewis397@outlook.com,1384.91,3.36,90.7,False,3195.2,Withdrawn
+STU00622,Noor Rana,2022-07-27,1998-09-02,25,mechanical engineering,Saudi Arabia,noor.rana622@univmail.edu,3484.62,2.16,65.6,True,1102.9,Pending
+STU00579,Riya Mehta,2021-07-10,2001-05-16,23,entrepreneurship,UAE,riya.mehta579@univmail.edu,3538.73,2.88,65.3,True,2041.6,Graduated
+STU00165,James Young,2022-09-13,1998-11-30,25,business administration,Pakistan,james.young165@yahoo.com,1104.73,2.3,76.3,False,1307.3,unknown
+STU00766,Vivaan Walker,2024-07-28,1982-05-28,42,data science,Pakistan,vivaan.walker766@univmail.edu,0.0,1.64,98.1,True,3172.2,Pending
+STU00814,Simran Rana,2022-11-12,2004-04-25,20,electrical engineering,India,simran.rana814@yahoo.com,4107.3,2.97,44.4,False,2905.7,Enrolled
+STU00335,Arjun Singh,2022-07-23,2003-05-24,21,electrical engineering,Saudi Arabia,arjun.singh335@gmail.com,748.97,2.24,70.3,True,2412.0,Enrolled
+STU00217,Anjali Reddy,2024-03-23,1988-03-03,36,mechanical engineering,Pakistan,anjali.reddy217@outlook.com,2029.85,3.89,88.8,False,1862.6,unknown
+STU00223,Anjali Clark,2022-02-06,1999-08-28,24,finance,India,anjali.clark223@yahoo.com,0.2397,3.62,83.2,False,2149.1,Pending
+STU00911,Yusuf Ansari,2021-10-28,1994-04-10,30,mechanical engineering,Canada,yusuf.ansari911@outlook.com,0.17,2.79,93.2,True,1983.2,unknown
+STU00331,Layla Nair,2021-04-06,2000-09-26,23,entrepreneurship,Australia,layla.nair331@univmail.edu,0.0,1.73,45.7,False,2159.4,Enrolled
+STU00356,Mason Taylor,2024-06-17,1992-01-06,32,electrical engineering,UAE,mason.taylor356@gmail.com,1062.9,3.54,51.3,True,2356.7,unknown
+STU00027,Isabella Qureshi,2021-02-25,2006-11-17,17,computer science,India,isabella.qureshi27@outlook.com,0.2206,2.34,56.7,True,996.6,unknown
+STU00058,Ishaan Khan,2021-09-24,1994-04-21,30,electrical engineering,Pakistan,ishaan.khan58@univmail.edu,2091.19,3.3,76.0,False,2017.8,unknown
+STU00047,Noor Singh,2024-10-19,1986-06-07,38,business administration,UAE,noor.singh47@univmail.edu,3606.41,2.0,69.0,False,1661.5,Withdrawn
+STU00329,Farhan Siddiqui,2023-04-24,2003-10-31,20,entrepreneurship,UAE,farhan.siddiqui329@gmail.com,4596.75,1.79,72.3,True,2872.1,Pending
+STU00249,Vikram Qureshi,2024-11-24,1991-07-27,32,electrical engineering,UAE,vikram.qureshi249@yahoo.com,0.77,3.04,70.3,False,959.8,unknown
+STU00914,Yusuf Young,2022-11-09,1984-08-27,39,data science,UAE,yusuf.young914@outlook.com,4761.45,2.59,99.5,True,3034.9,unknown
+STU00099,Ethan Sharma,2021-05-08,1998-07-09,25,entrepreneurship,UAE,ethan.sharma99@gmail.com,3374.2,2.05,68.7,False,2253.8,Graduated
+STU00285,Olivia Brown,2023-04-06,2006-04-18,18,electrical engineering,UAE,olivia.brown285@gmail.com,0.0,3.43,84.1,False,2047.9,Withdrawn
+STU00164,Karan Walker,2024-09-03,1989-12-16,34,business administration,Bangladesh,karan.walker164@yahoo.com,3282.1,2.88,59.9,False,2123.8,Enrolled
+STU00398,Noah Young,2022-12-11,1999-06-04,25,finance,India,noah.young398@univmail.edu,0.3443,2.07,52.6,False,2686.3,unknown
+STU00774,Rohan Taylor,2023-10-23,2003-12-01,20,entrepreneurship,USA,rohan.taylor774@univmail.edu,3245.43,2.35,78.3,True,2999.6,Withdrawn
+STU00762,Neha Khan,2024-12-03,2002-11-07,21,business administration,Germany,neha.khan762@outlook.com,0.4489,2.99,52.9,False,2266.3,unknown
+STU00787,Sana Smith,2021-03-04,2003-10-16,20,entrepreneurship,UK,sana.smith787@yahoo.com,0.0,3.13,71.2,False,2616.8,Withdrawn
+STU00044,Zara Mehta,2022-11-11,2006-04-03,18,business administration,Saudi Arabia,zara.mehta44@gmail.com,3751.0,3.92,86.9,True,2462.5,Enrolled
+STU00855,Aisha Clark,2021-04-10,1986-05-17,38,computer science,Saudi Arabia,aisha.clark855@outlook.com,1608.78,1.61,68.5,True,948.5,unknown
+STU00362,Liam Rana,2023-06-16,1986-04-19,38,finance,Australia,liam.rana362@gmail.com,4206.25,1.92,52.3,False,1501.1,Enrolled
+STU00064,Farhan Reddy,2021-08-22,1997-03-14,27,electrical engineering,USA,farhan.reddy64@yahoo.com,962.62,3.01,79.3,True,2307.1,unknown
+STU00602,Isabella Davies,2024-05-16,1993-06-09,31,entrepreneurship,Germany,isabella.davies602@outlook.com,4781.46,2.83,80.7,True,1856.1,Withdrawn
+STU00553,Yusuf Khan,2024-02-07,1982-06-17,41,business administration,UK,yusuf.khan553@yahoo.com,4271.67,2.07,94.6,False,2127.1,Pending
+STU00039,Anjali Farooqi,2023-06-25,2006-03-09,18,data science,Saudi Arabia,anjali.farooqi39@gmail.com,2615.05,3.18,59.8,False,3068.5,Graduated
+STU00723,Karan Chaudhary,2023-09-09,1980-09-23,43,entrepreneurship,USA,karan.chaudhary723@gmail.com,0.4964,2.9,70.3,True,2050.6,Withdrawn
+STU00206,Aditya Verma,2023-12-04,1986-12-28,37,entrepreneurship,USA,aditya.verma206@univmail.edu,3441.54,3.75,55.1,False,1647.0,unknown
+STU00238,Kiran Joshi,2022-08-03,1985-09-30,38,mechanical engineering,Pakistan,kiran.joshi238@gmail.com,0.4258,1.58,51.5,True,2807.1,Enrolled
+STU00636,Isabella Mehta,2024-03-09,1980-10-31,43,electrical engineering,Australia,isabella.mehta636@univmail.edu,3860.57,2.16,94.0,False,1657.0,unknown
+STU00902,Olivia Clark,2021-01-09,2003-09-13,20,mechanical engineering,Germany,olivia.clark902@univmail.edu,1451.46,2.88,92.8,False,2456.6,Enrolled
+STU00921,Tariq Young,2023-01-23,1990-05-09,36,data science,USA,tariq.young921@univmail.edu,0.4354,1.66,67.8,False,863.5,Enrolled
+STU00500,Ishaan Singh,2024-02-18,1983-01-12,41,finance,Pakistan,ishaan.singh500@gmail.com,4872.94,3.18,63.1,False,1300.8,unknown
+STU00139,Ananya Sharma,2021-03-23,1989-05-07,35,mechanical engineering,Germany,ananya.sharma139@univmail.edu,2406.09,2.84,56.6,True,3010.2,unknown
+STU00645,Ananya Malik,2023-10-03,1999-12-03,27,computer science,Saudi Arabia,ananya.malik645@gmail.com,4314.98,2.3,74.5,True,2616.6,Withdrawn
+STU00851,Priya Chaudhary,2022-02-23,1985-08-08,38,entrepreneurship,India,priya.chaudhary851@outlook.com,0.134,2.88,73.4,False,2671.4,Graduated
+STU00929,Aisha Ansari,2023-03-01,2006-07-04,17,computer science,Bangladesh,aisha.ansari929@yahoo.com,3069.1,2.47,56.6,False,2123.8,unknown
+STU00562,Aarav Young,2024-06-30,2001-01-18,23,mechanical engineering,UAE,aarav.young562@yahoo.com,0.2723,2.04,73.8,True,2209.6,unknown
+STU00310,Aisha Ansari,2024-12-15,2006-08-31,17,entrepreneurship,Australia,aisha.ansari310@yahoo.com,4098.09,1.78,42.4,False,1539.4,unknown
+STU00678,Mason Iqbal,2023-09-12,1998-05-08,26,finance,India,mason.iqbal678@outlook.com,0.1674,1.57,65.3,False,2983.5,Graduated
+STU00300,Noor Bose,2022-08-28,1994-03-14,30,finance,USA,noor.bose300@yahoo.com,0.0,3.99,90.2,True,4289.049999999999,unknown
+STU00036,Sophia Nair,2021-07-23,1997-08-21,26,entrepreneurship,UK,sophia.nair36@yahoo.com,0.2984,4.0,57.5,False,1478.5,unknown
+STU00154,Riya Malik,2021-10-30,1985-03-13,39,computer science,Germany,riya.malik154@outlook.com,4822.51,3.16,60.2,False,1178.0,unknown
+STU00806,Sara Young,2022-02-06,1990-11-21,33,finance,UK,sara.young806@yahoo.com,0.0,3.47,53.3,False,2963.6,unknown
+STU00443,Noor Joshi,2022-04-14,1998-01-18,26,computer science,Canada,noor.joshi443@gmail.com,3356.05,3.86,43.4,True,1982.8,Withdrawn
+STU00062,Neha Kapoor,2021-09-03,2001-03-29,23,mechanical engineering,Germany,neha.kapoor62@yahoo.com,2751.18,2.88,42.5,True,986.9,Pending
+STU00587,Noor Farooqi,2023-03-08,1993-07-19,30,computer science,Canada,noor.farooqi587@univmail.edu,1183.0,3.24,55.3,True,2171.2,Withdrawn
+STU00504,Diya Hall,2023-12-26,2005-08-16,18,electrical engineering,Bangladesh,diya.hall504@univmail.edu,0.2268,3.7,52.3,False,1491.2,unknown
+STU00557,Sana Davies,2021-08-12,1999-10-23,24,finance,Pakistan,sana.davies557@yahoo.com,1434.57,1.71,90.3,True,2159.9,unknown
+STU00460,Mariam Chaudhary,2023-07-30,2002-10-05,21,entrepreneurship,USA,mariam.chaudhary460@outlook.com,0.595,3.54,51.3,True,1388.6,Pending
+STU00472,Kabir Khan,2022-09-26,2000-08-06,23,data science,Pakistan,kabir.khan472@gmail.com,3036.83,2.88,96.6,True,2604.0,Enrolled
+STU00187,Kiran Wilson,2024-07-20,1997-04-14,27,electrical engineering,Australia,kiran.wilson187@yahoo.com,4837.35,1.62,90.3,False,2674.6,Graduated
+STU00278,Mariam Qureshi,2022-01-21,2000-07-03,23,electrical engineering,USA,mariam.qureshi278@outlook.com,0.4989,1.68,100.0,False,3139.9,Withdrawn
+STU00348,Emma Verma,2023-07-27,1992-12-09,31,finance,Canada,emma.verma348@gmail.com,1416.8,1.92,56.4,False,2200.5,unknown
+STU00581,Meera Rana,2023-08-28,1981-10-25,42,mechanical engineering,Bangladesh,meera.rana581@univmail.edu,4416.41,2.34,75.4,False,2274.8,Enrolled
+STU00110,Ethan Lewis,2024-11-03,1999-09-26,24,finance,Saudi Arabia,ethan.lewis110@univmail.edu,1257.05,3.3,95.0,True,3097.4,Graduated
+STU00105,Rohan Qureshi,2022-08-16,2001-05-10,23,finance,Australia,rohan.qureshi105@outlook.com,0.1566,2.8,56.5,True,2911.3,unknown
+STU00411,Ethan Gupta,2023-06-09,1999-04-21,25,finance,USA,ethan.gupta411@outlook.com,0.0,2.88,100.0,False,2337.4,unknown
+STU00684,Aarav Young,2023-06-02,1986-07-28,37,finance,UAE,aarav.young684@outlook.com,1380.98,3.13,66.7,False,2648.0,Pending
+STU00149,Rohan Ansari,2024-08-13,2000-11-14,23,entrepreneurship,Pakistan,rohan.ansari149@yahoo.com,4561.23,1.73,88.5,False,2123.8,unknown
+STU00306,Ananya Patel,2022-01-02,1978-10-22,45,computer science,Pakistan,ananya.patel306@yahoo.com,0.2733,3.07,98.2,True,1937.4,Enrolled
+STU00532,Aditya Reddy,2023-12-27,2000-11-25,23,computer science,India,aditya.reddy532@outlook.com,4652.14,2.98,60.5,False,1826.1,unknown
+STU00205,Riya Bose,2024-09-12,2002-03-08,24,business administration,Saudi Arabia,riya.bose205@yahoo.com,782.88,3.17,87.5,True,1891.1,Withdrawn
+STU00492,Karan Bose,2023-03-31,1983-10-02,40,entrepreneurship,UAE,karan.bose492@univmail.edu,0.0,3.49,69.3,False,2593.0,unknown
+STU00172,Farhan Smith,2022-09-21,2005-02-13,19,mechanical engineering,UAE,farhan.smith172@univmail.edu,4330.46,2.88,74.8,False,2934.6,Withdrawn
+STU00129,Noah Kapoor,2023-12-10,2001-10-16,22,data science,Germany,noah.kapoor129@outlook.com,2939.2,2.6,65.5,False,1514.5,Enrolled
+STU00940,Farhan Joshi,2022-03-24,1994-04-05,30,business administration,Germany,farhan.joshi940@outlook.com,0.949,1.52,74.3,True,1216.0,unknown
+STU00512,Kabir Hall,2024-02-29,1999-01-05,25,mechanical engineering,UK,kabir.hall512@outlook.com,0.0,2.26,95.6,False,1702.3,unknown
+STU00325,Sana Chaudhary,2023-09-20,1991-07-04,32,finance,UAE,sana.chaudhary325@univmail.edu,0.2738,4.0,69.9,True,1718.3,Graduated
+STU00373,Isabella Nair,2021-04-04,1995-02-10,29,data science,India,isabella.nair373@outlook.com,3024.7,1.71,72.5,True,2052.2,Enrolled
+STU00897,Noor Siddiqui,2022-03-23,1983-03-24,41,finance,UK,noor.siddiqui897@univmail.edu,0.1909,1.96,72.2,True,2306.6,Enrolled
+STU00879,Layla Malik,2023-07-25,1991-01-01,33,data science,UAE,layla.malik879@univmail.edu,3209.55,3.18,73.1,True,2510.6,unknown
+STU00455,Ava Chaudhary,2023-12-14,1978-12-08,45,mechanical engineering,Germany,ava.chaudhary455@gmail.com,0.4091,1.82,70.3,False,3133.9,unknown
+STU00701,James Siddiqui,2021-11-28,1991-02-06,33,data science,Germany,james.siddiqui701@outlook.com,3008.16,2.88,51.1,True,895.4,Pending
+STU00761,Aditya Iqbal,2022-09-06,1984-02-28,40,computer science,Saudi Arabia,aditya.iqbal761@univmail.edu,534.3,2.88,90.6,True,2634.6,unknown
+STU00464,Ishaan Hall,2023-12-23,2005-08-01,18,data science,UAE,ishaan.hall464@outlook.com,2067.74,2.75,55.9,False,2868.1,Graduated
+STU00473,Sana Joshi,2021-09-23,2000-12-28,23,electrical engineering,Germany,sana.joshi473@yahoo.com,606.58,3.67,70.3,True,1911.5,unknown
+STU00317,Aisha Walker,2024-11-30,1996-06-23,27,data science,India,aisha.walker317@yahoo.com,2831.77,2.53,49.8,False,1330.7,Withdrawn
+STU00260,Tariq Kapoor,2022-02-20,1987-03-11,37,entrepreneurship,Saudi Arabia,tariq.kapoor260@gmail.com,3235.93,2.97,64.6,False,815.8,Enrolled
+STU00160,Arjun Smith,2022-09-24,1998-04-28,26,electrical engineering,Germany,arjun.smith160@univmail.edu,1331.97,2.61,67.9,False,2154.2,unknown
+STU00448,Sara Qureshi,2024-09-06,1982-01-26,42,mechanical engineering,Canada,sara.qureshi448@yahoo.com,998.0,2.88,84.6,True,1277.6,unknown
+STU00939,Sophia Reddy,2022-06-14,1982-08-05,41,entrepreneurship,UAE,sophia.reddy939@univmail.edu,0.0,3.59,50.3,False,2123.8,Pending
+STU00506,Sara Singh,2021-01-20,1979-05-05,47,business administration,Saudi Arabia,sara.singh506@gmail.com,703.29,3.98,71.5,True,2660.6,unknown
+STU00049,Riya Smith,2023-06-22,2003-07-21,20,finance,UAE,riya.smith49@outlook.com,0.3864,3.47,62.0,True,2793.1,Pending
+STU00511,Aarav Verma,2023-10-26,1999-03-30,25,computer science,UK,aarav.verma511@univmail.edu,3133.51,1.58,54.9,False,1814.2,unknown
+STU00327,Meera Siddiqui,2021-03-15,1992-12-30,31,data science,USA,meera.siddiqui327@univmail.edu,2438.07,2.72,80.5,False,2094.5,unknown
+STU00345,Vikram Khan,2022-04-26,2003-08-26,20,data science,Australia,vikram.khan345@gmail.com,0.0,2.26,62.3,True,2123.8,unknown
+STU00509,Tariq Hall,2022-12-16,1991-03-13,33,mechanical engineering,India,tariq.hall509@outlook.com,4253.77,2.64,87.5,True,820.0,Withdrawn
+STU00295,Meera Singh,2024-02-08,2002-11-07,24,electrical engineering,Pakistan,meera.singh295@univmail.edu,3999.48,1.7,100.0,False,1481.0,unknown
+STU00696,Aditya Mehta,2023-08-28,1996-12-11,27,finance,Australia,aditya.mehta696@outlook.com,4771.05,2.45,85.5,False,2105.0,Enrolled
+STU00272,Kiran Wilson,2023-12-08,1982-07-04,41,finance,Saudi Arabia,kiran.wilson272@gmail.com,2550.13,3.87,93.7,True,1741.0,unknown
+STU00617,Neha Walker,2023-04-30,1983-07-09,40,entrepreneurship,USA,neha.walker617@outlook.com,4455.85,1.57,64.2,False,1436.4,unknown
+STU00735,Vikram Siddiqui,2023-03-26,2001-09-26,22,finance,Bangladesh,vikram.siddiqui735@outlook.com,0.0,1.96,49.9,True,1968.5,Withdrawn
+STU00233,Ananya Qureshi,2022-05-28,1992-03-09,32,computer science,Bangladesh,ananya.qureshi233@univmail.edu,1612.23,3.34,80.0,False,2435.5,unknown
+STU00055,Diya Ansari,2021-05-11,1983-11-09,40,mechanical engineering,Saudi Arabia,diya.ansari55@yahoo.com,4754.37,3.77,58.1,False,946.0,unknown
+STU00849,Zara Khan,2021-07-29,1993-06-04,31,electrical engineering,UK,zara.khan849@univmail.edu,0.0,2.76,87.4,False,1760.3,Withdrawn
+STU00098,Ethan Brown,2024-08-01,1983-03-06,41,business administration,Pakistan,ethan.brown98@yahoo.com,4917.58,2.12,54.1,True,1524.7,Withdrawn
+STU00404,Omar Wilson,2021-12-25,1980-06-13,43,electrical engineering,Saudi Arabia,omar.wilson404@univmail.edu,0.4599,1.74,42.6,True,2307.4,unknown
+STU00936,Bilal Reddy,2022-02-12,1995-12-30,28,mechanical engineering,Australia,bilal.reddy936@yahoo.com,4832.99,2.88,73.9,False,2470.3,Withdrawn
+STU00128,Tariq Rana,2022-02-04,2005-12-05,18,business administration,Saudi Arabia,tariq.rana128@univmail.edu,3695.64,1.71,70.3,False,1459.6,unknown
+STU00376,Zara Nair,2021-09-05,1978-12-30,45,finance,Saudi Arabia,zara.nair376@univmail.edu,4772.11,2.88,64.4,False,2123.8,unknown
+STU00863,Sophia Taylor,2022-12-19,1994-09-10,29,entrepreneurship,USA,sophia.taylor863@gmail.com,0.3523,3.7,85.1,True,2123.8,unknown
+STU00708,Kiran Brown,2022-10-20,1985-12-08,38,data science,UAE,kiran.brown708@yahoo.com,1425.8,3.12,54.7,False,3038.0,unknown
+STU00907,Bilal Singh,2024-10-06,1995-03-01,29,data science,Saudi Arabia,bilal.singh907@univmail.edu,1811.07,1.74,47.9,False,2364.2,Pending
+STU00710,Anjali Verma,2023-09-03,1993-07-23,30,computer science,Canada,anjali.verma710@gmail.com,684.66,2.87,87.0,False,895.8,Pending
+STU00526,Diya Reddy,2024-12-10,1992-05-03,32,computer science,Australia,diya.reddy526@gmail.com,4493.83,2.18,70.3,True,1340.6,Graduated
+STU00081,Vikram Wilson,2023-10-03,1993-02-20,31,electrical engineering,Saudi Arabia,vikram.wilson81@gmail.com,4147.31,3.27,57.4,True,2508.3,Enrolled
+STU00159,Kabir Malik,2024-01-12,2001-03-02,23,entrepreneurship,Bangladesh,kabir.malik159@univmail.edu,1191.15,4.0,77.5,False,861.8,Pending
+STU00420,Noah Brown,2023-04-23,1978-11-30,45,data science,USA,noah.brown420@outlook.com,3869.29,1.52,69.5,False,2471.2,unknown
+STU00419,Vikram Rana,2024-05-18,1992-06-26,34,finance,Bangladesh,vikram.rana419@univmail.edu,3677.31,1.97,89.8,True,2001.6,Pending
+STU00883,Layla Sharma,2024-02-26,1992-05-07,32,data science,Australia,layla.sharma883@yahoo.com,4297.28,3.14,65.6,True,1345.8,Withdrawn
+STU00681,Riya Ansari,2022-04-27,2003-09-13,20,mechanical engineering,Canada,riya.ansari681@gmail.com,0.0,2.88,87.4,True,1014.7,Withdrawn
+STU00668,Kiran Mehta,2024-05-24,1981-03-03,43,finance,India,kiran.mehta668@univmail.edu,1332.18,2.88,55.8,True,1254.4,unknown
+STU00737,Liam Singh,2024-08-06,1990-11-22,33,finance,Saudi Arabia,liam.singh737@outlook.com,2924.57,2.88,64.4,False,950.7,unknown
+STU00514,Layla Ansari,2021-04-20,1987-09-06,36,data science,Germany,layla.ansari514@univmail.edu,4276.39,2.88,79.0,False,2772.7,Enrolled
+STU00799,Sana Brown,2023-04-05,2003-10-18,20,mechanical engineering,USA,sana.brown799@gmail.com,2142.89,1.86,50.3,False,1586.9,unknown
+STU00948,Mariam Clark,2023-05-25,1992-12-05,31,data science,Canada,mariam.clark948@yahoo.com,4543.9,3.1,44.7,True,2563.3,unknown
+STU00593,Mason Bose,2021-08-16,2000-03-09,24,electrical engineering,Pakistan,mason.bose593@gmail.com,3868.74,3.99,44.2,True,2920.1,Pending
+STU00890,Mason Iqbal,2021-07-25,1979-02-14,45,electrical engineering,India,mason.iqbal890@yahoo.com,1978.4,2.61,81.2,True,857.1,Graduated
+STU00180,Karan Singh,2021-03-22,1993-05-15,31,data science,Pakistan,karan.singh180@gmail.com,4330.61,4.0,59.7,False,1443.9,Withdrawn
+STU00467,Vivaan Chaudhary,2021-05-03,1989-10-11,34,electrical engineering,USA,vivaan.chaudhary467@outlook.com,0.0,3.78,89.7,True,1081.4,unknown
+STU00789,Bilal Smith,2023-05-23,2005-02-16,19,data science,Germany,bilal.smith789@outlook.com,3071.78,1.98,72.5,False,2655.5,Pending
+STU00718,Kabir Singh,2023-06-08,1981-03-13,43,finance,USA,kabir.singh718@yahoo.com,4041.09,3.42,41.2,True,1745.1,Pending
+STU00123,Olivia Qureshi,2023-02-06,1988-06-23,35,data science,USA,olivia.qureshi123@outlook.com,4989.66,2.54,47.0,True,1623.4,unknown
+STU00755,Olivia Clark,2021-08-08,1997-11-14,26,entrepreneurship,Germany,olivia.clark755@yahoo.com,0.0,4.0,81.4,True,1619.1,unknown
+STU00736,Farhan Ansari,2023-03-07,2006-03-27,18,finance,India,farhan.ansari736@outlook.com,3192.19,1.51,89.5,True,1154.7,Pending
+STU00753,Diya Taylor,2021-08-15,1992-09-14,31,entrepreneurship,India,diya.taylor753@univmail.edu,0.0,2.88,58.2,False,2452.2,Pending
+STU00877,Meera Mehta,2024-06-12,1990-06-26,33,mechanical engineering,USA,meera.mehta877@outlook.com,2540.9,3.74,70.3,False,853.5,unknown
+STU00603,Sara Mehta,2021-12-01,2006-12-25,17,mechanical engineering,Saudi Arabia,sara.mehta603@outlook.com,0.0,1.98,53.9,True,1568.0,unknown
+STU00447,Omar Hall,2021-07-27,1984-03-08,40,computer science,USA,omar.hall447@univmail.edu,1057.29,4.0,68.2,False,1828.0,unknown
+STU00412,Rohan Joshi,2024-06-16,1988-06-15,35,finance,Australia,rohan.joshi412@gmail.com,769.65,2.01,78.5,False,2235.4,Graduated
+STU00614,Tariq Iqbal,2024-03-27,1980-12-02,43,business administration,Bangladesh,tariq.iqbal614@gmail.com,2544.87,2.95,49.8,False,1973.9,Graduated
+STU00390,James Wilson,2024-03-30,1984-10-15,39,data science,USA,james.wilson390@gmail.com,2544.36,3.8,81.6,False,1373.6,Withdrawn
+STU00257,Ava Siddiqui,2023-06-20,1990-07-23,33,finance,USA,ava.siddiqui257@univmail.edu,1824.89,3.76,78.8,False,1071.6,unknown
+STU00221,Liam Singh,2023-12-13,1995-02-16,29,business administration,Bangladesh,liam.singh221@yahoo.com,2557.38,2.65,40.7,False,1041.8,Enrolled
+STU00456,Kiran Taylor,2023-11-18,1980-11-21,43,finance,Bangladesh,kiran.taylor456@univmail.edu,0.3232,1.9,81.8,True,2498.6,unknown
+STU00016,Neha Wilson,2022-06-25,1997-02-24,29,electrical engineering,Bangladesh,neha.wilson16@outlook.com,698.39,3.09,84.5,True,2146.2,unknown
+STU00254,Bilal Nair,2024-07-28,1997-10-25,26,entrepreneurship,India,bilal.nair254@outlook.com,0.0,2.08,61.6,False,2830.7,Enrolled
+STU00552,Mariam Siddiqui,2022-03-25,1999-05-12,25,computer science,UK,mariam.siddiqui552@yahoo.com,2912.06,3.03,76.3,True,850.7,Withdrawn
+STU00454,Kabir Ansari,2024-09-02,1986-08-07,37,business administration,Germany,kabir.ansari454@outlook.com,1856.64,2.0,42.6,False,2507.8,Enrolled
+STU00290,Sana Farooqi,2023-10-02,2006-09-16,17,electrical engineering,Pakistan,sana.farooqi290@yahoo.com,514.88,2.84,60.0,True,2317.5,unknown
+STU00805,Priya Chaudhary,2024-09-20,2005-06-15,18,mechanical engineering,Canada,priya.chaudhary805@univmail.edu,3061.37,1.92,50.6,False,1444.0,Graduated
+STU00901,Noor Hall,2023-07-01,2006-06-16,17,mechanical engineering,Germany,noor.hall901@gmail.com,1314.2,1.92,76.5,False,1646.2,unknown
+STU00796,Arjun Walker,2023-03-22,1988-12-27,35,finance,UAE,arjun.walker796@gmail.com,0.1564,3.58,72.1,True,2578.2,Enrolled
+STU00850,Liam Reddy,2022-06-14,1988-05-20,36,finance,Australia,liam.reddy850@gmail.com,0.0,1.72,99.9,False,2616.1,unknown
+STU00450,Farhan Nair,2022-08-01,1988-06-06,36,mechanical engineering,Germany,farhan.nair450@yahoo.com,1622.6,3.99,89.2,False,2678.5,Pending
+STU00424,Aarav Bose,2021-10-12,1979-06-21,44,electrical engineering,UK,aarav.bose424@outlook.com,2533.63,3.15,100.0,False,0.0,unknown
+STU00536,Aditya Gupta,2024-06-03,1985-09-25,38,computer science,UAE,aditya.gupta536@gmail.com,4754.06,1.61,46.5,True,2026.5,unknown
+STU00173,Liam Iqbal,2023-04-27,1979-06-30,44,computer science,Canada,liam.iqbal173@univmail.edu,4942.36,3.66,44.8,False,1224.4,Pending
+STU00733,Tariq Chaudhary,2023-04-02,1991-01-05,33,entrepreneurship,UAE,tariq.chaudhary733@outlook.com,1447.46,1.89,75.3,False,3195.7,unknown
+STU00148,Aisha Ansari,2023-03-23,2004-06-07,19,entrepreneurship,USA,aisha.ansari148@gmail.com,4784.43,2.88,46.1,True,948.0,Withdrawn
+STU00340,Mariam Hall,2023-11-03,1981-04-22,43,data science,Canada,mariam.hall340@univmail.edu,3628.45,1.96,78.5,True,2307.9,unknown
+STU00474,Ishaan Wilson,2021-11-26,2000-02-18,24,finance,Canada,ishaan.wilson474@univmail.edu,4034.08,3.06,42.4,False,1301.2,unknown
+STU00052,Kabir Reddy,2023-01-30,1978-09-11,45,finance,Bangladesh,kabir.reddy52@gmail.com,0.0,3.88,70.3,False,1867.3,unknown
+STU00823,Olivia Young,2022-11-01,1992-04-13,32,business administration,USA,olivia.young823@gmail.com,4155.44,2.41,83.6,True,1215.8,unknown
+STU00322,James Chaudhary,2021-08-08,1984-08-14,39,mechanical engineering,UK,james.chaudhary322@univmail.edu,1007.8,1.78,85.7,True,897.5,Graduated
+STU00023,Ethan Patel,2022-05-15,1984-06-20,39,computer science,Pakistan,ethan.patel23@univmail.edu,0.0,2.89,47.3,True,2402.2,unknown
+STU00396,Ishaan Kapoor,2021-03-26,1992-09-17,31,mechanical engineering,Bangladesh,ishaan.kapoor396@univmail.edu,2153.8,2.46,54.0,False,2963.5,Graduated
+STU00906,Neha Verma,2021-09-26,1998-06-17,25,business administration,USA,neha.verma906@gmail.com,0.1597,2.88,47.8,False,2927.2,Withdrawn
+STU00298,Noor Verma,2021-03-01,2004-05-11,20,computer science,Australia,noor.verma298@outlook.com,2385.8,1.78,54.2,True,1701.3,Pending
+STU00210,Sophia Khan,2021-02-03,1999-11-27,24,electrical engineering,USA,sophia.khan210@gmail.com,0.0,3.69,85.1,False,1112.8,unknown
+STU00284,Diya Smith,2023-03-28,1999-04-10,25,finance,UK,diya.smith284@univmail.edu,3575.79,1.86,40.7,False,1557.7,unknown
+STU00143,Sara Young,2024-09-04,1980-05-25,44,entrepreneurship,Canada,sara.young143@outlook.com,0.0,2.76,50.8,True,3089.8,Graduated
+STU00167,Liam Siddiqui,2023-02-02,1987-04-09,37,entrepreneurship,Germany,liam.siddiqui167@outlook.com,2049.12,3.22,63.2,True,2671.6,unknown
+STU00624,Ethan Walker,2023-01-13,1990-09-15,33,electrical engineering,USA,ethan.walker624@gmail.com,0.0,3.83,72.4,False,1285.3,unknown
+STU00840,Aisha Reddy,2021-12-19,1985-06-14,41,data science,Australia,aisha.reddy840@outlook.com,0.0,3.82,76.4,False,2355.3,unknown
+STU00082,Sara Clark,2022-02-16,1995-09-22,28,business administration,Australia,sara.clark82@outlook.com,0.0,3.71,70.3,True,2525.3,Enrolled
+STU00529,Aditya Malik,2022-08-22,1995-08-05,28,business administration,Pakistan,aditya.malik529@gmail.com,0.0,3.26,93.9,False,1526.5,unknown
+STU00734,Riya Ansari,2024-11-09,1984-05-05,40,data science,Pakistan,riya.ansari734@outlook.com,0.4718,3.14,63.4,False,875.3,Graduated
+STU00904,Sara Clark,2022-09-29,1991-01-20,33,business administration,Saudi Arabia,sara.clark904@yahoo.com,0.505,3.04,77.5,False,3069.2,Pending
+STU00067,Farhan Wilson,2022-05-23,2004-09-21,19,business administration,Canada,farhan.wilson67@outlook.com,4630.72,2.35,87.4,False,1591.3,unknown
+STU00387,Diya Qureshi,2024-06-18,2006-01-07,18,data science,India,diya.qureshi387@univmail.edu,2227.64,3.05,96.3,True,1587.7,unknown
+STU00659,Sara Bose,2024-09-28,2006-06-16,17,finance,USA,sara.bose659@univmail.edu,0.3088,2.29,84.3,False,3039.2,unknown
+STU00870,Rohan Verma,2024-01-12,1982-04-28,42,entrepreneurship,UK,rohan.verma870@yahoo.com,0.3166,2.1,49.1,False,2382.9,Withdrawn
+STU00715,Vivaan Brown,2023-02-18,1989-02-06,35,mechanical engineering,Saudi Arabia,vivaan.brown715@univmail.edu,3159.96,2.14,62.0,True,1204.5,Withdrawn
+STU00423,Aarav Siddiqui,2023-08-28,1987-09-18,36,mechanical engineering,Canada,aarav.siddiqui423@outlook.com,4175.81,2.45,70.3,False,2735.0,Withdrawn
+STU00516,Ananya Sharma,2022-05-22,2002-08-02,21,computer science,Bangladesh,ananya.sharma516@gmail.com,4667.2,3.96,90.5,True,2270.6,unknown
+STU00065,Noor Davies,2024-02-03,1988-08-18,35,data science,Pakistan,noor.davies65@univmail.edu,2489.94,2.98,44.5,False,936.5,Withdrawn
+STU00650,Simran Patel,2023-04-19,1978-07-14,45,mechanical engineering,UK,simran.patel650@univmail.edu,1640.41,2.49,66.9,False,969.3,Graduated
+STU00378,Ava Bose,2024-06-25,2006-06-06,18,entrepreneurship,Saudi Arabia,ava.bose378@outlook.com,3190.4,3.61,90.4,True,2123.8,Enrolled
+STU00822,Farhan Singh,2023-10-18,1980-02-04,44,computer science,Australia,farhan.singh822@univmail.edu,0.0,1.67,70.3,False,2230.1,Pending
+STU00505,Mason Kapoor,2024-05-12,1984-06-10,40,entrepreneurship,UK,mason.kapoor505@yahoo.com,1918.01,2.33,97.7,False,1601.7,unknown
+STU00021,Sana Wilson,2024-09-23,1997-08-29,26,electrical engineering,UAE,sana.wilson21@univmail.edu,2965.72,2.03,76.4,False,1861.2,Pending
+STU00372,Meera Qureshi,2024-03-19,1996-05-05,28,electrical engineering,Saudi Arabia,meera.qureshi372@yahoo.com,0.0,3.4,48.9,False,2299.4,Withdrawn
+STU00771,Emma Hall,2022-01-20,1999-09-17,24,mechanical engineering,Pakistan,emma.hall771@yahoo.com,0.0,3.31,78.7,False,1778.3,Withdrawn
+STU00885,Aisha Wilson,2024-08-03,1998-02-12,26,data science,Bangladesh,aisha.wilson885@outlook.com,1091.77,2.68,90.2,False,2703.3,unknown
+STU00832,Vivaan Ansari,2024-06-11,1992-05-13,32,business administration,USA,vivaan.ansari832@gmail.com,2494.02,3.65,70.3,False,2864.0,Graduated
+STU00535,Omar Mehta,2024-04-01,1986-08-31,37,data science,Pakistan,omar.mehta535@univmail.edu,1309.12,2.74,50.5,False,1358.4,unknown
+STU00262,Karan Rana,2024-02-26,1985-06-22,38,finance,India,karan.rana262@gmail.com,3958.3,2.45,70.3,True,955.8,unknown
+STU00893,Sophia Brown,2024-09-26,1995-07-15,28,mechanical engineering,Australia,sophia.brown893@yahoo.com,4864.26,3.74,56.6,True,2907.9,Withdrawn
+STU00628,Sophia Gupta,2023-09-25,1978-06-15,45,computer science,Australia,sophia.gupta628@outlook.com,1585.82,3.91,78.3,True,2557.9,Enrolled
+STU00319,Mason Joshi,2021-02-28,1982-12-19,41,electrical engineering,UK,mason.joshi319@outlook.com,0.1064,2.56,46.7,True,2617.6,unknown
+STU00573,Anjali Khan,2022-06-19,1991-02-23,33,business administration,Saudi Arabia,anjali.khan573@yahoo.com,2602.61,2.44,42.0,False,2886.4,unknown
+STU00466,Riya Clark,2023-10-16,1987-02-06,37,business administration,Bangladesh,riya.clark466@gmail.com,3114.34,3.44,53.2,False,806.9,unknown
+STU00826,Zara Smith,2022-12-15,1989-03-17,35,entrepreneurship,Germany,zara.smith826@yahoo.com,0.755,2.94,45.0,False,1023.0,Graduated
+STU00189,Liam Kapoor,2024-12-28,1980-06-18,43,entrepreneurship,UAE,liam.kapoor189@outlook.com,0.4645,3.13,70.2,False,1077.0,Pending
+STU00252,Farhan Hall,2023-02-22,1994-07-08,29,data science,UK,farhan.hall252@univmail.edu,0.1582,2.28,67.0,True,1132.6,unknown
+STU00072,Olivia Walker,2022-07-13,2004-01-13,20,computer science,UK,olivia.walker72@univmail.edu,4480.83,2.49,63.2,False,867.7,unknown
+STU00695,Meera Patel,2023-07-16,2001-06-24,22,mechanical engineering,Australia,meera.patel695@outlook.com,2044.26,2.57,68.7,False,2429.9,unknown
+STU00808,Olivia Rana,2023-10-31,1981-06-26,42,mechanical engineering,Saudi Arabia,olivia.rana808@outlook.com,0.0,3.02,86.4,True,1338.1,Withdrawn
+STU00706,James Joshi,2024-02-22,1991-11-25,32,finance,Canada,james.joshi706@gmail.com,3611.41,3.04,70.3,False,1451.0,unknown
+STU00352,Omar Brown,2023-07-02,2003-12-01,20,data science,Bangladesh,omar.brown352@outlook.com,3262.41,1.73,98.4,False,2447.0,unknown
+STU00717,Mariam Singh,2021-08-12,1980-03-09,44,electrical engineering,Australia,mariam.singh717@yahoo.com,1797.09,3.74,88.5,False,984.9,Enrolled
+STU00625,Diya Siddiqui,2023-09-03,1997-11-21,29,finance,Germany,diya.siddiqui625@outlook.com,0.0,1.67,48.4,False,2635.0,Withdrawn
+STU00932,Mariam Hall,2024-08-18,1987-11-17,36,data science,Pakistan,mariam.hall932@yahoo.com,2418.63,3.49,51.1,False,2419.9,unknown
+STU00843,Noor Lewis,2023-04-22,1978-09-10,45,data science,UAE,noor.lewis843@gmail.com,0.0,3.5,81.1,False,2229.1,unknown
+STU00672,Tariq Ansari,2021-10-13,2002-11-22,21,electrical engineering,Canada,tariq.ansari672@gmail.com,0.2455,3.87,41.0,False,1609.6,unknown
+STU00732,Emma Iqbal,2023-12-14,1998-08-09,25,entrepreneurship,Australia,emma.iqbal732@outlook.com,0.0,3.02,41.9,False,2467.8,Pending
+STU00687,Isabella Verma,2022-09-14,1980-06-07,44,data science,Canada,isabella.verma687@yahoo.com,3405.97,2.43,79.2,True,2956.5,Pending
+STU00508,Olivia Taylor,2022-03-28,1987-06-01,37,computer science,Bangladesh,olivia.taylor508@outlook.com,1428.38,3.89,97.9,False,2958.1,Pending
+STU00813,Bilal Clark,2022-09-04,1982-10-25,41,data science,UAE,bilal.clark813@outlook.com,3798.0,3.49,82.8,False,2004.9,Withdrawn
+STU00559,Ava Walker,2021-06-08,1984-05-01,40,computer science,Pakistan,ava.walker559@yahoo.com,1388.15,2.88,50.2,True,2597.6,Pending
+STU00680,Yusuf Qureshi,2023-03-22,2006-07-20,20,finance,UAE,yusuf.qureshi680@outlook.com,0.0,2.88,83.4,True,3024.7,unknown
+STU00933,Vivaan Bose,2024-01-01,1996-06-17,27,business administration,UK,vivaan.bose933@outlook.com,0.0,3.42,51.3,True,2685.5,Graduated
+STU00337,Priya Young,2022-03-15,1994-02-18,30,entrepreneurship,Saudi Arabia,priya.young337@outlook.com,3648.28,2.56,97.8,True,2517.6,unknown
+STU00913,Sara Hall,2022-04-29,1995-07-03,28,electrical engineering,India,sara.hall913@yahoo.com,848.97,2.82,62.4,True,1920.6,Pending
+STU00436,Olivia Mehta,2024-08-27,2004-09-14,19,entrepreneurship,USA,olivia.mehta436@yahoo.com,523.96,1.81,52.4,True,1416.2,unknown
+STU00219,Vikram Reddy,2022-12-02,1998-04-22,26,entrepreneurship,UK,vikram.reddy219@outlook.com,0.1323,2.0,92.4,False,2803.9,Graduated
+STU00240,Diya Lewis,2021-05-25,1988-01-26,36,entrepreneurship,UK,diya.lewis240@univmail.edu,0.0,2.93,73.5,True,1053.2,unknown
+STU00524,Tariq Nair,2021-09-18,1986-12-01,37,computer science,Australia,tariq.nair524@outlook.com,601.44,2.13,44.1,True,979.5,Graduated
+STU00658,Isabella Chaudhary,2023-04-17,1978-10-19,45,entrepreneurship,Pakistan,isabella.chaudhary658@univmail.edu,0.0,2.0,93.4,False,2042.0,Graduated
+STU00193,Ananya Gupta,2023-05-28,2001-09-17,22,computer science,UAE,ananya.gupta193@gmail.com,0.1988,2.88,75.8,False,2388.5,Pending
+STU00769,Anjali Joshi,2023-01-20,1999-12-26,24,finance,India,anjali.joshi769@gmail.com,3312.58,2.1,76.9,False,2687.7,unknown
+STU00192,Yusuf Siddiqui,2021-04-21,1993-06-24,30,entrepreneurship,Saudi Arabia,yusuf.siddiqui192@yahoo.com,4601.69,2.87,86.6,False,1225.8,unknown
+STU00493,Aisha Rana,2024-03-07,2003-08-01,20,data science,USA,aisha.rana493@gmail.com,4811.44,2.23,78.7,True,871.9,unknown
+STU00882,Sara Joshi,2022-07-28,2001-08-25,22,business administration,Germany,sara.joshi882@yahoo.com,1224.13,2.1,65.2,True,2101.4,unknown
+STU00368,Meera Verma,2024-03-18,1982-07-14,41,entrepreneurship,Australia,meera.verma368@yahoo.com,2076.52,3.54,48.4,True,1394.3,unknown
+STU00133,Omar Walker,2023-05-30,2004-09-06,19,mechanical engineering,Germany,omar.walker133@yahoo.com,3047.64,3.74,42.8,False,1903.0,unknown
+STU00363,Tariq Davies,2021-11-12,1990-09-28,33,computer science,Saudi Arabia,tariq.davies363@univmail.edu,3961.49,3.52,70.3,False,2516.5,Enrolled
+STU00253,Noah Brown,2024-12-15,1982-03-01,42,mechanical engineering,Australia,noah.brown253@yahoo.com,0.0,3.3,90.4,True,2637.0,unknown
+STU00674,Zara Reddy,2021-01-27,1990-09-30,33,mechanical engineering,Australia,zara.reddy674@univmail.edu,0.0,2.2,88.4,True,3129.0,unknown
+STU00515,Ethan Mehta,2024-12-04,1984-12-24,39,computer science,USA,ethan.mehta515@univmail.edu,0.1114,2.28,40.4,False,1281.7,unknown
+STU00264,Isabella Chaudhary,2024-07-18,2002-07-28,21,entrepreneurship,UAE,isabella.chaudhary264@yahoo.com,507.11,3.49,52.4,False,1793.7,unknown
+STU00071,James Hall,2024-03-14,1981-03-05,43,entrepreneurship,Germany,james.hall71@univmail.edu,0.4848,1.85,78.5,False,1046.2,unknown
+STU00273,Farhan Clark,2021-05-14,1979-12-29,44,business administration,UAE,farhan.clark273@outlook.com,0.322,2.51,46.4,True,2701.8,Graduated
+STU00102,Aarav Taylor,2022-12-07,2000-08-15,23,computer science,Saudi Arabia,aarav.taylor102@gmail.com,0.1792,3.41,78.8,True,2939.2,Enrolled
+STU00328,James Mehta,2022-06-24,1990-03-22,34,mechanical engineering,UAE,james.mehta328@outlook.com,0.0,2.88,60.9,False,2123.8,unknown
+STU00116,Ananya Malik,2022-10-31,1987-08-01,36,finance,Canada,ananya.malik116@univmail.edu,0.0,1.71,87.9,False,1170.1,Graduated
+STU00324,Olivia Brown,2023-01-04,1986-04-29,38,finance,UK,olivia.brown324@outlook.com,1401.19,3.6,56.7,False,2615.1,Pending
+STU00346,Sara Singh,2023-08-17,2001-09-23,22,data science,UAE,sara.singh346@gmail.com,0.191,3.93,61.6,True,2904.6,unknown
+STU00783,Ava Sharma,2022-12-03,1981-09-15,42,electrical engineering,Germany,ava.sharma783@yahoo.com,0.2334,2.44,43.2,False,2458.7,unknown
+STU00366,Omar Sharma,2021-10-28,1981-01-20,43,entrepreneurship,Australia,omar.sharma366@univmail.edu,3638.62,3.7,72.2,True,2576.1,unknown
+STU00490,Ananya Patel,2024-07-21,1985-11-09,41,entrepreneurship,Australia,ananya.patel490@gmail.com,1027.43,2.71,72.8,True,1410.8,Withdrawn
+STU00912,Mason Brown,2023-04-15,1988-04-21,36,finance,Pakistan,mason.brown912@univmail.edu,0.1687,3.51,83.2,True,3137.9,Withdrawn
+STU00776,Kiran Reddy,2023-10-06,1989-04-25,35,data science,India,kiran.reddy776@univmail.edu,4346.66,3.8,70.3,False,1028.7,Withdrawn
+STU00837,Kiran Clark,2021-02-20,1995-03-12,29,entrepreneurship,Germany,kiran.clark837@outlook.com,2510.69,2.74,73.7,False,2410.5,Withdrawn
+STU00452,Mariam Mehta,2022-09-16,2005-09-18,18,entrepreneurship,UK,mariam.mehta452@outlook.com,0.4528,2.88,70.3,False,1932.9,Withdrawn
+STU00564,Mariam Brown,2021-08-29,1991-12-25,32,mechanical engineering,Saudi Arabia,mariam.brown564@outlook.com,0.0,1.7,52.8,True,2800.7,unknown
+STU00446,Meera Kapoor,2021-05-01,1997-10-04,26,electrical engineering,Germany,meera.kapoor446@gmail.com,0.0,1.64,0.0,False,1057.2,Withdrawn
+STU00612,Isabella Lewis,2023-05-25,1995-05-31,29,entrepreneurship,Canada,isabella.lewis612@univmail.edu,0.3441,2.94,92.8,False,2655.2,unknown
+STU00279,Riya Khan,2024-11-25,2002-07-14,21,data science,Bangladesh,riya.khan279@univmail.edu,0.2231,3.01,90.8,False,1446.2,Pending
+STU00919,Anjali Taylor,2023-11-02,1979-03-15,45,electrical engineering,Saudi Arabia,anjali.taylor919@gmail.com,0.1006,1.91,89.0,True,1786.2,unknown
+STU00651,Meera Iqbal,2022-11-02,2001-09-30,22,entrepreneurship,Bangladesh,meera.iqbal651@outlook.com,2913.17,2.15,63.7,False,2131.4,unknown
+STU00003,Isabella Hall,2021-05-23,1979-12-10,44,finance,UK,isabella.hall3@gmail.com,2210.57,2.41,52.6,True,2440.5,Withdrawn
+STU00230,Emma Davies,2022-08-23,1992-01-08,32,computer science,Bangladesh,emma.davies230@univmail.edu,0.2276,3.11,53.2,False,1374.9,unknown
+STU00631,Olivia Verma,2024-10-02,1994-07-23,29,entrepreneurship,Canada,olivia.verma631@gmail.com,1815.25,3.32,55.2,False,3136.6,Enrolled
+STU00927,Liam Sharma,2021-11-12,1987-04-18,37,data science,USA,liam.sharma927@yahoo.com,1303.87,2.44,77.1,False,2374.6,unknown
+STU00455,Ava Chaudhary,2021-08-29,1978-12-08,45,mechanical engineering,Germany,ava.chaudhary455@gmail.com,1251.21,1.82,70.3,False,3133.9,unknown
+STU00857,Riya Kapoor,2022-08-24,1990-08-17,33,data science,Germany,riya.kapoor857@univmail.edu,2441.03,2.88,55.7,True,3035.3,unknown
+STU00200,Ava Walker,2024-03-18,1990-03-30,34,business administration,Canada,ava.walker200@yahoo.com,0.0,1.96,55.2,False,2719.2,Enrolled
+STU00750,Riya Siddiqui,2022-05-26,1988-11-12,35,computer science,Australia,riya.siddiqui750@univmail.edu,506.54,1.98,47.7,True,2192.5,unknown
+STU00066,Karan Khan,2023-02-27,1987-04-26,37,electrical engineering,India,karan.khan66@univmail.edu,0.0,2.3,49.1,True,2746.3,unknown
+STU00656,Emma Rana,2021-11-10,1998-12-14,25,mechanical engineering,USA,emma.rana656@univmail.edu,0.4996,1.55,48.6,False,2911.5,Pending
+STU00041,Karan Bose,2024-07-14,1978-06-21,45,data science,India,karan.bose41@univmail.edu,919.44,1.79,69.9,True,1456.2,Pending
+STU00745,Ava Qureshi,2021-03-08,1983-12-20,40,business administration,India,ava.qureshi745@gmail.com,747.11,4.0,88.9,True,2839.4,unknown
+STU00782,Neha Singh,2023-05-31,1978-12-21,45,mechanical engineering,Saudi Arabia,neha.singh782@univmail.edu,0.3934,3.96,57.4,True,1529.6,unknown
+STU00784,Vivaan Rana,2024-02-03,1981-05-19,43,finance,USA,vivaan.rana784@gmail.com,3715.94,2.96,85.4,False,2302.3,Withdrawn
+STU00499,Yusuf Singh,2021-09-03,1985-03-16,39,computer science,Bangladesh,yusuf.singh499@univmail.edu,0.0,2.94,98.6,False,1958.5,unknown
+STU00946,Emma Bose,2022-01-21,1979-01-18,47,finance,UK,emma.bose946@outlook.com,0.4763,2.9,65.3,False,2603.9,Withdrawn
+STU00565,Zara Lewis,2022-05-29,1993-08-27,30,mechanical engineering,India,zara.lewis565@outlook.com,4349.18,2.03,99.9,False,1229.6,unknown
+STU00274,Noah Bose,2022-05-15,1994-08-11,29,business administration,UK,noah.bose274@univmail.edu,4029.41,2.36,50.4,False,3034.1,Graduated
+STU00697,Ishaan Reddy,2022-11-22,1983-07-24,40,business administration,Germany,ishaan.reddy697@univmail.edu,1474.5,3.21,80.5,True,1866.6,Enrolled
+STU00803,Omar Young,2023-03-11,2002-02-07,22,finance,Australia,omar.young803@univmail.edu,1737.05,1.66,98.4,False,1981.9,unknown
+STU00486,Bilal Verma,2023-11-29,2007-05-24,17,entrepreneurship,UK,bilal.verma486@univmail.edu,1366.97,3.5,47.7,False,2547.5,unknown
+STU00770,Vivaan Davies,2021-05-13,1987-07-21,36,computer science,UAE,vivaan.davies770@gmail.com,0.0,2.15,97.7,False,3076.3,Enrolled
+STU00178,Isabella Rana,2021-03-08,1985-04-02,39,computer science,Pakistan,isabella.rana178@univmail.edu,0.1394,3.58,61.5,True,894.6,Withdrawn
+STU00301,Priya Reddy,2024-04-26,1996-10-29,27,electrical engineering,India,priya.reddy301@gmail.com,0.0,2.88,68.8,False,1377.2,Enrolled
+STU00038,Noor Wilson,2023-10-22,1997-06-15,29,computer science,Bangladesh,noor.wilson38@outlook.com,3216.71,3.9,74.5,True,2413.5,unknown
+STU00485,Meera Patel,2023-08-09,1979-10-16,44,data science,Bangladesh,meera.patel485@gmail.com,0.4728,2.17,58.4,True,810.0,unknown
+STU00203,Simran Mehta,2021-06-17,1990-04-16,34,computer science,Pakistan,simran.mehta203@gmail.com,0.0,3.53,86.2,False,2123.8,unknown
+STU00237,Ava Gupta,2022-06-24,2004-09-08,19,computer science,Bangladesh,ava.gupta237@yahoo.com,0.0,3.44,83.3,False,2765.7,unknown
+STU00218,Yusuf Farooqi,2023-07-29,1992-02-06,32,electrical engineering,UAE,yusuf.farooqi218@gmail.com,0.2222,2.07,97.3,True,2482.0,Enrolled
+STU00676,Sophia Rana,2021-02-09,2000-02-01,24,computer science,Australia,sophia.rana676@outlook.com,865.88,3.75,83.7,False,2665.8,Graduated
+STU00400,Omar Malik,2023-07-04,1999-11-06,24,data science,India,omar.malik400@yahoo.com,1191.61,3.5,74.4,True,1290.1,Enrolled
+STU00898,Ethan Wilson,2022-09-23,1983-03-28,41,computer science,India,ethan.wilson898@gmail.com,3394.18,1.62,78.2,True,1793.6,Enrolled
+STU00611,Kiran Davies,2023-08-12,2004-06-21,19,finance,Pakistan,kiran.davies611@yahoo.com,3415.28,3.45,96.9,True,1505.2,Pending
+STU00569,Sana Nair,2022-01-31,1980-07-06,43,entrepreneurship,India,sana.nair569@outlook.com,0.0,3.09,96.5,True,1641.6,Enrolled
+STU00303,Sana Gupta,2024-07-21,1981-12-05,42,computer science,Canada,sana.gupta303@gmail.com,1834.65,3.03,52.4,False,2914.0,Graduated
+STU00544,Noor Siddiqui,2024-04-19,1996-10-27,27,computer science,Canada,noor.siddiqui544@gmail.com,0.0,3.61,59.4,False,3088.4,Pending
+STU00916,Layla Farooqi,2022-01-08,1994-11-18,29,entrepreneurship,UAE,layla.farooqi916@yahoo.com,0.0,2.16,96.0,True,2402.5,Enrolled
+STU00670,Vikram Kapoor,2023-10-09,1983-03-22,41,computer science,Bangladesh,vikram.kapoor670@gmail.com,3533.16,4.0,75.3,False,2253.2,unknown
+STU00923,Mason Smith,2023-09-20,2001-08-17,22,finance,Canada,mason.smith923@yahoo.com,0.4593,3.1,66.6,False,2053.3,Withdrawn
+STU00389,Omar Kapoor,2022-09-25,1988-09-06,35,mechanical engineering,USA,omar.kapoor389@gmail.com,0.0,2.56,52.0,False,1619.7,Enrolled
+STU00667,Zara Farooqi,2024-09-23,1986-10-19,37,computer science,Pakistan,zara.farooqi667@yahoo.com,912.67,4.0,43.0,False,2301.1,unknown
+STU00388,Kiran Iqbal,2024-04-29,2004-05-31,20,computer science,Canada,kiran.iqbal388@univmail.edu,0.0,2.11,43.6,True,2031.5,unknown
+STU00726,Zara Nair,2022-03-08,1989-08-24,37,entrepreneurship,Saudi Arabia,zara.nair726@gmail.com,0.1486,2.73,67.6,False,3150.7,unknown
+STU00427,Arjun Young,2022-06-12,1996-11-24,27,data science,Germany,arjun.young427@univmail.edu,906.99,3.83,76.0,False,2984.4,Enrolled
+STU00353,Zara Young,2021-06-21,1991-09-14,32,computer science,USA,zara.young353@yahoo.com,3579.41,2.81,42.9,False,2032.2,unknown
+STU00194,Emma Clark,2024-12-20,1988-09-02,35,electrical engineering,Germany,emma.clark194@yahoo.com,0.0,2.37,79.8,False,1324.3,Pending
+STU00236,Ava Clark,2021-02-13,1986-12-16,37,computer science,Saudi Arabia,ava.clark236@univmail.edu,0.0,1.97,60.9,False,2795.2,Withdrawn
+STU00643,Sara Qureshi,2021-11-13,2000-12-13,23,entrepreneurship,USA,sara.qureshi643@yahoo.com,4164.63,2.88,70.3,True,2704.8,Graduated
+STU00834,Simran Rana,2022-12-14,2004-11-29,19,finance,UAE,simran.rana834@univmail.edu,0.4287,2.13,46.6,True,1084.4,Pending
+STU00056,James Walker,2024-12-29,1994-11-03,29,computer science,Pakistan,james.walker56@yahoo.com,0.0,2.31,71.8,False,1832.5,Withdrawn
+STU00079,Tariq Verma,2022-07-17,1983-12-14,40,data science,USA,tariq.verma79@gmail.com,0.0,2.6,54.2,False,1718.9,Graduated
+STU00097,Karan Hall,2021-08-08,2006-06-02,18,data science,USA,karan.hall97@univmail.edu,1727.77,3.33,83.1,True,2697.8,unknown
+STU00142,Ethan Smith,2021-04-24,2004-09-25,19,entrepreneurship,Pakistan,ethan.smith142@gmail.com,0.0,4.0,100.0,False,3008.5,Withdrawn
+STU00915,Mason Davies,2022-07-29,1990-11-27,33,mechanical engineering,Germany,mason.davies915@gmail.com,0.0,2.27,60.5,True,1575.4,Withdrawn
+STU00860,Tariq Nair,2022-09-29,1978-10-12,45,mechanical engineering,India,tariq.nair860@gmail.com,855.79,1.75,98.3,True,1402.9,unknown
+STU00543,Aditya Khan,2024-07-15,1983-12-13,40,mechanical engineering,USA,aditya.khan543@yahoo.com,0.0,3.84,93.7,False,2417.4,Withdrawn
+STU00570,Farhan Bose,2023-08-07,1988-06-19,35,computer science,USA,farhan.bose570@outlook.com,3160.17,3.47,62.5,False,3063.8,Pending
+STU00121,Neha Bose,2023-04-18,1982-01-14,42,entrepreneurship,USA,neha.bose121@univmail.edu,4050.85,2.99,72.1,True,2697.7,Pending
+STU00599,Aarav Lewis,2023-01-15,1983-09-17,40,computer science,UAE,aarav.lewis599@gmail.com,4866.97,2.81,87.8,True,2361.9,Withdrawn
+STU00510,Zara Bose,2024-01-07,1986-03-27,38,entrepreneurship,UAE,zara.bose510@gmail.com,0.2542,2.98,70.3,True,0.0,Graduated
+STU00063,Aisha Farooqi,2023-05-06,1993-08-20,30,computer science,Australia,aisha.farooqi63@univmail.edu,4244.12,3.61,75.3,True,2889.3,Withdrawn
+STU00759,James Wilson,2024-11-26,1998-09-04,25,business administration,Bangladesh,james.wilson759@outlook.com,0.0,3.81,65.6,False,2608.0,unknown
+STU00415,Noor Kapoor,2024-05-25,2002-02-26,22,data science,UK,noor.kapoor415@outlook.com,4380.91,3.93,50.1,False,2262.5,Graduated
+STU00004,Ananya Rana,2021-12-01,1987-03-16,37,electrical engineering,UK,ananya.rana4@outlook.com,4292.83,1.58,56.1,False,2161.2,unknown
+STU00059,Zara Brown,2024-02-14,1992-02-16,32,entrepreneurship,Bangladesh,zara.brown59@gmail.com,3240.48,4.0,95.3,False,4289.049999999999,unknown
+STU00224,Ethan Verma,2022-03-18,1995-04-20,29,data science,Canada,ethan.verma224@outlook.com,0.0,3.53,64.7,False,3111.5,Enrolled
+STU00174,Diya Sharma,2023-09-13,1993-01-20,31,business administration,Pakistan,diya.sharma174@yahoo.com,0.2545,3.91,42.3,False,3080.2,unknown
+STU00720,Olivia Clark,2023-08-04,1991-06-29,32,data science,Australia,olivia.clark720@univmail.edu,0.0,1.92,47.6,True,2239.5,unknown
+STU00222,Layla Rana,2022-05-01,1980-02-01,44,data science,Saudi Arabia,layla.rana222@univmail.edu,1447.4,2.5,74.3,False,2754.1,Withdrawn
+STU00730,Priya Kapoor,2024-05-09,1999-07-31,24,electrical engineering,Pakistan,priya.kapoor730@gmail.com,1175.21,1.73,88.5,False,923.3,Enrolled
+STU00005,Aisha Patel,2024-08-09,1986-09-29,37,computer science,Germany,aisha.patel5@outlook.com,3861.56,2.5,99.9,True,2613.9,Pending
+STU00053,Priya Walker,2024-08-13,1996-04-19,28,entrepreneurship,Saudi Arabia,priya.walker53@gmail.com,0.0,1.63,99.3,False,2791.6,Pending
+STU00908,Mason Khan,2021-06-01,1993-06-25,33,electrical engineering,USA,mason.khan908@yahoo.com,1036.99,3.61,89.3,False,1740.5,unknown
+STU00307,Bilal Bose,2021-05-09,1983-07-17,40,entrepreneurship,Canada,bilal.bose307@univmail.edu,3104.17,3.16,72.9,False,1116.7,unknown
+STU00663,Riya Rana,2021-08-16,1997-06-27,26,mechanical engineering,Pakistan,riya.rana663@outlook.com,3212.66,4.0,50.1,True,1472.6,Withdrawn
+STU00156,Ethan Verma,2024-06-06,2001-08-03,22,computer science,Pakistan,ethan.verma156@yahoo.com,2060.65,3.71,82.5,False,1605.8,Graduated
+STU00872,Olivia Siddiqui,2021-03-03,1992-10-30,31,data science,Saudi Arabia,olivia.siddiqui872@univmail.edu,0.0,2.24,87.8,True,2538.8,unknown
+STU00677,Anjali Wilson,2022-04-03,2002-12-03,21,finance,USA,anjali.wilson677@outlook.com,4805.0,3.01,89.4,False,3016.9,unknown
+STU00752,Meera Walker,2023-11-29,1995-12-25,28,entrepreneurship,UK,meera.walker752@univmail.edu,0.2089,3.87,55.1,True,947.4,unknown
+STU00250,Anjali Brown,2021-02-09,1979-07-11,44,data science,Bangladesh,anjali.brown250@gmail.com,4567.42,2.83,70.0,False,2509.9,Graduated
+STU00359,Emma Rana,2021-02-12,1986-12-16,37,entrepreneurship,UK,emma.rana359@yahoo.com,3144.46,3.63,68.1,True,1736.9,Graduated
+STU00583,Simran Smith,2021-03-16,2005-08-05,18,entrepreneurship,Pakistan,simran.smith583@yahoo.com,3770.54,2.19,81.3,False,2968.6,Pending
+STU00431,Rohan Wilson,2023-03-14,1984-05-16,40,data science,India,rohan.wilson431@univmail.edu,2018.35,3.39,71.7,True,3015.4,unknown
+STU00442,James Farooqi,2024-12-31,2003-01-26,21,computer science,UAE,james.farooqi442@gmail.com,4632.99,2.12,82.4,True,1649.6,Graduated
+STU00815,Meera Clark,2022-10-26,1996-12-28,27,business administration,Bangladesh,meera.clark815@yahoo.com,3568.98,3.63,63.0,False,2520.2,Pending
+STU00846,Mason Siddiqui,2021-11-20,2004-07-10,19,data science,USA,mason.siddiqui846@univmail.edu,0.0,3.32,96.6,False,1945.1,unknown
+STU00031,James Bose,2022-05-18,1993-08-10,30,business administration,Australia,james.bose31@univmail.edu,2013.78,1.95,87.9,False,2230.8,Pending
+STU00282,Sophia Gupta,2024-07-02,1989-05-15,35,computer science,UAE,sophia.gupta282@outlook.com,1096.42,2.14,76.2,False,2382.0,Pending
+STU00675,Ananya Sharma,2022-10-31,1992-12-02,31,electrical engineering,Saudi Arabia,ananya.sharma675@outlook.com,0.0,3.25,97.9,False,2987.3,Withdrawn
+STU00705,Karan Mehta,2023-05-05,1983-05-05,41,data science,India,karan.mehta705@outlook.com,1748.25,3.52,58.2,True,3006.4,unknown
+STU00118,Aisha Walker,2021-06-23,1995-06-03,29,entrepreneurship,Bangladesh,aisha.walker118@yahoo.com,1124.78,1.86,56.6,True,984.6,unknown
+STU00117,Zara Taylor,2021-01-11,1994-12-29,29,finance,Pakistan,zara.taylor117@yahoo.com,0.0,2.52,70.3,False,2232.6,Withdrawn
+STU00519,Liam Patel,2021-05-09,1995-06-13,28,mechanical engineering,Canada,liam.patel519@univmail.edu,0.3718,3.41,63.6,False,3110.1,unknown
+STU00665,Simran Siddiqui,2024-11-24,2000-10-10,23,mechanical engineering,Bangladesh,simran.siddiqui665@univmail.edu,0.3683,3.3,69.3,True,1879.7,Withdrawn
+STU00292,Sophia Reddy,2024-08-10,1991-11-23,32,electrical engineering,India,sophia.reddy292@gmail.com,2026.78,1.61,88.4,False,3056.2,unknown
+STU00028,Vivaan Taylor,2021-05-21,1990-05-15,34,electrical engineering,India,vivaan.taylor28@yahoo.com,1573.45,2.91,82.0,False,2257.4,Pending
+STU00382,Layla Verma,2022-03-05,1998-09-29,25,finance,UAE,layla.verma382@univmail.edu,0.1267,2.91,73.9,False,2590.3,unknown
+STU00308,Simran Gupta,2022-08-14,1982-01-30,42,entrepreneurship,Australia,simran.gupta308@yahoo.com,3703.15,1.94,94.3,True,1080.6,Graduated
+STU00102,Aarav Taylor,2023-03-28,2000-08-15,23,computer science,Saudi Arabia,aarav.taylor102@gmail.com,3556.07,3.41,78.8,True,2939.2,Enrolled
+STU00595,Meera Taylor,2021-10-18,2001-12-02,22,entrepreneurship,Pakistan,meera.taylor595@univmail.edu,4546.38,3.39,81.4,False,2478.9,Withdrawn
+STU00201,Diya Walker,2021-05-30,1982-09-04,41,entrepreneurship,Australia,diya.walker201@univmail.edu,4781.93,3.14,77.2,False,1881.6,Enrolled
+STU00571,Simran Lewis,2021-09-29,1985-07-18,38,data science,USA,simran.lewis571@outlook.com,0.2363,2.0,55.6,False,1975.7,Withdrawn
+STU00386,Ananya Davies,2024-07-04,1987-07-29,36,computer science,Bangladesh,ananya.davies386@outlook.com,4505.38,1.66,43.3,False,957.9,Enrolled
+STU00713,Simran Nair,2022-04-21,1988-08-07,35,mechanical engineering,USA,simran.nair713@univmail.edu,4327.64,4.0,80.4,True,2057.4,unknown
+STU00661,Tariq Mehta,2021-07-27,1996-06-13,27,electrical engineering,Pakistan,tariq.mehta661@univmail.edu,0.0,3.25,90.9,False,2393.3,Pending
+STU00903,James Gupta,2023-11-25,1984-06-23,39,finance,UK,james.gupta903@univmail.edu,0.0,1.67,76.5,True,2196.5,unknown
+STU00795,Aarav Siddiqui,2023-11-18,2004-02-15,20,business administration,Canada,aarav.siddiqui795@univmail.edu,0.1046,3.73,58.4,False,2123.8,unknown
+STU00592,Vivaan Taylor,2022-01-31,1987-07-12,36,finance,Saudi Arabia,vivaan.taylor592@yahoo.com,1952.26,2.88,70.3,False,1388.1,unknown
+STU00315,Karan Nair,2021-02-28,2001-09-29,22,business administration,Canada,karan.nair315@univmail.edu,3045.09,2.69,47.2,True,842.1,Enrolled
+STU00596,Ethan Singh,2022-08-14,1988-05-23,36,mechanical engineering,UAE,ethan.singh596@outlook.com,0.4752,2.26,80.4,True,2468.2,unknown
+STU00281,Noah Clark,2022-05-12,1989-01-02,35,business administration,Saudi Arabia,noah.clark281@outlook.com,2394.57,1.59,85.0,False,2310.3,Graduated
+STU00949,Ava Davies,2022-03-20,1998-10-02,25,electrical engineering,USA,ava.davies949@outlook.com,0.0,3.49,41.0,False,3098.3,unknown
+STU00354,Liam Nair,2024-03-10,1994-04-22,30,data science,India,liam.nair354@gmail.com,3832.32,1.96,45.0,True,2537.8,Enrolled
+STU00644,Meera Clark,2022-05-01,1998-01-10,26,electrical engineering,Australia,meera.clark644@yahoo.com,4988.04,3.82,63.3,False,2404.9,Enrolled
+STU00208,James Mehta,2023-04-22,2000-08-09,23,computer science,USA,james.mehta208@gmail.com,0.4509,2.88,50.8,True,2152.7,unknown
+STU00380,Noor Rana,2021-05-01,1997-05-31,27,electrical engineering,Bangladesh,noor.rana380@univmail.edu,0.0,3.69,72.3,False,1096.2,Enrolled
+STU00854,Isabella Gupta,2024-01-24,1994-07-24,29,business administration,UK,isabella.gupta854@univmail.edu,0.0,3.83,58.7,False,2212.0,unknown
+STU00413,Tariq Taylor,2024-08-11,1978-12-27,45,mechanical engineering,India,tariq.taylor413@yahoo.com,4311.21,2.01,70.3,False,2723.5,unknown
+STU00792,Tariq Smith,2023-01-25,1993-07-23,30,entrepreneurship,Saudi Arabia,tariq.smith792@univmail.edu,3194.76,3.29,48.4,True,1788.0,Enrolled
+STU00024,Ava Rana,2023-10-31,1996-10-25,27,business administration,Saudi Arabia,ava.rana24@univmail.edu,0.1666,2.19,69.1,False,986.0,Graduated
+STU00341,Aisha Farooqi,2024-08-22,2005-04-11,19,data science,Canada,aisha.farooqi341@univmail.edu,0.2653,3.22,88.0,False,1682.2,Graduated
+STU00716,Sophia Smith,2021-03-16,1990-08-08,33,finance,USA,sophia.smith716@gmail.com,0.0,2.88,95.9,False,1139.9,Pending
+STU00155,Mariam Clark,2024-12-19,1986-10-05,37,electrical engineering,UK,mariam.clark155@yahoo.com,2202.73,3.32,96.9,True,2650.0,unknown
+STU00858,Aisha Nair,2022-11-28,1979-12-09,44,data science,UAE,aisha.nair858@outlook.com,0.4841,3.51,70.3,True,2677.4,Graduated
+STU00627,Aarav Smith,2024-11-07,2003-09-14,20,data science,Pakistan,aarav.smith627@univmail.edu,1191.54,3.87,70.3,True,1919.7,Graduated
+STU00242,Mason Reddy,2024-02-01,1988-09-04,35,business administration,India,mason.reddy242@gmail.com,0.0,4.0,40.4,False,1555.8,Graduated
+STU00548,Ananya Wilson,2024-12-15,1985-01-01,39,finance,India,ananya.wilson548@gmail.com,0.0,3.86,55.9,True,1249.1,unknown
+STU00786,Kabir Kapoor,2022-02-03,2006-09-23,17,computer science,UK,kabir.kapoor786@outlook.com,4012.38,2.9,64.5,True,1935.1,Pending
+STU00323,Aisha Mehta,2022-10-01,2003-11-22,20,mechanical engineering,Bangladesh,aisha.mehta323@yahoo.com,4355.48,2.42,100.0,False,1751.3,Withdrawn
+STU00542,James Taylor,2021-02-19,2004-04-03,20,computer science,Bangladesh,james.taylor542@univmail.edu,2094.65,2.1,60.2,False,2279.9,unknown
+STU00601,Aisha Clark,2023-06-25,1987-05-05,37,computer science,Australia,aisha.clark601@univmail.edu,1849.82,3.65,93.2,False,2733.8,unknown
+STU00924,Mason Gupta,2024-11-16,2007-01-10,17,entrepreneurship,Bangladesh,mason.gupta924@gmail.com,2782.74,1.73,70.3,False,2123.8,Pending
+STU00568,Meera Verma,2021-07-19,1992-07-18,31,electrical engineering,India,meera.verma568@outlook.com,4267.73,1.92,83.3,False,3057.3,Pending
+STU00263,James Ansari,2023-04-28,2003-06-17,23,entrepreneurship,Australia,james.ansari263@gmail.com,0.0,3.97,76.5,False,2180.3,unknown
+STU00458,Meera Sharma,2023-01-26,1986-12-16,37,data science,USA,meera.sharma458@univmail.edu,4542.51,1.64,89.4,False,1471.3,unknown
+STU00083,Olivia Nair,2022-10-12,1982-11-15,41,data science,Germany,olivia.nair83@yahoo.com,0.3955,3.78,70.3,False,1529.9,unknown
+STU00566,Aarav Patel,2024-04-15,1992-12-07,31,electrical engineering,Germany,aarav.patel566@gmail.com,3230.48,3.1,99.7,True,937.3,Withdrawn
+STU00408,Tariq Wilson,2024-09-13,2005-07-16,21,entrepreneurship,India,tariq.wilson408@gmail.com,0.3976,2.44,45.5,True,2123.8,Graduated
+STU00453,Mason Iqbal,2023-01-15,1994-03-07,32,computer science,Canada,mason.iqbal453@outlook.com,3835.81,2.97,54.3,True,1721.7,unknown
+STU00465,Zara Davies,2023-07-04,1987-03-28,37,computer science,UAE,zara.davies465@yahoo.com,0.907,2.46,65.4,True,2327.9,unknown
+STU00692,Arjun Hall,2024-07-04,2005-12-13,18,business administration,USA,arjun.hall692@yahoo.com,0.4898,2.49,92.8,True,2047.0,unknown
+STU00334,Ananya Smith,2024-08-16,2000-11-08,23,data science,Pakistan,ananya.smith334@yahoo.com,0.1364,2.28,99.5,True,888.8,Pending
+STU00011,Sana Taylor,2024-01-04,1997-04-14,27,entrepreneurship,Pakistan,sana.taylor11@univmail.edu,0.0,3.13,40.9,False,2836.9,Withdrawn
+STU00471,Ava Rana,2022-10-04,1981-05-04,43,entrepreneurship,Bangladesh,ava.rana471@yahoo.com,1714.64,2.88,90.8,True,1190.6,Enrolled
+STU00033,Mariam Taylor,2022-07-09,1989-12-23,34,computer science,Pakistan,mariam.taylor33@yahoo.com,1361.93,2.97,75.8,False,1511.0,unknown
+STU00715,Vivaan Brown,2023-07-16,1989-02-06,35,mechanical engineering,Saudi Arabia,vivaan.brown715@univmail.edu,3758.8,2.14,62.0,True,1204.5,Withdrawn
+STU00875,Mariam Singh,2023-03-16,2005-04-30,19,computer science,UK,mariam.singh875@outlook.com,507.14,1.75,95.3,False,2284.7,unknown
+STU00383,Riya Singh,2022-07-16,1989-02-14,35,computer science,Australia,riya.singh383@outlook.com,3563.06,4.0,79.0,False,3188.3,unknown
+STU00604,Olivia Mehta,2022-07-03,2003-06-22,20,mechanical engineering,Bangladesh,olivia.mehta604@yahoo.com,0.0,2.31,68.4,False,2671.4,Pending
+STU00554,Priya Sharma,2023-03-26,2006-05-27,20,entrepreneurship,UK,priya.sharma554@gmail.com,1726.06,2.44,89.1,True,983.7,Withdrawn
+STU00899,Vikram Reddy,2023-03-16,2007-03-21,17,computer science,UAE,vikram.reddy899@outlook.com,4809.59,3.69,87.4,True,2857.3,unknown
+STU00907,Bilal Singh,2021-04-28,1995-03-01,29,data science,Saudi Arabia,bilal.singh907@univmail.edu,2568.19,1.74,47.9,False,2364.2,Pending
+STU00379,Noah Farooqi,2021-09-09,2005-01-04,19,entrepreneurship,Germany,noah.farooqi379@outlook.com,4477.69,3.95,56.4,False,1619.9,Graduated
+STU00090,Riya Wilson,2024-05-26,1996-10-09,27,electrical engineering,Bangladesh,riya.wilson90@outlook.com,0.0,2.83,58.0,True,2417.1,unknown
+STU00214,Meera Taylor,2021-07-25,1999-10-23,24,finance,Australia,meera.taylor214@gmail.com,1223.32,3.56,76.0,False,1332.2,Withdrawn
+STU00134,Meera Young,2023-05-27,1980-03-24,44,electrical engineering,UAE,meera.young134@yahoo.com,4434.91,2.4,79.9,False,1751.2,Pending
+STU00347,Isabella Lewis,2021-12-04,1983-01-28,41,business administration,Germany,isabella.lewis347@univmail.edu,0.74,2.88,68.2,True,1847.4,unknown
+STU00008,Layla Hall,2024-03-07,1981-01-06,43,business administration,Germany,layla.hall8@yahoo.com,1077.76,1.91,76.4,False,2612.6,unknown
+STU00615,Mason Chaudhary,2021-05-07,1984-01-01,40,entrepreneurship,Saudi Arabia,mason.chaudhary615@gmail.com,532.65,3.64,96.7,False,2834.7,unknown
+STU00321,Anjali Farooqi,2024-06-09,1995-12-11,28,computer science,India,anjali.farooqi321@yahoo.com,3721.15,3.39,100.0,False,3009.1,Enrolled
+STU00780,Ananya Khan,2022-08-26,1999-05-21,27,mechanical engineering,Canada,ananya.khan780@gmail.com,4001.08,3.84,98.0,True,1030.4,unknown
+STU00188,Sara Wilson,2021-08-01,1989-03-14,35,data science,Bangladesh,sara.wilson188@univmail.edu,0.4908,3.91,67.2,True,2246.1,Withdrawn
+STU00305,Rohan Malik,2022-07-22,1996-01-24,28,mechanical engineering,Germany,rohan.malik305@gmail.com,0.0,2.83,77.3,False,2741.1,Graduated
+STU00032,Anjali Qureshi,2023-04-13,2006-09-15,17,entrepreneurship,Saudi Arabia,anjali.qureshi32@univmail.edu,4068.2,2.51,79.8,False,2074.2,unknown
+STU00610,Liam Chaudhary,2023-10-30,2006-08-21,17,business administration,Pakistan,liam.chaudhary610@gmail.com,0.0,2.83,90.8,False,1924.3,Withdrawn
+STU00241,Ethan Chaudhary,2021-08-02,1985-10-20,38,business administration,USA,ethan.chaudhary241@univmail.edu,4700.84,3.99,64.7,False,2542.1,Graduated
+STU00725,Zara Young,2023-06-20,1980-12-01,43,finance,Bangladesh,zara.young725@outlook.com,2274.8,2.88,100.0,False,1264.8,Pending
+STU00246,Riya Malik,2024-01-28,2004-10-06,19,mechanical engineering,USA,riya.malik246@yahoo.com,0.2664,3.13,77.0,True,971.9,unknown
+STU00057,Meera Walker,2022-03-17,1986-07-13,37,entrepreneurship,Saudi Arabia,meera.walker57@univmail.edu,2371.95,2.28,97.2,False,961.1,Graduated
+STU00749,Vivaan Mehta,2024-10-29,2000-06-10,23,mechanical engineering,UAE,vivaan.mehta749@yahoo.com,0.2717,2.88,80.0,False,1502.5,Enrolled
+STU00146,Olivia Nair,2021-06-23,1984-12-03,39,computer science,Pakistan,olivia.nair146@gmail.com,0.2457,2.15,88.0,False,1452.7,unknown
+STU00393,Isabella Hall,2021-09-25,1993-06-10,30,mechanical engineering,Australia,isabella.hall393@univmail.edu,0.4896,3.41,91.3,True,1586.4,unknown
+STU00311,Sana Rana,2022-10-31,1981-02-20,43,entrepreneurship,UAE,sana.rana311@yahoo.com,0.0,3.19,98.6,True,1562.6,unknown
+STU00360,Bilal Lewis,2023-08-26,1985-07-12,38,entrepreneurship,Saudi Arabia,bilal.lewis360@yahoo.com,0.128,1.75,99.6,True,2136.4,unknown
+STU00094,Anjali Kapoor,2023-03-20,2003-08-18,20,finance,UAE,anjali.kapoor94@gmail.com,2058.64,3.37,89.7,True,2470.8,Pending
+STU00690,Priya Wilson,2024-02-28,1993-06-09,31,data science,India,priya.wilson690@outlook.com,0.0,3.55,62.4,False,2097.8,Graduated
+STU00377,Rohan Young,2024-04-15,1979-06-04,45,business administration,UAE,rohan.young377@univmail.edu,0.0,3.92,99.1,False,1817.0,unknown
+STU00244,James Gupta,2021-07-15,1991-06-22,32,computer science,Bangladesh,james.gupta244@gmail.com,4010.55,3.54,92.1,False,2838.7,unknown
+STU00819,Isabella Khan,2024-08-09,1990-07-03,36,computer science,USA,isabella.khan819@univmail.edu,4821.58,2.64,66.6,False,2373.0,Graduated
+STU00088,Noor Reddy,2022-07-31,2000-08-13,23,finance,UAE,noor.reddy88@gmail.com,4312.28,2.16,64.2,True,2168.7,unknown
+STU00215,Ishaan Rana,2023-12-04,2005-11-22,18,data science,USA,ishaan.rana215@univmail.edu,0.2475,3.83,51.7,False,2476.3,Enrolled
+STU00174,Diya Sharma,2021-12-12,1993-01-20,31,business administration,Pakistan,diya.sharma174@yahoo.com,3265.16,3.91,42.3,False,3080.2,unknown
+STU00426,Liam Verma,2024-10-10,2002-09-26,21,business administration,Pakistan,liam.verma426@univmail.edu,0.3482,1.93,82.0,False,2517.8,Pending
+STU00772,Arjun Sharma,2023-12-19,1999-11-06,24,entrepreneurship,Saudi Arabia,arjun.sharma772@gmail.com,4199.17,3.08,96.8,False,2879.1,unknown
+STU00119,Vikram Reddy,2022-02-05,1983-07-27,40,entrepreneurship,Canada,vikram.reddy119@univmail.edu,4118.34,2.58,79.1,False,1569.6,Enrolled
+STU00120,Kiran Mehta,2022-08-20,1997-03-10,27,finance,UAE,kiran.mehta120@univmail.edu,0.0,3.99,86.1,True,1907.9,Pending
+STU00816,Zara Mehta,2024-07-29,1979-06-25,44,entrepreneurship,India,zara.mehta816@yahoo.com,0.0,3.26,57.3,False,2732.9,unknown
+STU00001,Meera Sharma,2021-07-29,1984-01-23,42,mechanical engineering,UK,meera.sharma1@yahoo.com,2774.1,3.29,65.2,False,2742.6,Enrolled
+STU00395,Olivia Wilson,2023-02-04,1991-09-30,32,entrepreneurship,Saudi Arabia,olivia.wilson395@yahoo.com,2281.55,2.44,90.5,True,1122.4,Pending
+STU00402,Olivia Khan,2021-12-18,1993-05-11,31,mechanical engineering,Pakistan,olivia.khan402@yahoo.com,2914.04,2.47,52.4,False,2763.0,Graduated
+STU00405,Karan Brown,2022-03-21,2004-06-14,19,finance,Canada,karan.brown405@gmail.com,0.0,2.32,55.2,True,2123.8,unknown
+STU00614,Tariq Iqbal,2022-03-04,1980-12-02,43,business administration,Bangladesh,tariq.iqbal614@gmail.com,0.918,2.95,49.8,False,1973.9,Graduated
+STU00621,Zara Farooqi,2023-02-28,1984-05-25,40,entrepreneurship,India,zara.farooqi621@yahoo.com,1228.48,4.0,51.3,False,3182.5,Enrolled
+STU00163,Mason Singh,2023-03-25,1997-05-05,27,entrepreneurship,India,mason.singh163@univmail.edu,0.1006,2.97,96.4,False,1042.4,unknown
+STU00115,Sophia Ansari,2022-09-05,1982-06-13,41,data science,Germany,sophia.ansari115@outlook.com,0.2227,3.22,84.7,False,1849.0,unknown
+STU00151,James Verma,2022-02-13,2005-01-14,19,finance,Bangladesh,james.verma151@outlook.com,2658.58,2.91,56.2,True,1325.6,unknown
+STU00578,Karan Lewis,2021-05-27,1985-11-06,41,finance,Australia,karan.lewis578@yahoo.com,3955.3,2.75,100.0,True,2349.4,unknown
+STU00724,Vivaan Bose,2024-06-27,1994-12-20,29,computer science,Pakistan,vivaan.bose724@univmail.edu,3913.22,1.59,83.7,False,3196.7,unknown
+STU00369,Aisha Joshi,2021-10-28,1989-03-04,35,computer science,USA,aisha.joshi369@univmail.edu,1466.53,2.82,71.1,True,2202.3,Enrolled
+STU00478,Noor Smith,2021-08-10,1989-10-15,34,entrepreneurship,Canada,noor.smith478@outlook.com,4983.97,3.35,67.3,True,1927.9,Graduated
+STU00533,Diya Clark,2024-10-20,2003-08-28,20,electrical engineering,Australia,diya.clark533@outlook.com,1231.47,3.98,94.5,True,3082.3,unknown
+STU00150,Noor Verma,2023-09-28,2001-08-18,22,data science,UK,noor.verma150@yahoo.com,1560.68,1.59,54.7,True,2918.7,Graduated
+STU00588,Ishaan Smith,2023-12-21,1991-08-27,32,finance,Saudi Arabia,ishaan.smith588@gmail.com,0.0,2.38,99.7,True,1481.3,Withdrawn
+STU00844,Sophia Bose,2023-06-30,1979-03-30,45,business administration,UAE,sophia.bose844@gmail.com,4168.93,3.82,58.2,True,1088.6,unknown
+STU00259,Layla Khan,2023-11-14,1990-06-13,33,mechanical engineering,USA,layla.khan259@outlook.com,0.3045,1.86,43.1,True,2644.7,unknown
+STU00841,Kiran Bose,2023-04-30,1988-10-29,35,finance,Bangladesh,kiran.bose841@gmail.com,1167.98,1.62,56.0,False,2629.3,Withdrawn
+STU00136,Kabir Iqbal,2021-09-30,1996-12-02,27,data science,USA,kabir.iqbal136@univmail.edu,0.208,1.88,81.2,False,1041.1,Enrolled
+STU00426,Liam Verma,2024-07-04,2002-09-26,21,business administration,Pakistan,liam.verma426@univmail.edu,596.59,1.93,82.0,False,2517.8,Pending
+STU00633,Rohan Malik,2021-07-05,1981-01-07,43,business administration,Bangladesh,rohan.malik633@yahoo.com,1691.06,3.51,85.3,True,1067.6,unknown
+STU00794,Kiran Patel,2021-09-29,2000-10-18,23,electrical engineering,Bangladesh,kiran.patel794@gmail.com,2602.37,2.01,94.5,False,2247.0,Pending
+STU00502,Simran Walker,2021-08-08,1988-07-14,35,electrical engineering,India,simran.walker502@univmail.edu,3478.48,1.8,61.3,False,2005.3,Graduated
+STU00539,Rohan Farooqi,2023-07-05,1990-08-20,33,electrical engineering,Australia,rohan.farooqi539@univmail.edu,0.0,2.17,57.6,False,2717.6,unknown
+STU00652,Emma Patel,2021-08-12,2002-09-15,21,finance,Pakistan,emma.patel652@yahoo.com,2461.77,1.86,42.5,True,1253.5,Graduated
+STU00582,Noor Nair,2023-09-30,2005-10-12,18,electrical engineering,UAE,noor.nair582@univmail.edu,2018.58,1.56,57.6,True,0.0,unknown
+STU00344,Sara Nair,2022-06-21,1982-03-30,42,electrical engineering,Saudi Arabia,sara.nair344@gmail.com,0.546,3.94,52.7,True,2566.6,Pending
+STU00673,Vivaan Mehta,2024-01-31,1995-03-20,29,business administration,Bangladesh,vivaan.mehta673@univmail.edu,0.4763,3.16,46.4,False,2258.8,unknown
+STU00620,Zara Reddy,2023-04-08,1986-04-30,38,computer science,USA,zara.reddy620@outlook.com,1978.82,2.8,93.0,True,1699.4,Pending
+STU00294,Sophia Khan,2024-06-14,1981-04-19,43,entrepreneurship,Bangladesh,sophia.khan294@outlook.com,0.0,2.3,52.8,True,1605.2,Graduated
+STU00365,Olivia Khan,2021-12-03,2004-12-15,19,finance,USA,olivia.khan365@gmail.com,0.0,2.55,82.0,True,1552.9,Enrolled
+STU00626,Priya Siddiqui,2024-04-26,1982-03-23,42,mechanical engineering,UAE,priya.siddiqui626@yahoo.com,4516.87,2.96,52.3,True,2625.4,Enrolled
+STU00015,Omar Hall,2023-06-17,2005-02-01,19,data science,India,omar.hall15@outlook.com,4692.9,1.84,46.4,True,1476.2,unknown
+STU00087,Tariq Reddy,2023-02-26,2003-04-19,21,electrical engineering,Canada,tariq.reddy87@outlook.com,0.1354,2.79,58.5,True,1743.8,unknown
+STU00371,Meera Chaudhary,2021-08-30,1989-01-13,35,mechanical engineering,India,meera.chaudhary371@yahoo.com,0.0,3.84,57.0,True,1973.1,Withdrawn
+STU00166,Bilal Taylor,2023-11-22,1991-09-19,32,data science,Germany,bilal.taylor166@gmail.com,0.1282,2.12,95.1,False,2776.4,unknown
+STU00876,Aditya Joshi,2022-02-03,1988-06-03,36,entrepreneurship,Bangladesh,aditya.joshi876@univmail.edu,0.0,1.54,66.0,True,2324.7,Withdrawn
+STU00336,Ishaan Siddiqui,2023-10-22,1981-04-02,43,finance,Germany,ishaan.siddiqui336@outlook.com,2734.03,1.81,59.8,False,2734.0,unknown
+STU00060,Ethan Brown,2021-03-04,1995-05-05,29,entrepreneurship,Canada,ethan.brown60@yahoo.com,2165.24,2.92,43.2,True,919.4,Graduated
+STU00355,Tariq Rana,2022-01-19,1982-01-28,42,finance,Pakistan,tariq.rana355@univmail.edu,2904.69,1.53,67.6,True,3117.9,unknown
+STU00425,Aditya Clark,2024-05-27,1983-12-28,40,data science,Bangladesh,aditya.clark425@univmail.edu,4940.92,2.23,48.6,True,2683.7,unknown
+STU00293,Noah Ansari,2021-03-17,1983-08-20,40,computer science,Australia,noah.ansari293@gmail.com,0.1592,4.0,89.2,False,1209.7,Graduated
+STU00042,James Mehta,2022-01-26,1999-10-18,24,electrical engineering,UAE,james.mehta42@univmail.edu,0.0,1.51,90.2,False,1975.1,Pending
+STU00430,Zara Taylor,2022-09-25,1985-06-17,38,computer science,Australia,zara.taylor430@univmail.edu,0.334,3.26,98.9,False,2520.2,Withdrawn
+STU00080,Ethan Verma,2023-01-30,1988-03-24,36,computer science,Canada,ethan.verma80@univmail.edu,1914.73,1.78,69.9,True,1082.6,unknown
+STU00029,Meera Davies,2021-02-22,1981-03-21,43,electrical engineering,UK,meera.davies29@gmail.com,0.3164,3.43,76.0,False,2158.2,Graduated
+STU00255,James Wilson,2023-10-04,1986-12-02,40,entrepreneurship,India,james.wilson255@outlook.com,0.4776,3.97,44.0,False,1975.9,Pending
+STU00747,Ethan Patel,2022-09-30,1989-05-01,35,electrical engineering,Germany,ethan.patel747@outlook.com,4578.44,2.51,58.7,True,1599.8,unknown
+STU00459,Vikram Sharma,2024-11-10,1989-07-09,34,entrepreneurship,Australia,vikram.sharma459@yahoo.com,0.4176,2.01,91.5,True,1356.1,unknown
+STU00384,Anjali Iqbal,2023-11-26,1985-09-19,38,entrepreneurship,Bangladesh,anjali.iqbal384@univmail.edu,1923.09,1.7,41.5,False,1817.2,Enrolled
+STU00314,Ethan Davies,2022-08-16,2003-02-25,21,finance,Australia,ethan.davies314@outlook.com,2723.45,3.48,58.0,False,1934.1,unknown
+STU00085,Mason Malik,2021-02-28,1980-08-28,43,data science,UK,mason.malik85@univmail.edu,3281.49,3.07,97.4,False,2737.6,unknown
+STU00575,Farhan Mehta,2022-04-25,1985-11-18,38,mechanical engineering,Australia,farhan.mehta575@univmail.edu,0.3169,3.81,97.9,True,3133.8,unknown
+STU00137,Meera Farooqi,2022-10-07,1983-11-28,40,data science,Australia,meera.farooqi137@outlook.com,4005.36,3.15,71.1,True,1740.2,Enrolled
+STU00112,Noah Qureshi,2022-07-17,1994-06-03,30,computer science,Bangladesh,noah.qureshi112@yahoo.com,981.57,2.1,55.1,False,1752.6,unknown
+STU00179,Emma Young,2021-01-06,2000-06-20,23,electrical engineering,Saudi Arabia,emma.young179@yahoo.com,0.0,2.88,94.3,False,3172.8,Enrolled
+STU00880,Sana Ansari,2024-05-20,1994-01-24,30,data science,UAE,sana.ansari880@outlook.com,0.1699,2.88,62.4,True,2670.8,Enrolled
+STU00497,Kabir Lewis,2022-10-12,1981-11-12,42,business administration,Australia,kabir.lewis497@gmail.com,2269.97,3.1,90.6,False,1337.6,unknown
+STU00130,Aditya Bose,2021-08-29,1998-12-12,25,finance,Australia,aditya.bose130@univmail.edu,0.1247,3.53,74.2,True,2093.0,unknown
+STU00338,Simran Sharma,2024-09-18,1986-08-05,37,finance,Germany,simran.sharma338@univmail.edu,1891.71,3.21,54.2,False,2983.5,unknown
+STU00609,Tariq Taylor,2022-04-12,1979-02-24,45,entrepreneurship,UAE,tariq.taylor609@outlook.com,3216.28,3.11,88.4,True,944.7,unknown
+STU00125,Mariam Bose,2024-08-04,1999-11-13,24,finance,Saudi Arabia,mariam.bose125@univmail.edu,0.225,3.38,43.8,False,2088.5,unknown
+STU00227,Vikram Taylor,2021-07-30,1985-05-02,39,electrical engineering,India,vikram.taylor227@univmail.edu,2857.92,3.05,95.9,True,1393.8,Graduated
+STU00269,Kabir Lewis,2021-03-16,1990-06-29,33,electrical engineering,UAE,kabir.lewis269@gmail.com,0.0,2.33,46.2,False,854.0,unknown
+STU00165,James Young,2024-01-30,1998-11-30,25,business administration,Pakistan,james.young165@yahoo.com,3808.48,2.3,76.3,False,1307.3,unknown
+STU00104,Rohan Reddy,2021-08-20,1992-12-14,31,mechanical engineering,India,rohan.reddy104@yahoo.com,1427.37,2.62,92.3,False,1765.4,unknown
+STU00594,Noah Iqbal,2021-02-18,1984-08-05,39,finance,Bangladesh,noah.iqbal594@gmail.com,0.0,2.6,46.2,True,2191.5,Enrolled
+STU00847,Diya Singh,2021-08-30,2005-08-09,18,computer science,Pakistan,diya.singh847@outlook.com,2422.17,3.11,57.0,True,1599.9,unknown
+STU00654,Tariq Khan,2024-02-15,1981-02-07,45,electrical engineering,Pakistan,tariq.khan654@univmail.edu,2831.21,1.92,62.2,True,2442.4,Withdrawn
+STU00878,Ishaan Ansari,2024-07-16,1993-06-15,30,finance,India,ishaan.ansari878@outlook.com,0.0,3.4,74.3,True,2681.5,unknown
+STU00302,Ava Davies,2022-03-23,2006-06-17,17,entrepreneurship,India,ava.davies302@univmail.edu,0.3511,3.64,41.5,False,1132.7,unknown
+STU00276,Sophia Hall,2024-09-15,1982-07-22,41,entrepreneurship,Saudi Arabia,sophia.hall276@yahoo.com,1425.48,3.49,95.1,True,2996.3,Graduated
+STU00127,Aisha Iqbal,2024-11-21,2000-01-03,24,mechanical engineering,Bangladesh,aisha.iqbal127@univmail.edu,0.0,3.11,73.3,False,1249.0,unknown
+STU00406,Vivaan Khan,2023-02-20,1986-06-21,37,electrical engineering,India,vivaan.khan406@outlook.com,0.1016,3.37,44.1,True,2512.6,Pending
+STU00884,Tariq Verma,2021-03-09,1980-08-25,43,mechanical engineering,India,tariq.verma884@gmail.com,4806.41,3.57,92.6,False,2148.3,unknown
+STU00037,Noor Khan,2024-04-07,1986-02-12,38,electrical engineering,Germany,noor.khan37@yahoo.com,3414.36,1.68,58.5,False,1854.0,Pending
+STU00140,Zara Qureshi,2024-08-23,1996-11-20,27,mechanical engineering,UK,zara.qureshi140@gmail.com,1600.16,3.03,70.3,False,2577.6,unknown
+STU00304,Diya Joshi,2023-01-19,1985-12-07,38,mechanical engineering,Germany,diya.joshi304@gmail.com,0.3023,2.34,78.9,False,2486.8,Withdrawn
+STU00268,Priya Chaudhary,2021-12-25,1993-01-06,31,computer science,Pakistan,priya.chaudhary268@univmail.edu,2776.98,1.89,69.0,True,1585.6,unknown
+STU00534,Ishaan Reddy,2023-03-20,1982-09-08,41,mechanical engineering,Australia,ishaan.reddy534@gmail.com,0.0,3.59,66.6,True,1919.5,Withdrawn
+STU00546,Zara Iqbal,2021-02-26,2000-08-29,23,electrical engineering,UK,zara.iqbal546@gmail.com,2697.65,2.2,65.6,False,2794.5,unknown
+STU00213,Vikram Walker,2022-07-19,1989-11-06,34,mechanical engineering,Saudi Arabia,vikram.walker213@yahoo.com,0.0,3.97,86.5,True,2852.0,unknown
+STU00469,Riya Taylor,2022-11-22,1990-06-18,33,data science,USA,riya.taylor469@gmail.com,4465.21,1.93,63.8,True,2902.3,Enrolled
+STU00199,Tariq Siddiqui,2023-12-29,1994-07-06,29,mechanical engineering,Germany,tariq.siddiqui199@outlook.com,0.4821,3.72,92.0,False,3078.7,unknown
+STU00528,Isabella Hall,2021-04-29,1995-12-11,28,data science,Germany,isabella.hall528@gmail.com,4959.22,2.12,70.3,True,1233.4,Enrolled
+STU00790,Liam Singh,2021-12-03,1987-05-22,37,computer science,Germany,liam.singh790@univmail.edu,3201.77,2.88,70.3,True,980.1,Enrolled
+STU00343,Ethan Iqbal,2023-07-19,2006-09-10,17,data science,UAE,ethan.iqbal343@outlook.com,3858.99,3.64,99.7,True,1254.5,Pending
+STU00550,Simran Lewis,2024-07-14,2000-01-10,24,business administration,UK,simran.lewis550@gmail.com,4833.14,2.62,65.5,True,1565.4,Graduated
+STU00853,Ananya Davies,2024-08-01,1991-04-07,33,data science,India,ananya.davies853@univmail.edu,0.0,2.18,64.8,False,2815.4,Enrolled
+STU00296,James Wilson,2023-12-08,2003-02-22,21,electrical engineering,India,james.wilson296@yahoo.com,0.0,3.07,60.9,True,1260.6,Pending
+STU00767,Aisha Siddiqui,2022-08-22,1986-04-14,38,business administration,Australia,aisha.siddiqui767@univmail.edu,0.0,1.69,85.8,True,901.9,unknown
+STU00074,Karan Reddy,2024-01-08,1998-04-07,26,computer science,Australia,karan.reddy74@gmail.com,0.0,1.86,76.9,False,1249.6,unknown
+STU00743,Omar Sharma,2023-11-16,1996-11-21,27,entrepreneurship,Australia,omar.sharma743@gmail.com,0.4893,3.83,73.4,False,2342.1,unknown
+STU00686,Neha Lewis,2023-03-07,2001-12-19,22,mechanical engineering,Saudi Arabia,neha.lewis686@univmail.edu,3023.73,3.17,44.7,False,2846.4,unknown
+STU00707,Karan Rana,2022-10-26,1991-02-14,33,mechanical engineering,Canada,karan.rana707@univmail.edu,0.0,3.15,93.4,True,2452.0,Withdrawn
+STU00867,Simran Sharma,2023-11-21,2005-06-13,18,mechanical engineering,UAE,simran.sharma867@gmail.com,4291.52,2.2,80.2,False,1826.0,Graduated
+STU00017,Meera Khan,2023-01-27,1978-06-25,48,mechanical engineering,Canada,meera.khan17@gmail.com,0.4545,3.17,73.6,True,2598.7,Pending
+STU00440,Meera Brown,2021-07-02,1989-11-14,34,finance,UK,meera.brown440@outlook.com,544.38,2.06,87.0,False,2548.0,Withdrawn
+STU00092,Meera Patel,2023-04-26,2006-10-24,17,finance,India,meera.patel92@yahoo.com,0.0,3.16,58.8,True,2079.5,unknown
+STU00089,Kiran Chaudhary,2023-12-07,1990-01-14,34,data science,USA,kiran.chaudhary89@gmail.com,2272.57,2.41,76.1,True,908.7,unknown
+STU00451,Kabir Wilson,2024-04-25,1983-09-28,43,computer science,UK,kabir.wilson451@yahoo.com,0.0,3.66,71.5,False,1332.3,Graduated
+STU00103,Tariq Walker,2024-09-17,1994-11-29,29,electrical engineering,Germany,tariq.walker103@univmail.edu,0.288,3.39,67.8,True,1710.3,Withdrawn
+STU00239,Emma Joshi,2023-01-21,1987-06-17,36,computer science,UK,emma.joshi239@univmail.edu,4677.82,3.1,84.6,True,2706.2,Enrolled
+STU00719,Arjun Verma,2024-06-01,1992-03-22,32,entrepreneurship,USA,arjun.verma719@gmail.com,0.371,3.39,70.3,True,1489.3,Graduated
+STU00247,Mariam Malik,2023-04-28,1985-08-21,38,entrepreneurship,India,mariam.malik247@outlook.com,1261.65,3.98,48.7,True,1360.4,Withdrawn
+STU00480,Vikram Gupta,2023-05-28,1981-05-16,43,entrepreneurship,Bangladesh,vikram.gupta480@univmail.edu,0.264,2.59,74.2,True,2945.1,Pending
+STU00646,Kiran Kapoor,2022-08-23,1997-03-31,27,mechanical engineering,Saudi Arabia,kiran.kapoor646@gmail.com,1946.82,2.26,86.2,False,2066.1,Enrolled
+STU00839,Sophia Sharma,2024-04-20,1983-05-09,43,computer science,UAE,sophia.sharma839@yahoo.com,0.0,2.88,85.4,False,2178.0,Withdrawn
+STU00818,Vivaan Qureshi,2021-06-28,2001-10-09,22,entrepreneurship,Canada,vivaan.qureshi818@outlook.com,3860.72,2.16,49.3,False,1581.0,Withdrawn
+STU00019,Rohan Reddy,2022-07-25,2006-07-04,17,entrepreneurship,Bangladesh,rohan.reddy19@outlook.com,4726.57,2.15,99.0,True,1843.0,Withdrawn
+STU00703,Kabir Gupta,2021-05-26,1994-08-30,29,electrical engineering,Pakistan,kabir.gupta703@univmail.edu,2810.23,2.12,90.4,False,2787.1,unknown
+STU00122,Layla Wilson,2021-06-24,1978-09-12,45,data science,Australia,layla.wilson122@gmail.com,3034.49,2.33,46.4,False,2025.6,unknown
+STU00830,Aisha Ansari,2021-05-02,2002-08-06,21,electrical engineering,Canada,aisha.ansari830@univmail.edu,4278.41,3.34,100.0,False,1628.6,Withdrawn
+STU00702,Kiran Ansari,2021-01-23,1998-04-01,26,finance,UAE,kiran.ansari702@gmail.com,0.1865,2.11,52.8,False,1949.0,Enrolled
+STU00275,Ethan Lewis,2022-10-29,1992-04-12,32,business administration,Bangladesh,ethan.lewis275@gmail.com,0.0,2.45,79.6,False,1133.4,Pending
+STU00434,Mason Gupta,2024-10-05,1986-12-01,37,electrical engineering,UAE,mason.gupta434@univmail.edu,2152.95,1.81,94.5,False,2123.8,unknown
+STU00891,Isabella Chaudhary,2021-06-20,1999-12-29,24,electrical engineering,USA,isabella.chaudhary891@univmail.edu,0.0,3.9,0.0,True,1066.4,Enrolled
+STU00312,Mason Joshi,2023-05-26,2005-06-30,18,computer science,UAE,mason.joshi312@univmail.edu,4434.36,3.72,64.9,False,2733.6,Withdrawn
+STU00756,James Patel,2023-05-21,2002-04-13,22,entrepreneurship,Bangladesh,james.patel756@outlook.com,932.4,3.73,91.5,False,1378.8,unknown
+STU00829,Noah Sharma,2024-09-24,1986-03-12,38,computer science,UAE,noah.sharma829@yahoo.com,952.06,4.0,71.5,False,2183.4,Pending
+STU00547,Karan Young,2023-06-05,2003-06-11,20,electrical engineering,Pakistan,karan.young547@outlook.com,0.4116,2.32,56.6,False,2413.0,Pending
+STU00185,Ava Sharma,2024-07-29,1981-04-27,43,business administration,Saudi Arabia,ava.sharma185@outlook.com,2135.04,3.61,86.0,False,2377.2,Pending
+STU00407,Tariq Ansari,2021-06-02,1992-01-19,32,entrepreneurship,Bangladesh,tariq.ansari407@yahoo.com,849.13,1.88,53.0,True,2077.5,Enrolled
+STU00607,James Taylor,2023-03-10,1988-10-13,35,data science,Pakistan,james.taylor607@gmail.com,3378.33,2.6,68.3,False,2660.6,unknown
+STU00693,Ethan Sharma,2022-04-10,1998-08-31,25,mechanical engineering,Canada,ethan.sharma693@univmail.edu,2854.04,2.38,85.1,False,2345.4,unknown
+STU00521,Emma Young,2022-04-30,1985-10-11,38,entrepreneurship,Bangladesh,emma.young521@gmail.com,778.67,3.62,85.8,False,870.7,unknown
+STU00381,Yusuf Lewis,2024-11-28,1987-12-10,36,mechanical engineering,UK,yusuf.lewis381@gmail.com,3912.89,3.54,88.5,False,1985.1,Pending
+STU00411,Ethan Gupta,2024-07-16,1999-04-21,25,finance,USA,ethan.gupta411@outlook.com,4901.1,2.88,100.0,False,2337.4,unknown
+STU00635,Karan Rana,2023-06-26,1989-04-29,35,computer science,India,karan.rana635@univmail.edu,0.151,2.06,53.0,True,3115.0,unknown
+STU00370,Mariam Bose,2021-11-30,1984-10-04,39,business administration,Germany,mariam.bose370@gmail.com,3625.12,3.37,62.2,False,1780.7,unknown
+STU00807,Ethan Young,2021-06-13,2003-12-15,20,finance,Saudi Arabia,ethan.young807@yahoo.com,4612.79,3.92,96.8,False,1333.4,Withdrawn
+STU00827,Meera Ansari,2021-11-07,1995-05-16,29,computer science,Saudi Arabia,meera.ansari827@univmail.edu,0.2599,2.88,84.8,False,1718.2,unknown
+STU00751,Priya Ansari,2021-04-06,1985-05-22,39,computer science,Pakistan,priya.ansari751@gmail.com,3433.34,1.53,52.4,True,2355.1,Pending
+STU00574,Aarav Gupta,2021-07-25,1993-10-09,30,entrepreneurship,USA,aarav.gupta574@gmail.com,0.0,2.94,64.0,False,1695.7,Pending
+STU00608,Bilal Lewis,2022-02-14,2003-03-22,21,entrepreneurship,UAE,bilal.lewis608@outlook.com,0.3603,1.67,82.7,False,1667.0,Withdrawn
+STU00791,Kiran Lewis,2021-05-16,1987-12-22,36,data science,UAE,kiran.lewis791@gmail.com,4360.27,2.88,50.6,False,2892.4,unknown
+STU00016,Neha Wilson,2024-11-24,1997-02-24,29,electrical engineering,Bangladesh,neha.wilson16@outlook.com,4383.29,3.09,84.5,True,2146.2,unknown
+STU00918,Vivaan Sharma,2023-10-13,1989-07-15,34,electrical engineering,Pakistan,vivaan.sharma918@gmail.com,0.0,3.79,59.1,False,3126.7,Pending
+STU00417,Zara Young,2023-02-06,2001-06-05,23,mechanical engineering,Canada,zara.young417@univmail.edu,0.0,2.88,99.5,False,2157.5,Graduated
+STU00562,Aarav Young,2023-05-23,2001-01-18,23,mechanical engineering,UAE,aarav.young562@yahoo.com,0.849,2.04,73.8,True,2209.6,unknown
+STU00068,Ava Brown,2024-06-09,1995-01-15,29,mechanical engineering,USA,ava.brown68@outlook.com,1896.04,3.27,73.5,False,2751.6,Enrolled
+STU00537,Priya Patel,2024-10-26,1996-08-20,27,mechanical engineering,Canada,priya.patel537@outlook.com,2007.44,2.44,57.6,True,907.1,Withdrawn
+STU00078,Sara Mehta,2023-11-30,1984-09-30,39,finance,Australia,sara.mehta78@yahoo.com,2954.63,2.32,66.8,True,1865.4,Graduated
+STU00106,Sara Smith,2022-12-07,1985-11-05,38,mechanical engineering,USA,sara.smith106@outlook.com,0.0,3.62,82.5,False,2149.7,unknown
+STU00570,Farhan Bose,2023-03-20,1988-06-19,35,computer science,USA,farhan.bose570@outlook.com,1173.44,3.47,62.5,False,3063.8,Pending
+STU00777,Liam Walker,2021-01-18,1993-08-31,33,entrepreneurship,India,liam.walker777@gmail.com,2005.65,1.82,95.5,False,1601.2,unknown
+STU00639,Vivaan Wilson,2021-10-01,1987-10-03,36,business administration,UAE,vivaan.wilson639@outlook.com,0.0,1.86,80.9,False,3130.1,Withdrawn
+STU00560,Ava Nair,2022-08-26,1995-06-05,29,data science,USA,ava.nair560@yahoo.com,0.1806,3.88,76.3,False,3046.9,Withdrawn
+STU00758,Neha Patel,2024-04-18,1996-04-20,28,entrepreneurship,Saudi Arabia,neha.patel758@yahoo.com,0.921,1.73,75.9,False,1378.9,unknown
+STU00691,Aisha Taylor,2023-04-03,1986-12-16,37,mechanical engineering,Saudi Arabia,aisha.taylor691@univmail.edu,2121.48,2.13,95.5,False,2608.9,unknown
+STU00862,Aarav Young,2023-04-17,1982-01-24,42,data science,USA,aarav.young862@gmail.com,4637.85,2.13,93.1,False,1629.7,unknown
+STU00864,Mariam Singh,2023-08-15,1997-07-09,26,electrical engineering,Pakistan,mariam.singh864@gmail.com,0.113,3.28,86.2,False,2554.3,Pending
+STU00736,Farhan Ansari,2023-10-12,2006-03-27,18,finance,India,farhan.ansari736@outlook.com,0.0,1.51,89.5,True,1154.7,Pending
+STU00453,Mason Iqbal,2024-09-05,1994-03-07,32,computer science,Canada,mason.iqbal453@outlook.com,3277.63,2.97,54.3,True,1721.7,unknown
+STU00838,Kiran Rana,2023-06-15,1995-03-21,29,computer science,Pakistan,kiran.rana838@yahoo.com,4238.12,4.0,64.9,False,1592.8,Enrolled
+STU00606,Noor Davies,2024-09-17,1999-05-30,25,mechanical engineering,Bangladesh,noor.davies606@outlook.com,0.3011,3.04,56.4,False,1581.2,Enrolled
+STU00364,Bilal Chaudhary,2023-12-21,1986-07-06,37,computer science,Bangladesh,bilal.chaudhary364@univmail.edu,0.0,2.4,70.3,True,2522.3,unknown
+STU00070,Aditya Brown,2021-11-12,1996-07-27,27,data science,USA,aditya.brown70@univmail.edu,696.62,2.09,57.1,False,1374.0,unknown
+STU00161,Zara Davies,2022-06-12,1984-07-05,39,finance,India,zara.davies161@univmail.edu,4182.82,3.22,74.4,False,989.5,unknown
+STU00012,Arjun Nair,2021-05-01,1991-10-07,32,mechanical engineering,Saudi Arabia,arjun.nair12@outlook.com,0.0,2.72,53.1,True,2101.3,Withdrawn
+STU00145,Aarav Young,2024-07-26,1994-05-28,30,computer science,UAE,aarav.young145@gmail.com,0.1423,3.9,48.5,True,3011.1,unknown
+STU00428,Yusuf Smith,2022-04-03,1986-08-28,37,computer science,Australia,yusuf.smith428@yahoo.com,3850.78,1.82,62.8,True,2216.1,Enrolled
+STU00640,Diya Wilson,2021-05-26,1982-12-11,41,mechanical engineering,UK,diya.wilson640@yahoo.com,0.4909,1.57,83.7,False,3070.8,unknown
+STU00177,Diya Rana,2021-02-10,2005-07-03,18,mechanical engineering,Germany,diya.rana177@outlook.com,0.2635,3.21,0.0,False,2048.7,Graduated
+STU00441,Simran Farooqi,2024-05-12,1980-10-05,43,business administration,India,simran.farooqi441@yahoo.com,1930.98,3.52,87.3,True,2839.1,Withdrawn
+STU00522,Sara Malik,2024-07-29,2003-06-15,20,entrepreneurship,UAE,sara.malik522@yahoo.com,0.1405,2.82,45.2,True,2404.8,Withdrawn
+STU00865,Emma Brown,2023-03-27,1988-04-28,36,entrepreneurship,USA,emma.brown865@univmail.edu,0.1264,2.89,50.2,False,1648.7,unknown
+STU00935,Ava Bose,2023-06-11,1995-01-04,29,data science,UAE,ava.bose935@gmail.com,0.2389,2.37,42.0,False,2123.8,Graduated
+STU00689,Zara Patel,2021-03-18,2004-11-15,19,business administration,India,zara.patel689@gmail.com,3454.75,3.3,56.0,False,2892.8,Graduated
+STU00232,Noah Sharma,2023-06-17,2002-04-16,22,computer science,Canada,noah.sharma232@univmail.edu,1902.1,2.66,59.8,True,2661.6,Enrolled
+STU00211,Mason Qureshi,2023-12-06,1981-06-12,43,computer science,UK,mason.qureshi211@univmail.edu,4053.0,3.51,90.2,False,1121.3,unknown
+STU00641,Ethan Wilson,2023-08-30,1985-11-25,38,entrepreneurship,USA,ethan.wilson641@univmail.edu,4455.79,2.15,61.1,False,1615.3,Enrolled
+STU00754,Anjali Lewis,2022-03-28,1991-11-23,32,computer science,Saudi Arabia,anjali.lewis754@univmail.edu,0.0,3.83,83.3,True,1037.2,unknown
+STU00520,Mason Brown,2024-11-09,2001-08-17,22,data science,Australia,mason.brown520@outlook.com,3130.22,2.88,70.3,True,2396.6,Withdrawn
+STU00340,Mariam Hall,2023-09-11,1981-04-22,43,data science,Canada,mariam.hall340@univmail.edu,0.0,1.96,78.5,True,2307.9,unknown
+STU00299,Rohan Khan,2023-06-12,1991-08-15,32,data science,Canada,rohan.khan299@yahoo.com,0.256,3.94,47.6,False,1127.6,Graduated
+STU00429,Kiran Walker,2024-10-23,1994-11-05,29,data science,Bangladesh,kiran.walker429@gmail.com,2922.32,3.54,53.1,False,2243.5,unknown
+STU00613,Neha Kapoor,2021-03-22,2002-04-17,22,electrical engineering,Canada,neha.kapoor613@yahoo.com,0.3462,2.56,96.2,False,865.5,Enrolled
+STU00922,Simran Reddy,2022-03-22,1988-06-21,35,data science,USA,simran.reddy922@gmail.com,0.1393,2.36,71.1,True,2530.0,unknown
+STU00930,Aisha Singh,2024-09-13,1989-05-04,35,mechanical engineering,Pakistan,aisha.singh930@outlook.com,1984.77,4.0,83.3,False,2218.2,unknown
+STU00009,Kiran Wilson,2023-06-17,1997-11-16,26,entrepreneurship,India,kiran.wilson9@yahoo.com,3147.98,2.88,53.7,True,970.1,Pending
+STU00157,Aarav Singh,2022-06-10,2001-01-31,23,computer science,Bangladesh,aarav.singh157@yahoo.com,4480.48,2.38,89.7,False,2449.2,Graduated
+STU00540,Layla Reddy,2024-11-20,1992-12-30,31,electrical engineering,Canada,layla.reddy540@gmail.com,4615.86,2.62,74.2,True,1387.9,Graduated
+STU00507,Kabir Kapoor,2022-12-20,1981-12-23,42,business administration,India,kabir.kapoor507@outlook.com,1855.1,3.44,94.1,False,1447.8,Withdrawn
+STU00437,Aditya Khan,2024-01-20,2003-09-21,23,electrical engineering,India,aditya.khan437@outlook.com,3466.21,2.73,94.6,False,2025.4,unknown
+STU00267,Neha Farooqi,2021-11-02,1985-12-24,38,mechanical engineering,USA,neha.farooqi267@univmail.edu,1343.21,3.38,58.9,True,1008.3,Graduated
+STU00462,Farhan Walker,2024-02-27,1985-04-29,39,entrepreneurship,UK,farhan.walker462@gmail.com,2945.87,1.81,46.2,True,2927.5,Withdrawn
+STU00577,Ava Walker,2022-12-07,1982-12-03,41,data science,Saudi Arabia,ava.walker577@univmail.edu,0.4241,1.74,85.8,True,1585.1,Graduated
+STU00339,Sana Young,2022-04-28,1999-01-05,25,electrical engineering,Canada,sana.young339@univmail.edu,4051.93,3.56,68.3,True,1598.5,Pending
+STU00256,Aisha Walker,2021-03-27,1993-02-03,31,mechanical engineering,Australia,aisha.walker256@gmail.com,2842.92,3.69,54.7,True,2564.4,unknown
+STU00801,Mason Verma,2022-07-04,1989-08-12,34,data science,Germany,mason.verma801@gmail.com,0.4789,1.59,42.0,False,1351.5,unknown
+STU00666,Ishaan Clark,2021-02-17,1985-12-30,38,computer science,Canada,ishaan.clark666@gmail.com,0.1193,3.66,100.0,False,2281.9,Pending
+STU00561,Riya Gupta,2022-01-03,1990-10-11,33,computer science,UK,riya.gupta561@gmail.com,2919.79,3.06,44.0,False,1342.5,Withdrawn
+STU00209,Vivaan Hall,2022-03-20,1983-07-09,40,business administration,UK,vivaan.hall209@univmail.edu,0.0,1.95,55.9,False,1888.3,unknown
+STU00288,Aisha Singh,2023-02-23,2002-05-01,22,computer science,UAE,aisha.singh288@yahoo.com,2482.59,2.0,78.7,False,2644.9,Withdrawn
+STU00002,Aarav Davies,2022-07-24,1982-03-23,42,finance,Bangladesh,aarav.davies2@gmail.com,2115.41,3.52,72.2,True,1503.6,Withdrawn
+STU00270,Simran Smith,2022-08-10,1979-02-26,45,finance,UAE,simran.smith270@yahoo.com,1208.73,4.0,52.4,False,1450.5,Graduated
+STU00266,Farhan Young,2024-08-15,1985-10-09,38,data science,Germany,farhan.young266@outlook.com,2581.12,1.64,73.9,False,2086.1,Graduated
+STU00811,Isabella Singh,2021-08-12,1980-03-28,46,finance,Canada,isabella.singh811@yahoo.com,0.0,3.99,71.4,True,2558.0,Enrolled
+STU00887,Neha Hall,2022-05-11,1981-12-10,42,computer science,Bangladesh,neha.hall887@outlook.com,4905.56,2.88,51.6,True,2522.6,Graduated
+STU00096,Karan Malik,2021-03-07,1997-07-13,26,finance,India,karan.malik96@yahoo.com,0.238,1.59,87.3,True,3109.1,unknown
+STU00043,Zara Bose,2024-01-18,1989-10-06,34,mechanical engineering,UK,zara.bose43@univmail.edu,1551.03,2.88,82.3,True,2392.9,unknown
+STU00800,Arjun Khan,2022-11-18,1994-06-27,29,electrical engineering,Bangladesh,arjun.khan800@yahoo.com,0.0,3.84,74.2,False,3125.4,Enrolled
+STU00242,Mason Reddy,2024-12-30,1988-09-04,35,business administration,India,mason.reddy242@gmail.com,1289.76,4.0,40.4,False,1555.8,Graduated
+STU00889,Sana Chaudhary,2023-01-16,1992-07-27,31,data science,India,sana.chaudhary889@gmail.com,2933.79,2.31,70.3,False,2553.5,Pending
+STU00629,Vikram Smith,2022-05-30,1990-12-24,33,computer science,UK,vikram.smith629@univmail.edu,1496.25,1.76,82.5,True,2157.5,unknown
+STU00046,Aditya Malik,2023-06-02,1982-05-15,42,mechanical engineering,USA,aditya.malik46@yahoo.com,0.0,3.05,94.8,True,2331.0,unknown
+STU00162,Aditya Joshi,2024-06-24,1988-09-19,35,finance,USA,aditya.joshi162@yahoo.com,0.4138,2.88,81.0,False,2305.3,Graduated
+STU00728,Sana Verma,2021-10-31,1989-01-08,35,finance,UK,sana.verma728@univmail.edu,4573.29,2.76,64.0,False,994.7,Pending
+STU00630,Mason Joshi,2021-09-08,1979-07-07,44,data science,Pakistan,mason.joshi630@yahoo.com,0.0,2.48,60.8,False,2176.0,Enrolled
+STU00289,Neha Rana,2021-07-31,1987-04-18,37,data science,Saudi Arabia,neha.rana289@gmail.com,0.4534,1.5,70.3,True,2480.1,unknown
+STU00590,Kabir Brown,2022-10-13,1978-06-27,45,mechanical engineering,Saudi Arabia,kabir.brown590@univmail.edu,1788.28,3.68,40.2,False,2374.9,Pending
+STU00888,Vikram Hall,2022-09-14,1997-09-04,26,entrepreneurship,UAE,vikram.hall888@univmail.edu,0.0,2.88,66.7,False,2491.3,Graduated
+STU00576,Riya Ansari,2022-09-26,1985-12-23,38,business administration,India,riya.ansari576@yahoo.com,0.1402,1.7,52.2,False,1169.9,Graduated
+STU00316,Vikram Gupta,2024-11-20,1989-05-12,35,computer science,Canada,vikram.gupta316@gmail.com,0.0,1.69,77.7,False,1201.1,Withdrawn
+STU00231,Isabella Clark,2023-12-26,1984-06-26,39,electrical engineering,UAE,isabella.clark231@gmail.com,0.0,3.25,59.2,True,2123.8,Enrolled
+STU00810,Sana Kapoor,2022-11-01,2004-12-22,19,entrepreneurship,Australia,sana.kapoor810@yahoo.com,4178.92,3.88,87.9,False,909.9,unknown
+STU00699,Kiran Mehta,2024-09-01,1992-02-03,32,computer science,Canada,kiran.mehta699@univmail.edu,1529.3,3.87,49.9,True,3072.0,Withdrawn
+STU00821,Aisha Smith,2024-01-12,1995-06-15,28,electrical engineering,Pakistan,aisha.smith821@univmail.edu,3761.54,3.71,88.5,True,846.9,Withdrawn
+STU00712,Yusuf Patel,2021-06-07,1989-07-30,34,entrepreneurship,Pakistan,yusuf.patel712@yahoo.com,0.4304,3.02,95.1,True,1373.0,unknown
+STU00077,Kiran Hall,2024-01-18,2005-12-27,18,finance,Canada,kiran.hall77@gmail.com,4396.09,3.5,64.0,False,1727.9,unknown
+STU00634,Sophia Kapoor,2024-02-21,1990-06-17,33,data science,Pakistan,sophia.kapoor634@gmail.com,3702.5,1.86,61.2,True,1048.7,unknown
+STU00836,Sophia Sharma,2023-08-08,1980-04-18,44,computer science,UK,sophia.sharma836@gmail.com,0.2579,3.92,57.3,True,1980.9,Graduated
+STU00248,Layla Ansari,2022-05-13,1983-04-30,41,electrical engineering,India,layla.ansari248@outlook.com,3622.08,2.68,84.4,False,2055.8,unknown
+STU00477,Liam Bose,2024-08-11,1998-06-24,25,entrepreneurship,India,liam.bose477@yahoo.com,4338.77,2.93,53.4,False,1637.5,unknown
+STU00671,Ananya Farooqi,2023-09-11,1998-12-27,25,finance,UK,ananya.farooqi671@yahoo.com,3142.53,2.52,59.5,True,2957.8,Graduated
+STU00086,Sana Kapoor,2023-06-20,1993-05-03,31,entrepreneurship,Canada,sana.kapoor86@outlook.com,3803.9,1.83,73.7,False,1094.1,Withdrawn
+STU00470,Ava Wilson,2024-12-23,1981-01-31,43,entrepreneurship,Germany,ava.wilson470@univmail.edu,0.4901,2.5,70.3,True,2590.4,Withdrawn
+STU00226,Sana Walker,2022-10-05,2005-04-27,19,data science,Bangladesh,sana.walker226@outlook.com,4494.61,2.8,50.0,True,1363.1,Withdrawn
+STU00775,Neha Davies,2022-12-06,1980-12-13,43,data science,UK,neha.davies775@yahoo.com,4126.77,3.0,83.3,False,2255.5,Enrolled
+STU00332,Olivia Mehta,2024-08-27,1994-02-22,30,entrepreneurship,Canada,olivia.mehta332@yahoo.com,2364.41,2.63,50.8,True,2038.9,Graduated
+STU00234,Simran Young,2024-01-31,1997-03-19,27,business administration,Canada,simran.young234@gmail.com,0.4386,2.09,40.9,True,1749.9,unknown
+STU00589,Emma Reddy,2021-09-10,1994-09-07,29,entrepreneurship,USA,emma.reddy589@yahoo.com,3950.94,2.38,94.0,True,1671.6,Enrolled
+STU00476,Noor Singh,2021-10-15,1992-01-30,32,business administration,UAE,noor.singh476@univmail.edu,0.0,1.82,90.7,False,2437.3,Enrolled
+STU00886,Liam Young,2024-01-08,2002-10-08,21,finance,India,liam.young886@outlook.com,0.1995,2.9,53.3,True,2941.8,unknown
+STU00866,Aarav Smith,2023-03-04,1990-05-10,34,entrepreneurship,UK,aarav.smith866@gmail.com,0.224,2.86,56.0,False,1350.8,Withdrawn
+STU00600,Priya Reddy,2024-06-01,1984-10-21,39,computer science,Pakistan,priya.reddy600@yahoo.com,2851.51,2.11,68.6,False,2675.4,unknown
+STU00422,Tariq Smith,2022-08-24,1988-04-16,36,entrepreneurship,Australia,tariq.smith422@yahoo.com,2650.54,4.0,79.9,True,2053.6,Enrolled
+STU00688,Simran Ansari,2024-07-27,1998-10-18,25,electrical engineering,Pakistan,simran.ansari688@gmail.com,3761.64,2.95,56.2,False,2555.4,Graduated
+STU00183,Farhan Joshi,2023-06-06,1990-06-23,33,data science,USA,farhan.joshi183@gmail.com,0.552,2.67,49.9,False,1594.1,unknown
+STU00333,Sara Farooqi,2023-08-16,1992-02-21,32,business administration,Bangladesh,sara.farooqi333@gmail.com,2850.21,2.1,85.9,True,2864.4,unknown
+STU00439,Vikram Brown,2021-05-25,1993-06-19,30,data science,Canada,vikram.brown439@yahoo.com,0.2389,3.47,97.8,False,1099.1,unknown
+STU00050,Vikram Young,2022-11-25,1980-10-09,43,computer science,UK,vikram.young50@univmail.edu,0.0,3.48,100.0,False,2414.8,Pending
+STU00006,Meera Ansari,2021-05-11,1987-03-22,37,business administration,Germany,meera.ansari6@gmail.com,3561.28,2.84,78.5,False,1179.6,unknown
+STU00530,Layla Davies,2022-07-02,1990-01-12,36,business administration,Bangladesh,layla.davies530@univmail.edu,0.1759,3.6,58.3,True,1693.7,Enrolled
+STU00235,Priya Sharma,2024-05-06,2005-08-13,18,computer science,Pakistan,priya.sharma235@outlook.com,4688.82,2.88,82.1,False,1358.4,Pending
+STU00487,Sana Hall,2021-07-23,1996-09-17,27,data science,UAE,sana.hall487@yahoo.com,0.4769,1.56,100.0,True,2123.8,unknown
+STU00900,Sara Khan,2023-05-18,2001-08-08,22,computer science,UK,sara.khan900@univmail.edu,0.352,3.71,62.2,True,1414.0,Pending
+STU00498,Aarav Ansari,2022-04-09,2003-12-24,20,finance,Germany,aarav.ansari498@gmail.com,4703.5,3.46,96.8,False,2451.0,unknown
+STU00894,Mariam Verma,2022-08-06,1990-08-01,33,entrepreneurship,Pakistan,mariam.verma894@yahoo.com,4957.19,3.04,72.7,False,1384.7,unknown
+STU00107,Bilal Qureshi,2022-02-21,1991-04-03,33,electrical engineering,Pakistan,bilal.qureshi107@yahoo.com,731.91,3.01,51.3,False,2141.2,Graduated
+STU00444,Aarav Nair,2023-10-17,1985-09-24,38,data science,Bangladesh,aarav.nair444@gmail.com,3273.29,3.26,54.7,False,2776.1,unknown
+STU00489,Vivaan Smith,2024-05-05,1989-04-19,35,entrepreneurship,Pakistan,vivaan.smith489@gmail.com,2724.1,2.02,87.7,True,3102.1,Withdrawn
+STU00647,Aditya Patel,2024-03-15,2004-12-31,22,mechanical engineering,India,aditya.patel647@gmail.com,4850.46,3.91,70.3,False,2572.5,unknown
+STU00013,Aisha Verma,2023-12-24,2005-08-11,18,business administration,Pakistan,aisha.verma13@gmail.com,0.3538,3.85,74.7,True,1806.1,Enrolled
+STU00727,James Singh,2022-11-09,1988-08-29,35,data science,Australia,james.singh727@outlook.com,0.4128,1.56,59.7,True,3134.6,unknown
+STU00191,Karan Brown,2022-08-28,1999-03-26,25,computer science,Pakistan,karan.brown191@yahoo.com,0.0,2.78,81.8,False,2123.8,Withdrawn
+STU00943,Kiran Malik,2023-08-24,1988-12-20,35,mechanical engineering,Australia,kiran.malik943@yahoo.com,4749.72,2.88,81.7,True,1003.1,unknown
+STU00833,Olivia Smith,2021-11-21,1979-04-20,45,data science,UK,olivia.smith833@gmail.com,0.0,3.76,73.9,False,1815.7,unknown
+STU00283,Layla Clark,2022-06-01,2002-01-25,22,mechanical engineering,Australia,layla.clark283@yahoo.com,4269.26,2.09,78.3,False,2820.4,Enrolled
+STU00170,Aisha Walker,2024-08-27,1999-01-26,25,business administration,India,aisha.walker170@univmail.edu,0.3472,3.14,55.6,True,2568.2,unknown
+STU00181,Ishaan Chaudhary,2023-03-31,1980-12-19,43,mechanical engineering,Bangladesh,ishaan.chaudhary181@yahoo.com,1008.75,3.61,94.7,False,2428.1,unknown
+STU00101,Noah Ansari,2024-10-25,2001-12-22,22,business administration,Saudi Arabia,noah.ansari101@gmail.com,0.0,2.91,80.4,True,1750.3,Enrolled
+STU00198,Sana Nair,2024-01-01,1997-05-31,27,data science,Australia,sana.nair198@gmail.com,3653.97,2.76,81.2,False,2636.7,Enrolled
+STU00496,Mason Malik,2022-08-07,1988-11-26,35,electrical engineering,Saudi Arabia,mason.malik496@outlook.com,1089.76,2.88,71.7,False,966.7,unknown
+STU00722,Rohan Hall,2024-12-30,1993-01-31,31,entrepreneurship,India,rohan.hall722@yahoo.com,4764.76,1.63,63.2,False,987.5,Graduated
+STU00648,Olivia Walker,2021-04-02,2001-09-20,22,electrical engineering,Canada,olivia.walker648@gmail.com,3713.16,3.1,0.0,False,1079.2,Pending
+STU00711,Ethan Verma,2022-07-22,2007-04-10,17,entrepreneurship,Australia,ethan.verma711@outlook.com,4675.33,1.88,59.0,False,3119.4,Pending
+STU00374,James Joshi,2023-12-26,1979-06-04,45,entrepreneurship,Australia,james.joshi374@univmail.edu,0.0,2.5,70.3,True,1233.2,unknown
+STU00679,Zara Bose,2023-06-29,1986-11-28,37,entrepreneurship,Australia,zara.bose679@univmail.edu,0.0,3.89,92.1,True,1140.2,Graduated
+STU00881,Riya Sharma,2023-01-22,1979-08-22,47,data science,Pakistan,riya.sharma881@univmail.edu,1488.01,3.88,52.7,True,2874.8,unknown
+STU00649,Karan Sharma,2022-11-09,1979-02-10,45,finance,Bangladesh,karan.sharma649@gmail.com,0.0,3.17,65.4,False,2965.0,Pending
+STU00798,Tariq Reddy,2024-01-10,1982-11-06,41,electrical engineering,Canada,tariq.reddy798@univmail.edu,0.631,2.62,69.6,False,2328.0,unknown
+STU00848,Yusuf Chaudhary,2024-09-10,2003-10-15,20,data science,Bangladesh,yusuf.chaudhary848@outlook.com,4257.89,2.12,76.7,True,2028.1,Enrolled
+STU00461,Sana Iqbal,2021-01-25,1983-09-16,40,mechanical engineering,India,sana.iqbal461@gmail.com,1094.81,3.85,87.5,True,1055.2,Enrolled
+STU00414,Rohan Rana,2023-06-25,1979-11-30,44,business administration,India,rohan.rana414@yahoo.com,0.4722,2.98,95.9,False,1823.0,Enrolled
+STU00132,Emma Ansari,2023-02-08,1988-07-22,35,finance,Germany,emma.ansari132@outlook.com,3626.17,2.72,92.1,False,1900.3,unknown
+STU00040,Ava Verma,2021-08-26,1993-04-25,31,finance,Germany,ava.verma40@univmail.edu,0.236,3.06,66.5,True,2118.1,Enrolled
+STU00435,Ethan Farooqi,2024-04-29,1992-01-21,32,data science,Australia,ethan.farooqi435@yahoo.com,947.49,3.66,64.3,True,2761.9,unknown
+STU00216,Isabella Gupta,2021-01-01,1986-05-24,38,entrepreneurship,Bangladesh,isabella.gupta216@univmail.edu,0.0,4.0,73.0,True,1635.4,unknown
+STU00556,Ethan Mehta,2023-04-13,1995-01-11,29,entrepreneurship,UK,ethan.mehta556@univmail.edu,577.46,3.88,82.9,False,3140.5,unknown
+STU00567,Ethan Lewis,2023-10-02,2006-10-08,17,electrical engineering,Pakistan,ethan.lewis567@gmail.com,0.0,1.88,92.3,True,2801.8,unknown
+STU00763,Tariq Singh,2021-02-11,1997-01-26,27,mechanical engineering,Pakistan,tariq.singh763@gmail.com,0.4085,2.07,97.0,False,1747.1,unknown
+STU00475,Isabella Rana,2023-10-16,2005-03-20,19,computer science,Germany,isabella.rana475@gmail.com,2745.11,3.84,56.8,False,970.7,unknown
+STU00457,Olivia Singh,2024-02-05,1998-02-16,26,computer science,India,olivia.singh457@yahoo.com,4739.21,2.18,78.5,False,1303.9,unknown
+STU00812,Riya Davies,2022-04-27,1992-06-06,32,electrical engineering,USA,riya.davies812@yahoo.com,0.0,3.52,43.5,False,2200.6,unknown
+STU00261,Ava Singh,2022-03-02,1987-07-25,36,computer science,USA,ava.singh261@gmail.com,0.0,3.8,70.3,True,1187.2,unknown
+STU00817,Sara Wilson,2021-05-09,1990-04-17,34,computer science,UAE,sara.wilson817@gmail.com,765.43,2.8,69.4,False,1911.6,unknown
+STU00828,Kabir Ansari,2021-03-07,2002-05-17,22,mechanical engineering,Germany,kabir.ansari828@univmail.edu,0.4696,3.37,57.6,False,1609.6,unknown
+STU00277,Ishaan Farooqi,2021-09-19,2006-07-28,17,electrical engineering,India,ishaan.farooqi277@outlook.com,993.64,2.09,63.7,False,1774.5,unknown
+STU00637,Riya Malik,2024-03-31,1979-06-19,44,electrical engineering,Saudi Arabia,riya.malik637@outlook.com,0.0,2.37,98.6,False,2178.2,unknown
+STU00623,Rohan Bose,2022-08-29,1981-04-17,43,entrepreneurship,Pakistan,rohan.bose623@yahoo.com,0.0,3.6,41.0,False,2671.9,Graduated
+STU00845,Omar Joshi,2023-11-05,1991-02-11,33,computer science,India,omar.joshi845@outlook.com,2930.43,2.68,90.6,False,1004.3,unknown
+STU00394,Diya Smith,2024-04-11,1982-01-20,42,computer science,Australia,diya.smith394@gmail.com,1253.45,3.11,69.9,False,2510.0,unknown
+STU00937,Rohan Malik,2023-08-13,2001-05-13,23,mechanical engineering,USA,rohan.malik937@univmail.edu,0.2361,2.09,58.8,True,2289.8,Enrolled
+STU00108,James Patel,2021-02-01,1979-12-25,44,electrical engineering,Saudi Arabia,james.patel108@yahoo.com,0.363,2.1,57.0,False,1662.2,unknown
+STU00944,Rohan Young,2022-02-24,1989-09-02,34,entrepreneurship,USA,rohan.young944@gmail.com,0.4361,2.23,52.5,False,4289.049999999999,unknown
+STU00525,Ethan Reddy,2023-03-29,1979-09-21,44,data science,UAE,ethan.reddy525@gmail.com,645.24,2.34,48.4,True,1591.1,Enrolled
+STU00785,Isabella Farooqi,2024-06-02,1981-12-02,42,finance,Saudi Arabia,isabella.farooqi785@gmail.com,4501.18,3.46,78.2,False,1592.8,unknown
+STU00048,Karan Wilson,2021-01-17,1998-05-28,26,finance,Australia,karan.wilson48@univmail.edu,4247.78,2.08,53.1,False,2426.6,unknown
+STU00204,Noah Hall,2023-01-20,1989-10-12,34,finance,UAE,noah.hall204@yahoo.com,0.0,2.41,100.0,False,2617.3,unknown
+STU00925,Sara Siddiqui,2021-11-21,1987-09-30,36,computer science,USA,sara.siddiqui925@univmail.edu,0.0,3.91,77.9,True,3112.8,Enrolled
+STU00632,Priya Singh,2024-07-24,1993-05-16,31,entrepreneurship,Germany,priya.singh632@outlook.com,3833.17,1.93,45.3,False,2575.7,Pending
+STU00022,Neha Joshi,2023-11-22,1992-03-15,32,finance,UAE,neha.joshi22@yahoo.com,0.413,4.0,91.0,False,2926.7,unknown
+STU00403,James Gupta,2023-10-27,1987-08-21,36,computer science,Bangladesh,james.gupta403@yahoo.com,0.0,2.65,84.2,True,3005.4,Pending
+STU00084,Arjun Malik,2023-11-29,1985-02-16,39,entrepreneurship,Germany,arjun.malik84@outlook.com,1063.27,1.73,75.5,False,2381.0,Pending
+STU00131,Aisha Wilson,2023-11-20,1998-01-11,26,finance,India,aisha.wilson131@outlook.com,0.4402,1.83,59.3,False,2423.0,unknown
+STU00416,Mariam Davies,2023-05-26,2002-10-04,21,electrical engineering,USA,mariam.davies416@yahoo.com,1657.81,2.21,68.9,False,1926.2,Withdrawn
+STU00935,Ava Bose,2023-08-21,1995-01-04,29,data science,UAE,ava.bose935@gmail.com,724.98,2.37,42.0,False,2123.8,Graduated
+STU00842,Mariam Gupta,2024-05-03,2000-06-20,23,electrical engineering,Saudi Arabia,mariam.gupta842@gmail.com,801.48,2.58,79.6,True,922.4,Enrolled
+STU00742,Isabella Singh,2022-12-25,1982-05-01,42,entrepreneurship,India,isabella.singh742@gmail.com,0.4965,1.9,72.1,False,2617.6,unknown
+STU00698,Liam Gupta,2024-01-03,1993-01-20,31,computer science,USA,liam.gupta698@univmail.edu,0.182,2.88,65.6,False,2809.7,unknown
+STU00287,Mason Smith,2024-05-23,2003-06-10,20,finance,USA,mason.smith287@gmail.com,3630.44,3.15,67.2,True,2461.3,unknown
+STU00124,Neha Joshi,2024-11-27,1991-12-14,32,entrepreneurship,Pakistan,neha.joshi124@gmail.com,4321.31,1.91,54.6,True,1594.4,Enrolled
+STU00034,Layla Gupta,2022-07-16,1998-06-01,26,business administration,USA,layla.gupta34@univmail.edu,961.64,2.67,51.1,True,2868.1,Withdrawn
+STU00517,Tariq Walker,2024-07-26,1985-07-31,38,finance,USA,tariq.walker517@yahoo.com,2642.71,1.75,62.0,True,2474.4,unknown
+STU00020,Aisha Nair,2024-03-26,1987-09-23,39,data science,Canada,aisha.nair20@univmail.edu,814.88,3.16,94.0,True,1780.1,Graduated
+STU00926,Emma Brown,2022-06-21,1981-07-25,42,finance,Canada,emma.brown926@univmail.edu,0.3892,3.95,98.9,True,1187.3,Graduated
+STU00220,Isabella Chaudhary,2024-10-16,2003-04-14,21,finance,India,isabella.chaudhary220@univmail.edu,2170.38,3.96,92.1,False,2634.2,unknown
+STU00892,Neha Walker,2024-02-09,1984-03-10,40,data science,Saudi Arabia,neha.walker892@outlook.com,697.22,2.61,47.7,False,3033.8,unknown
+STU00432,Ava Siddiqui,2023-04-13,2004-03-31,20,data science,USA,ava.siddiqui432@yahoo.com,2190.56,1.86,84.9,False,4289.049999999999,Withdrawn
+STU00482,Sophia Iqbal,2023-11-05,2006-02-15,18,data science,UK,sophia.iqbal482@yahoo.com,0.0,2.43,58.1,True,2882.6,Graduated
+STU00357,Priya Nair,2022-09-09,1980-07-27,43,mechanical engineering,USA,priya.nair357@univmail.edu,4837.4,4.0,57.7,True,818.9,Enrolled
+STU00662,Zara Young,2023-02-20,1993-04-21,33,entrepreneurship,Saudi Arabia,zara.young662@yahoo.com,2513.0,3.87,93.1,False,965.3,unknown
+STU00225,Kiran Farooqi,2022-08-06,1988-07-13,35,business administration,Saudi Arabia,kiran.farooqi225@gmail.com,2214.82,3.89,78.4,False,2269.5,Graduated
+STU00093,Noah Chaudhary,2022-06-26,1985-06-28,38,electrical engineering,UAE,noah.chaudhary93@yahoo.com,4736.68,3.26,69.3,False,3040.9,Pending
+STU00152,Anjali Verma,2024-04-11,1981-10-14,42,computer science,UAE,anjali.verma152@gmail.com,0.3938,3.96,96.1,True,2222.0,Pending
+STU00875,Mariam Singh,2024-10-17,2005-04-30,19,computer science,UK,mariam.singh875@outlook.com,0.0,1.75,95.3,False,2284.7,unknown
+STU00318,Kiran Clark,2023-12-13,1978-08-31,45,data science,Bangladesh,kiran.clark318@univmail.edu,4622.14,3.81,58.7,False,1860.7,unknown
+STU00449,James Brown,2023-10-12,1999-04-09,25,finance,Germany,james.brown449@univmail.edu,1091.38,1.82,40.8,False,2427.9,unknown
+STU00804,Noah Ansari,2023-11-02,1979-07-29,44,computer science,Canada,noah.ansari804@yahoo.com,2722.58,2.83,40.0,False,2300.5,unknown
+STU00523,Neha Verma,2023-04-16,1982-04-02,42,computer science,Germany,neha.verma523@univmail.edu,0.1356,2.68,77.1,True,2723.8,Withdrawn
+STU00280,Noah Farooqi,2024-12-14,1996-05-22,28,business administration,Germany,noah.farooqi280@outlook.com,2592.21,3.03,77.8,False,987.4,unknown
+STU00584,Olivia Farooqi,2021-03-20,1993-05-20,31,finance,Pakistan,olivia.farooqi584@univmail.edu,2806.85,3.09,64.0,True,1416.5,unknown
+STU00765,Mariam Mehta,2022-03-28,1980-02-28,44,data science,Germany,mariam.mehta765@gmail.com,3819.83,3.2,60.3,True,2672.1,Graduated
+STU00605,Anjali Reddy,2022-09-20,1998-10-10,25,finance,UAE,anjali.reddy605@univmail.edu,3034.79,4.0,70.3,True,2732.9,unknown
+STU00187,Kiran Wilson,2024-01-31,1997-04-14,27,electrical engineering,Australia,kiran.wilson187@yahoo.com,0.0,1.62,90.3,False,2674.6,Graduated
+STU00350,Noor Lewis,2022-06-07,1984-07-09,39,mechanical engineering,Saudi Arabia,noor.lewis350@outlook.com,0.0,3.66,57.0,True,2113.2,Enrolled
+STU00928,Yusuf Reddy,2022-05-17,1980-07-22,46,computer science,Bangladesh,yusuf.reddy928@univmail.edu,0.1741,4.0,73.5,True,2367.7,unknown
+STU00375,Vivaan Walker,2021-08-23,1990-12-30,33,entrepreneurship,Pakistan,vivaan.walker375@yahoo.com,1880.57,1.65,50.9,True,1037.0,Pending
+STU00401,Sana Khan,2022-05-11,1989-11-25,34,data science,Pakistan,sana.khan401@yahoo.com,0.0,1.97,70.3,True,1359.3,Withdrawn
+STU00945,Tariq Wilson,2024-10-13,1988-11-10,38,business administration,Germany,tariq.wilson945@outlook.com,0.3698,2.2,97.6,True,2369.2,unknown
+STU00852,Vivaan Young,2023-10-12,2001-12-05,22,data science,India,vivaan.young852@yahoo.com,3636.57,4.0,43.8,False,3035.3,Enrolled
+STU00073,Kabir Lewis,2021-10-09,1984-07-14,39,finance,USA,kabir.lewis73@univmail.edu,2518.71,1.55,49.0,False,1066.8,Graduated
+STU00196,Olivia Lewis,2023-07-02,1982-12-03,41,electrical engineering,Germany,olivia.lewis196@gmail.com,0.4767,3.43,77.6,False,2656.6,unknown
+STU00484,Karan Wilson,2021-08-01,1988-04-21,36,data science,Australia,karan.wilson484@gmail.com,0.0,1.58,65.2,False,2123.8,Graduated
+STU00856,Mason Qureshi,2022-10-06,1982-09-01,41,data science,Germany,mason.qureshi856@outlook.com,0.0,2.88,42.9,False,2173.8,unknown
+STU00138,Diya Clark,2022-05-09,1979-02-11,45,computer science,India,diya.clark138@outlook.com,0.4703,3.6,72.8,True,3090.7,unknown
+STU00495,Mason Patel,2024-05-29,1991-02-19,33,data science,Bangladesh,mason.patel495@outlook.com,0.416,3.51,99.4,True,1886.7,Graduated
+STU00773,Aditya Gupta,2022-11-28,1995-02-12,29,entrepreneurship,India,aditya.gupta773@gmail.com,2614.24,2.2,74.5,True,3003.3,Pending
+STU00551,Meera Chaudhary,2023-09-18,1984-11-20,42,data science,UAE,meera.chaudhary551@yahoo.com,4504.15,2.88,55.7,False,2741.7,Pending
+STU00463,Bilal Ansari,2023-03-01,2007-02-12,17,entrepreneurship,Bangladesh,bilal.ansari463@gmail.com,2713.19,3.89,44.6,False,3016.0,Pending
+STU00202,Isabella Brown,2024-03-06,1997-06-18,26,electrical engineering,Canada,isabella.brown202@yahoo.com,4035.47,2.4,59.9,False,1661.0,Graduated
+STU00313,Mariam Taylor,2024-05-09,1978-11-13,45,entrepreneurship,Germany,mariam.taylor313@outlook.com,0.0,1.72,94.9,True,1909.1,Graduated
+STU00291,Ishaan Chaudhary,2022-08-17,1989-12-18,34,computer science,UAE,ishaan.chaudhary291@univmail.edu,4534.07,3.71,51.4,True,2527.4,Graduated
+STU00190,Omar Qureshi,2024-12-25,1991-08-16,32,electrical engineering,Bangladesh,omar.qureshi190@gmail.com,2852.28,1.63,70.3,True,1186.2,unknown
+STU00764,Sophia Wilson,2024-01-09,1984-04-03,40,entrepreneurship,Australia,sophia.wilson764@gmail.com,0.0,2.81,55.7,True,1227.9,Enrolled
+STU00113,Layla Siddiqui,2022-04-08,1992-08-24,31,electrical engineering,India,layla.siddiqui113@gmail.com,2323.75,1.64,100.0,False,1841.4,Enrolled
+STU00950,Riya Kapoor,2023-04-28,2005-11-27,18,business administration,Pakistan,riya.kapoor950@univmail.edu,3389.87,2.15,87.2,False,1238.9,Graduated
+STU00184,Anjali Verma,2023-04-06,1991-02-16,33,business administration,Pakistan,anjali.verma184@univmail.edu,2511.81,3.36,0.0,True,2123.8,unknown
+STU00153,Omar Young,2024-08-03,1989-05-27,35,electrical engineering,Saudi Arabia,omar.young153@outlook.com,1290.01,2.08,71.6,True,2273.9,Pending
+STU00825,Aditya Patel,2023-03-06,2007-01-15,17,electrical engineering,Pakistan,aditya.patel825@univmail.edu,0.799,3.68,95.7,False,2123.8,unknown
+STU00326,Aisha Ansari,2021-06-06,1997-07-25,26,finance,Saudi Arabia,aisha.ansari326@univmail.edu,0.0,3.65,97.2,True,2912.3,Graduated
+STU00704,Bilal Verma,2023-03-20,1982-11-03,41,finance,Australia,bilal.verma704@yahoo.com,0.3869,3.87,64.4,False,2237.5,Withdrawn
+STU00045,Ishaan Walker,2022-10-11,1996-06-28,27,computer science,UAE,ishaan.walker45@yahoo.com,3860.45,3.4,46.0,True,2968.2,unknown
+STU00445,Olivia Brown,2021-12-12,1988-05-20,36,entrepreneurship,USA,olivia.brown445@outlook.com,4786.18,1.93,60.3,False,2093.9,Enrolled
+STU00788,Karan Lewis,2021-08-30,2006-12-12,17,data science,India,karan.lewis788@yahoo.com,2328.04,1.87,45.6,True,1707.9,unknown
+STU00007,Aarav Taylor,2023-11-06,1979-01-30,45,entrepreneurship,Australia,aarav.taylor7@yahoo.com,0.1188,3.45,40.0,False,1068.5,unknown
+STU00251,Aditya Reddy,2021-11-18,1991-01-05,33,mechanical engineering,UK,aditya.reddy251@outlook.com,4153.52,3.73,41.8,True,1341.4,Withdrawn
+STU00824,Aditya Singh,2024-11-05,1982-09-02,41,business administration,Canada,aditya.singh824@yahoo.com,3619.94,2.39,72.1,True,3014.1,unknown
+STU00076,Farhan Ansari,2024-08-09,2005-12-08,18,data science,Saudi Arabia,farhan.ansari76@yahoo.com,4151.74,3.86,70.3,False,2123.8,Graduated
+STU00513,Mariam Iqbal,2023-10-29,2002-09-11,21,mechanical engineering,Bangladesh,mariam.iqbal513@univmail.edu,0.0,4.0,48.4,True,2192.8,Graduated
+STU00941,James Davies,2023-11-29,2005-10-04,18,data science,Canada,james.davies941@outlook.com,0.0,3.44,70.3,True,2123.8,unknown
+STU00392,Sara Malik,2021-02-14,1979-09-03,47,electrical engineering,USA,sara.malik392@univmail.edu,3446.91,2.03,62.2,False,3058.8,Enrolled
+STU00896,James Singh,2023-10-23,2005-06-15,18,computer science,UK,james.singh896@yahoo.com,3066.24,3.25,91.7,True,4289.049999999999,unknown
+STU00433,Zara Siddiqui,2021-07-16,1993-06-27,30,entrepreneurship,Germany,zara.siddiqui433@outlook.com,0.317,2.51,70.3,False,1526.5,Enrolled
+STU00069,Olivia Khan,2021-02-07,1986-07-03,37,electrical engineering,Saudi Arabia,olivia.khan69@yahoo.com,0.1519,2.24,70.5,True,2920.8,Pending
+STU00168,Neha Walker,2022-07-06,1999-07-12,24,electrical engineering,India,neha.walker168@univmail.edu,0.4602,1.52,88.3,True,2502.5,unknown
+STU00905,Diya Singh,2022-07-25,2005-01-15,19,electrical engineering,Pakistan,diya.singh905@gmail.com,2396.57,3.28,80.4,False,1106.2,unknown
+STU00731,James Gupta,2023-01-22,2006-03-30,18,computer science,UAE,james.gupta731@outlook.com,0.0,1.6,100.0,True,2778.1,Enrolled
+STU00367,Riya Joshi,2024-02-05,1990-01-16,34,finance,India,riya.joshi367@outlook.com,1586.03,3.97,43.6,False,2018.0,unknown
+STU00585,Ishaan Lewis,2022-09-13,1994-04-11,30,electrical engineering,India,ishaan.lewis585@outlook.com,0.308,2.59,86.7,True,909.8,unknown
+STU00536,Aditya Gupta,2021-03-27,1985-09-25,38,computer science,UAE,aditya.gupta536@gmail.com,3552.75,1.61,46.5,True,2026.5,unknown
+STU00399,Noor Taylor,2022-10-04,1980-10-19,43,electrical engineering,Saudi Arabia,noor.taylor399@univmail.edu,4338.25,2.94,96.6,True,2381.2,unknown
+STU00349,Aarav Joshi,2021-06-07,1982-08-24,41,data science,India,aarav.joshi349@outlook.com,3565.91,2.98,90.2,True,2123.8,Enrolled
+STU00920,Farhan Hall,2023-08-06,1984-03-28,40,mechanical engineering,Bangladesh,farhan.hall920@yahoo.com,1377.41,3.78,42.8,False,2756.7,Graduated
+STU00212,James Davies,2024-01-19,2000-04-26,24,computer science,India,james.davies212@gmail.com,2838.93,3.22,61.7,True,2204.9,unknown
+STU00580,Kabir Bose,2021-07-27,1982-05-01,42,computer science,Australia,kabir.bose580@univmail.edu,3588.34,3.9,86.3,True,2581.0,Pending
+STU00503,Liam Malik,2021-04-11,2005-10-24,18,mechanical engineering,Bangladesh,liam.malik503@yahoo.com,0.0,2.8,43.0,False,1327.0,Pending
+STU00538,Zara Young,2022-04-10,1989-05-28,35,finance,Canada,zara.young538@yahoo.com,0.0,2.88,62.9,False,985.5,unknown
+STU00197,Mariam Lewis,2023-06-11,2004-02-22,20,computer science,Canada,mariam.lewis197@gmail.com,893.84,2.13,89.3,True,1882.7,Enrolled
