@@ -1,0 +1,206 @@
+╔════════════════════════════════════════════════════════════════════════════════╗
+║         DATA CLEANING PRACTICE DATASETS - QUICK REFERENCE CARD                ║
+╚════════════════════════════════════════════════════════════════════════════════╝
+
+┌─ DATASET 1: EASY LEVEL (1,827 rows) ─────────────────────────────────────────┐
+│ Scenario: E-Commerce Customer Orders                                          │
+│ Primary Issues: Formatting, basic missing data, duplicates                    │
+│ Time: 1-2 hours                                                               │
+│                                                                                │
+│ Top 5 Issues to Clean:                                                        │
+│  1. Missing values in ShipDate, DeliveryDate, CustomerEmail (6%)             │
+│  2. Exact duplicate rows (3%)                                                 │
+│  3. Inconsistent date formats in OrderDate (3%)                              │
+│  4. Extra whitespace in ProductName (4%)                                      │
+│  5. Case inconsistencies in Status column (4%)                               │
+│                                                                                │
+│ Cleaning Tips:                                                                │
+│  • df.duplicated().sum() to find duplicates                                  │
+│  • df.isnull().sum() for missing values                                      │
+│  • pd.to_datetime(df['date_col']) for date parsing                          │
+│  • str.strip() for whitespace                                                │
+│  • str.lower().str.capitalize() for case normalization                      │
+└────────────────────────────────────────────────────────────────────────────────┘
+
+┌─ DATASET 2: MEDIUM LEVEL (1,900 rows) ───────────────────────────────────────┐
+│ Scenario: HR Employee Records                                                 │
+│ Primary Issues: Mixed data types, outliers, inconsistent categoricals        │
+│ Time: 3-5 hours                                                               │
+│                                                                                │
+│ Top 5 Issues to Clean:                                                        │
+│  1. Multiple NULL representations in Bonus (8%)                              │
+│  2. Inconsistent Department names - typos & spacing (5%)                     │
+│  3. Impossible values - Negative ages (2%)                                   │
+│  4. Extreme outliers - BaseSalary (999999, 1) (3%)                          │
+│  5. Rating inconsistencies - mixed cases (4%)                                │
+│                                                                                │
+│ Bonus Issues:                                                                 │
+│  • Duplicate emails (2%)                                                      │
+│  • Mixed date formats in JoinDate (4%)                                        │
+│                                                                                │
+│ Cleaning Tips:                                                                │
+│  • df[df['Bonus'].isin(['NA', 'N/A', -999])] = np.nan                       │
+│  • Create mapping dict for category standardization                          │
+│  • df[df['Age'] < 0] = abs(df['Age']) or df[df['Age'] < 0] = np.nan         │
+│  • Use describe() and boxplot to find outliers                               │
+│  • df.groupby('Email').size() to find duplicate emails                      │
+└────────────────────────────────────────────────────────────────────────────────┘
+
+┌─ DATASET 3: HARD LEVEL (2,000 rows) ─────────────────────────────────────────┐
+│ Scenario: Supply Chain & Logistics                                            │
+│ Primary Issues: Cross-column logic violations, temporal issues, hierarchies  │
+│ Time: 6-10 hours                                                              │
+│                                                                                │
+│ Top 5 Issues to Clean:                                                        │
+│  1. Cross-column logic violations - Qty relationships (5%)                   │
+│  2. Temporal logic violations - date sequences (4%)                          │
+│  3. Hierarchical mismatches - Region/District (3%)                           │
+│  4. Inconsistent carrier codes - FDX/fedex/Fedex Express (6%)               │
+│  5. Multiple NULL representations in CostPerUnit (7%)                        │
+│                                                                                │
+│ Bonus Issues:                                                                 │
+│  • Status value variations - Delivered/delivered/DELIVERED (5%)              │
+│  • Decimal precision inconsistencies (4%)                                    │
+│  • Whitespace & case in ProductCategory (3%)                                 │
+│  • Negative costs (2%)                                                        │
+│                                                                                │
+│ Cleaning Tips:                                                                │
+│  • Validation: df[df['QuantityDelivered'] > df['QuantityOrdered']]           │
+│  • Temporal: df[df['ShipDate'] > df['DeliveryDate']] = issue                │
+│  • Hierarchy check: define valid mappings, validate against them             │
+│  • FuzzyWuzzy library for carrier name matching                              │
+│  • Multi-column condition chains for complex validation                      │
+│  • Create data quality report with issue counts                              │
+└────────────────────────────────────────────────────────────────────────────────┘
+
+╔════════════════════════════════════════════════════════════════════════════════╗
+║                        CLEANING PROGRESSION PATH                              ║
+╚════════════════════════════════════════════════════════════════════════════════╝
+
+Day 1: Easy Level
+├─ Monday: Load data, explore structure, identify issues (30 min)
+├─ Monday: Handle missing values and duplicates (45 min)
+├─ Tuesday: Date format standardization (45 min)
+└─ Tuesday: Text cleaning & categorical standardization (30 min)
+   ✓ Estimated: 1-2 hours practice
+
+Day 2-3: Medium Level
+├─ Wednesday: Data profiling & outlier detection (1 hr)
+├─ Wednesday: NULL representation standardization (1 hr)
+├─ Thursday: Categorical value normalization (1.5 hrs)
+├─ Thursday: Duplicate detection & investigation (1 hr)
+└─ Friday: Validation & documentation (30 min)
+   ✓ Estimated: 3-5 hours practice
+
+Day 4-5: Hard Level
+├─ Monday: Complex data exploration & issue mapping (1.5 hrs)
+├─ Monday-Tuesday: Cross-column validation logic (2 hrs)
+├─ Tuesday-Wednesday: Temporal sequence validation (2 hrs)
+├─ Wednesday: Hierarchical relationship validation (1.5 hrs)
+├─ Thursday: NULL standardization & value corrections (1.5 hrs)
+└─ Friday: Comprehensive validation & quality report (1.5 hrs)
+   ✓ Estimated: 6-10 hours practice
+
+╔════════════════════════════════════════════════════════════════════════════════╗
+║                    COMMON PYTHON CLEANING PATTERNS                            ║
+╚════════════════════════════════════════════════════════════════════════════════╝
+
+# Basic Setup
+import pandas as pd
+import numpy as np
+
+df = pd.read_excel('data_cleaning_practice_datasets.xlsx', sheet_name='Easy_Level')
+
+# EXPLORE
+df.info()                                    # Data types & nulls
+df.describe()                                # Statistical summary
+df.head(20)                                  # Sample rows
+df.isnull().sum()                           # Missing value counts
+df.duplicated().sum()                       # Duplicate count
+
+# MISSING VALUES
+df.dropna()                                 # Remove all rows with nulls
+df.dropna(subset=['col1', 'col2'])         # Remove if specific columns null
+df.fillna(value=0)                         # Fill nulls with value
+df.fillna(method='ffill')                  # Forward fill
+df['col'].fillna(df['col'].mean())         # Fill with mean
+
+# DUPLICATES
+df.drop_duplicates()                       # Remove all duplicates
+df.drop_duplicates(subset=['OrderID'])    # Remove duplicates by column
+df[df.duplicated(keep=False)]             # Show ALL duplicate rows
+
+# TEXT CLEANING
+df['col'] = df['col'].str.strip()         # Remove whitespace
+df['col'] = df['col'].str.lower()         # Lowercase
+df['col'] = df['col'].str.upper()         # Uppercase
+df['col'] = df['col'].str.replace(' +', ' ', regex=True)  # Multiple spaces to one
+
+# DATES
+pd.to_datetime(df['date_col'])            # Parse to datetime
+df['date_col'].dt.strftime('%Y-%m-%d')    # Format dates
+df['date_col'].dt.year                     # Extract year
+df['date_col'].dt.month                    # Extract month
+
+# CATEGORICALS
+df['col'] = df['col'].map({'old': 'new'}) # Map values
+df['col'] = df['col'].replace(['NA', 'N/A', 'na'], np.nan)  # Multiple replaces
+
+# VALIDATION
+df[df['col'] < 0]                         # Find negative values
+df[df['col'] > df['col'].quantile(0.95)]  # Find top 5% values
+df[df['col'].duplicated(keep=False)]      # Find duplicate rows
+
+# QUALITY REPORT
+print(df.isnull().sum())                   # Missing values per column
+print(df.dtypes)                           # Data types
+print(df.describe())                       # Statistical summary
+print(f"Duplicates: {df.duplicated().sum()}")
+
+╔════════════════════════════════════════════════════════════════════════════════╗
+║                      VALIDATION CHECKLIST                                     ║
+╚════════════════════════════════════════════════════════════════════════════════╝
+
+Before declaring a dataset "clean":
+
+DATA TYPES:
+  ☐ All date columns are datetime objects
+  ☐ All numeric columns are numeric (int/float)
+  ☐ All categorical columns are strings
+  ☐ No unexpected object types in numeric columns
+
+COMPLETENESS:
+  ☐ All required columns have no missing values
+  ☐ All NULLs standardized to np.nan
+  ☐ No 'NA', 'N/A', 'none', 'null' text variations remain
+  ☐ Missing value count is documented
+
+UNIQUENESS:
+  ☐ Primary keys have no duplicates
+  ☐ Duplicate rows identified and handled
+  ☐ Duplicate emails/codes flagged and reviewed
+
+CONSISTENCY:
+  ☐ Categorical values use consistent format
+  ☐ Text is consistently trimmed (no leading/trailing spaces)
+  ☐ Case is standardized (Title Case, lowercase, UPPERCASE)
+  ☐ Date format is uniform across all columns
+
+VALIDITY:
+  ☐ Numeric values within expected ranges
+  ☐ No negative values where impossible
+  ☐ Ages are positive and reasonable (18-80)
+  ☐ Salaries are positive
+  ☐ Dates follow logical sequences (Order < Ship < Delivery)
+  ☐ Quantities make sense (Delivered ≤ Ordered)
+  ☐ Hierarchical relationships are valid
+
+DOCUMENTATION:
+  ☐ All changes logged
+  ☐ Data quality metrics calculated
+  ☐ Outliers documented with justification
+  ☐ Business rules applied and explained
+
+═══════════════════════════════════════════════════════════════════════════════════
+Good luck! Start with EASY, progress through MEDIUM, master the HARD level.
+═══════════════════════════════════════════════════════════════════════════════════
