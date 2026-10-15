@@ -87,68 +87,49 @@ FROM invoice;
 price, from highest price to lowest */
 
 SELECT name, unit_price 
-FROM (
-   SELECT * FROM track
-   WHERE unit_price > 1.00
-)
+FROM track
+WHERE unit_price > 1.00
 ORDER BY unit_price DESC;
 
 /* 22. find customers in Brzil. Display first_name, last_name, and 
 email in alphabetical order by last_name */
 
 SELECT first_name, last_name, email
-FROM (
-   SELECT * FROM customer
-   WHERE country = 'Brazil'
-)
+FROM customer
+WHERE country = 'Brazil'
 ORDER BY last_name ASC;
 
 /* 23. Display the 5 longest tracks. Show name and milliseconds,
 sorted from longest to shortest. */
 
 SELECT name, milliseconds
-FROM (
-   SELECT name, milliseconds
-   FROM track
-   ORDER BY milliseconds DESC
-   LIMIT 5
-)
-ORDER BY milliseconds DESC;
+FROM track
+ORDER BY milliseconds DESC
+LIMIT 5;
 
 /* 24. Display the 10 shortest tracks. Show name and milliseconds,
 sorted from shortest to longest. */
 
 SELECT name, milliseconds
-FROM (
-   SELECT name, milliseconds
-   FROM track
-   ORDER BY milliseconds ASC
-   LIMIT 10
-)
-ORDER BY milliseconds ASC;
+FROM track
+ORDER BY milliseconds ASC
+LIMIT 10;
 
 /* 25. Display invoices with a total greater than 10. Show invoice_id, 
 invoice_date, and total. Sort by total from highest to lowest. */
 
 SELECT invoice_id, invoice_date, total
-FROM (
-    SELECT invoice_id, invoice_date, total
-	FROM invoice
-	WHERE total > 10
-)
+FROM invoice
+WHERE total > 10
 ORDER BY total DESC;
 
 /* 26. Display the 5 most recent invoices. Show invoice_id, invoice_date,
 and total. Sort by invoice_date from newest to oldest. */
 
 SELECT invoice_id, invoice_date, total
-FROM (
-    SELECT invoice_id, invoice_date, total
-	FROM invoice
-	ORDER BY invoice_date DESC
-	LIMIT 5
-)
-ORDER BY invoice_date DESC;
+FROM invoice
+ORDER BY invoice_date DESC
+LIMIT 5;
 
 /* 27. Display all employees sorted by hire_date, from earliest to latest.*/
 
