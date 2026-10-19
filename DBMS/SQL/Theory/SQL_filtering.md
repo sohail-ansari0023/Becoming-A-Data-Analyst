@@ -1,6 +1,6 @@
 ## **SQL filtering**
 
-The goat is not to memorize operators. The goal is to read a business question, identify its conditions, and translate those conditions into **SQL**
+The goal is not to memorize operators. The goal is to read a business question, identify its conditions, and translate those conditions into **SQL**
 
 We'll study the eight operators in this order:
 
