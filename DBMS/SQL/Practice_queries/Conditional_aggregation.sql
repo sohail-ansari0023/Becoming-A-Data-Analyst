@@ -277,3 +277,75 @@ would be (i.total >= 5 AND i.total <= 20) which includes both
 endpoints, BETWEEN 5 AND 20 are equivalent to this expression 
 since BETWEEN computes ranges inclusive their endpoints. */
 
+
+/*---------------------------------------------------------
+               LEVEL 6 — CHALLENGE
+-----------------------------------------------------------*/
+
+/* Q1. Find customers who have at least three invoices with
+total > 20. Show customer_id and the count of qualifying invoices.
+Hint: `GROUP BY` + `SUM(CASE WHEN...)` + `HAVING` */
+
+SELECT
+	i.customer_id,
+	SUM(
+		CASE
+			WHEN i.total > 20 THEN 1
+			ELSE 0
+		END
+	) AS invoices_above_20
+FROM invoice AS i
+GROUP BY i.customer_id
+HAVING SUM(
+		CASE
+			WHEN i.total > 20 THEN 1
+			ELSE 0
+		END
+) >= 3;
+
+/* Q2. For each customer who has invoices, calculate the percent-
+age of their invoices with total > 20. Show the customer ID, 
+total number of invoices, qualifying invoice count, and percentage
+rounded to two decimal places. 
+Hint: Use COUNT(invoice_id) for the denominator and protect against
+division by zero. */
+
+SELECT
+	customer_id,
+	COUNT(invoice_id) AS total_invoices,
+	SUM(
+		CASE
+			WHEN total > 20 THEN 1
+			ELSE 0
+		END
+	) AS invoices_above_20,
+    ROUND(
+		100.0 * SUM(
+			CASE WHEN total > 20 THEN 1 ELSE 0 END
+		)/ NULLIF(COUNT(invoice_id), 0), -- preventing dividing by 0
+		2 -- Round the figure till two decimal places
+	) AS percentage_above_20
+FROM invoice 
+GROUP BY customer_id;
+
+/* Q3. For each customer, calculate the average invoice total for
+invoices greater than or equal to 20. Include only customers who
+have at least one qualifying invoice.
+Hint: Consider how AVG() treats NULL values inside a CASE expression.*/
+
+SELECT
+	customer_id,
+	AVG(
+		CASE
+		    WHEN total > 20 THEN total
+			ELSE NULL
+		END
+	) AS average_invoice_above_20
+FROM invoice
+GROUP BY customer_id
+HAVING COUNT(
+	CASE
+	    WHEN total >= 20 THEN 1
+	END
+) > 0;
+
