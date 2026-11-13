@@ -188,13 +188,25 @@ HAVING SUM(i.total) > (
 		WHERE c2.country = c.country
 		GROUP BY c2.customer_id
 	)
-)
+);
 
-SELECT 1 
-FROM invoice AS i
-WHERE i.customer_id = 49
-	AND i.total > 10;
+
 /* Q7. Find customers who have never made an invoice greater 
 than $20. Include customers with no invoices at all.
 
 Display: customer_id, first_name, last_name. */
+
+SELECT
+	c.customer_id,
+	c.first_name,
+	c.last_name
+FROM customer AS c
+LEFT JOIN invoice AS i
+	ON c.customer_id = i.customer_id
+WHERE NOT EXISTS (
+	SELECT 1
+	FROM invoice AS i2
+	WHERE i2.customer_id = c.customer_id
+		AND i2.total > 20
+);
+

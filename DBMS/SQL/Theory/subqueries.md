@@ -362,3 +362,121 @@ WHERE EXISTS (
 Think of SQL checking each customer individually.
 
 ![alt text](../Image/image12.png)
+
+**Final result:**
+| customer_id | first_name |
+|-------------|------------|
+| 1 | John |
+| 2 | Alice |
+
+Notice something important: John has two invoices, but he appears only once.
+
+Why? Because `EXISTS` checks whether a matching record exists. It doesn't join and return every matching invoice.
+
+#### **2. What is `NOT EXISTS`?
+
+`NOT EXISTS` checks whether a subquery returns a zero rows.
+
+- If the subquery returns zero rows -> `NOT EXISTS` is TRUE.
+- If the subquery returns one or more rows -> `NOT EXISTS` is FALSE.
+
+In simple terms:
+
+- `EXISTS` = At least one matching record is present.
+
+- `NOT EXISTS` = No matching record is present.
+
+**Business Example**
+
+Now change our business question:
+
+"Find customers who have never made a purchase."
+
+```SQL
+SELECT
+    c.customer_id,
+    c.first_name
+FROM customer AS c
+WHERE NOT EXISTS (
+    SELECT 1
+    FROM invoice AS i
+    WHERE i.invoice_id = c.customer_id
+);
+```
+
+Let's evaluate:
+
+| customer | Matching invoices | NOT EXISTS |
+|----------|-------------------|------------|
+| John | 2 | FALSE |
+| Alice | 1 | FALSE |
+| David | 0 | TRUE |
+
+**Final result:** David.
+
+This is particularly useful for business trying to identify customers who registered but have never purchased anything.
+
+#### **3. The most important part: Why is this called a correlated subquery?**
+
+Look at this condition:
+
+```SQL
+WHERE i.customer_id = c.customer_id
+```
+
+Here, `c.customer_id` comes from the outer query, while `i.customer_id` comes from the inner query.
+
+That means the inner query depends on the current customer being examined.
+
+Conceptuall:
+![alt text](../Image/image13.png)
+
+This is the conceptual evaluation model. PostgreSQL's optimizer may execute the query differently internally, but the result follows this logic.
+
+#### **4. Why do we write SELECT 1 iniside EXISTS?**
+
+We might wonder why we write:
+
+```SQL
+EXISTS (
+    SELECT 1
+    FROM invoice
+    WHERE customer_id = 1
+)
+```
+
+Why not `SELECT *`?
+
+Because `EXISTS` doesn't care about the returned columns or values. It only care whether the subquery produces a row.
+
+These are logically equivalent:
+```SQL
+EXISTS (SELECT 1 FROM invoice WHERE customer_id = 1)
+```
+
+```SQL
+EXISTS (SELECT * FROM invoice WHERE customer_id = 1)
+```
+
+`SELECT 1` is simply a conventional way of communicating:
+
+_"I don't need the actual data. I only need to know whether a row esists."_
+
+#### **5. EXISTS vs NOT EXISTS vs JOIN**
+
+This distinction is important.
+
+| Feature | EXISTS | NOT EXISTS | JOIN |
+|---------|--------|------------|------|
+| Main purpose | Find matching records | Find records without matches | Combine related records |
+| Checks existence | Yes | Yes, absence | No, it combines rows |
+| Can duplicate outer rows? | No | No | Yes, depending on matches |
+| Typical use | Customers with purchase | Customers without purchases | Customer purchase details |
+
+For example:
+- Want customers who have purchased? -> `EXISTS`.
+- Want customers who have never purchased? -> `NOT EXISTS`.
+- Want customer names alongside their invoice amounts? -> `JOIN`.
+
+One common mistake: using `NOT EXISTS` when you actually need to diplay information from the matching table. `NOT EXISTS` doesn't return the inner tble's data.
+
