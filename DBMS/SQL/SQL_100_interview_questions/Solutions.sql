@@ -307,3 +307,328 @@ SELECT *
 FROM customers
 WHERE city <> 'Delhi'
 	AND phone IS NULL;
+
+/*------------------------------------------------------------
+               Stage 3 — Aggregation and grouping
+-------------------------------------------------------------*/
+
+/* Q31. Write a SQL query to find the product count, minimum
+price, average price rounded to two decimals, and total stock
+quantity. */
+
+SELECT
+	COUNT(*) AS product_count,
+	MIN(price) AS minimum_price,
+	ROUND(AVG(price), 2) AS avg_price,
+	SUM(stock_quantity) AS total_stock
+FROM products;
+
+/* Q32. Write a SQL query to count all customers, customers with
+a phone, and customers without a phone in one query.*/
+
+SELECT
+	COUNT(*) AS total_customers,
+	COUNT(phone) AS customer_with_phone,
+	SUM(
+		CASE
+			WHEN phone IS NULL THEN 1
+			ELSE 0
+		END
+	) AS customer_without_phone
+FROM customers;
+
+/* Q33. Write a SQL query to count customers in  each city.
+Order by count descending and city ascending.*/
+
+SELECT
+	city,
+	COUNT(*) AS total_customers
+FROM customers
+GROUP BY city
+ORDER BY total_customers DESC, city ASC;
+
+/* Q34. Write a SQL query to find customers with at least five
+orders of any status.*/
+
+SELECT
+	customer_id,
+	COUNT(*) AS order_counts
+FROM orders
+GROUP BY customer_id
+HAVING COUNT(*) >= 5;
+
+/* Q35. Write a SQL query to find customers with at least four
+orders among delivered orders placed during January—June 2025.*/
+
+SELECT
+	customer_id,
+	COUNT(*) AS order_placed
+FROM orders
+WHERE status = 'delivered'
+    AND (ordered_at >= TIMESTAMP '2025-01-01'
+	AND ordered_at < TIMESTAMP '2025-07-01')
+GROUP BY customer_id
+HAVING COUNT(*) >= 4;
+
+/* Q36. Write a SQL query to calculate item sales and payable
+amount for every order, including cancelled orders. Add each 
+order's shipping fee exactly once. */
+
+SELECT
+	o.order_id,
+	o.status,
+	o.shipping_fee,
+	COALESCE(SUM((oi.quantity * oi.unit_price) - oi.discount_amount), 0) AS total_item_sales,
+	COALESCE(SUM((oi.quantity * oi.unit_price) - oi.discount_amount), 0) + o.shipping_fee AS payable_amount
+FROM orders AS o
+LEFT JOIN order_items AS oi
+	ON o.order_id = oi.order_id
+GROUP BY
+	o.order_id,
+	o.status,
+	o.shipping_fee;
+
+/* Q37. Write a SQL query to count total, delivered, cancelled
+and currently opens orders for every customer who has orders.
+Open means placed or shipped. */
+
+SELECT
+	customer_id,
+	COUNT(*) AS total_orders,
+	COUNT(*) FILTER (WHERE status = 'delivered') AS delivered_orders,
+	COUNT(*) FILTER (WHERE status = 'cancelled') AS cancelled_orders,
+	COUNT(*) FILTER (WHERE status IN ('placed', 'shipped')) AS open_orders
+FROM orders
+GROUP BY customer_id
+ORDER BY customer_id;
+
+/* Q38. Write a SQL query to find average payable amount across
+delivered orders. Calculate each order's total before taking
+the average.*/
+
+WITH order_totals AS (
+	-- Phase 1: Calculate the total payable amount per delivered order
+	SELECT
+		o.order_id,
+		COALESCE(SUM((oi.quantity * oi.unit_price) - oi.discount_amount), 0) + o.shipping_fee AS amount_payable
+	FROM orders AS o
+	LEFT JOIN order_items AS oi
+		ON o.order_id = oi.order_id
+	WHERE o.status = 'delivered'
+	GROUP BY o.order_id, o.shipping_fee
+)
+
+-- Phase 2: Take the average of those calculated totals
+SELECT
+	AVG(amount_payable) AS average_amount
+FROM order_totals;
+
+/* Q39. Write a SQL query to calculate units sold, sales, and 
+distinct buyers for categories with delivered sales. Ignore
+returns. */
+
+WITH delivered_sales AS (
+	SELECT
+		o.order_id,
+		o.customer_id,
+		oi.product_id,
+		oi.quantity,
+		oi.unit_price,
+		oi.discount_amount
+	FROM orders AS o
+	JOIN order_items AS oi
+		ON o.order_id = oi.order_id
+	WHERE o.status = 'delivered'
+)
+
+SELECT
+	p.category_id,
+	SUM(quantity) AS units_sold,
+	COALESCE(SUM((ds.quantity * ds.unit_price) - ds.discount_amount),0) AS sales,
+	COUNT(DISTINCT ds.customer_id) AS distinct_buyers
+FROM delivered_sales AS ds
+JOIN products AS p
+	ON ds.product_id = p.product_id
+GROUP BY category_id;
+
+/* Q40. Write a SQL query to count attempts, successess, and
+failures for each payment method. Calculate successful amount
+and attempt success rate as a percentage. */
+
+SELECT * FROM payments;
+
+SELECT
+	method,
+	COUNT(*) AS total_attempts,
+	COUNT(*) FILTER (WHERE status = 'success') AS successes,
+	COUNT(*) FILTER (WHERE status = 'failed') AS failures,
+	COALESCE(SUM(amount) FILTER (WHERE status = 'success'), 0) AS total_successful_amount,
+	ROUND(
+		COUNT(*) FILTER (WHERE status = 'success') * 100.0 /
+		COUNT(*), 2
+	) AS success_rate_perc
+FROM payments
+GROUP BY method;
+
+/* Q41. Write a SQL query to count orders, unique ordering 
+customers, and orders per customer for each month with orders
+in 2025, include every status. */
+
+SELECT * FROM orders;
+
+SELECT
+	EXTRACT(MONTH FROM ordered_at) AS order_month,
+	COUNT(order_id) AS total_orders,
+	COUNT(DISTINCT customer_id) AS unique_customers,
+	ROUND(COUNT(order_id)::NUMERIC / COUNT(DISTINCT customer_id), 2) AS orders_per_customer
+FROM orders
+WHERE ordered_at >= TIMESTAMP '2025-01-01'
+	AND ordered_at < TIMESTAMP '2026-01-01'
+GROUP BY EXTRACT(MONTH FROM ordered_at) 
+ORDER BY order_month;
+
+/* Q42. Write a SQL query to find products with at least two
+reviews and average rating of at least 3. Include average rating
+and review count. */
+
+SELECT * FROM reviews;
+
+SELECT
+	product_id,
+	COUNT(review_id) AS review_count,
+	ROUND(AVG(rating), 2) AS avg_rating
+FROM reviews
+GROUP BY product_id
+HAVING COUNT(review_id) >= 2
+	AND ROUND(AVG(rating), 2) >=3;
+
+/* Q43. Write a SQL query to count orders in each status and
+show the total shipping fees for that status. Include every
+status present in the orders table. */
+
+SELECT * FROM orders;
+
+SELECT	
+	status,
+	COUNT(order_id) AS order_count,
+	SUM(shipping_fee) AS total_shipping_fee
+FROM orders
+GROUP BY status;
+
+/* Q44. Wrtie a SQL query to find employee names that appear
+more than once. Show each name and its number of occurrences.*/
+
+SELECT * FROM orders;
+
+SELECT
+	employee_id,
+	COUNT(order_id) AS occurences
+FROM orders
+GROUP BY employee_id
+ORDER BY employee_id;
+
+/* Q45. Write a SQL query to show each department's employee
+count and average salary. Return only departments least three
+employees using HAVING. */
+
+SELECT * FROM departments;
+SELECT * FROM employees;
+
+SELECT
+	department_id,
+	COUNT(employee_id) AS employee_count,
+	ROUND(AVG(salary), 2) AS avg_salary
+FROM employees
+GROUP BY department_id
+HAVING COUNT(employee_id) >= 3;
+	
+
+
+/* Q46. Write a SQL query to find salary amounts earned by 
+more than one employee. Show each salary and the number of 
+employees earning it. */
+
+SELECT * FROM employees;
+
+SELECT
+	salary,
+	COUNT(employee_id) AS number_of_employee
+FROM employees
+GROUP BY salary
+HAVING COUNT(employee_id) > 1;
+
+/*-----------------------------------------------------------
+                 STAGE 4 — Joins and relationship
+				            reasoning
+------------------------------------------------------------*/
+
+/* Q47. Write a SQL query to list each order with the customer's
+name and city, regardless of order status. */
+
+SELECT * FROM orders;
+
+SELECT
+	c.customer_id,
+	c.full_name,
+	c.city,
+	o.order_id,
+	o.status
+FROM customers AS c
+JOIN orders AS o
+	ON c.customer_id = o.customer_id;
+
+/* Q48. Write a SQL query to return every customer with their
+number of orders. including customers with zero orders.*/
+
+SELECT
+	c.customer_id,
+	c.full_name,
+	COUNT(order_id) AS orders_count
+FROM customers AS c
+LEFT JOIN orders AS o
+	ON c.customer_id = o.customer_id
+GROUP BY c.customer_id, c.full_name
+ORDER BY c.customer_id;
+
+/* Q49. Write a SQL query to find customers who have never
+placed an order, using LEFT JOIN. */
+
+SELECT
+	c.customer_id,
+	c.full_name,
+	o.order_id
+FROM customers AS c
+LEFT JOIN orders AS o
+	ON c.customer_id = o.customer_id
+WHERE o.order_id IS NULL
+ORDER BY c.customer_id;
+
+/* Q50. Write a SQL query to return every category with its
+number of products, including categories with no products. */
+
+SELECT
+	c.category_id,
+	c.category_name,
+	COUNT(p.product_id) AS product_counts
+FROM categories AS c
+LEFT JOIN products AS p
+	ON c.category_id = p.category_id
+GROUP BY c.category_id, c.category_name;
+
+/* Q51. Write a SQL query to find products that have never
+appeared in order_items, regardless of order status. */
+
+SELECT * FROM order_items;
+
+SELECT
+	p.product_id,
+	p.product_name,
+	o.order_item_id
+FROM products AS p
+LEFT JOIN order_items AS o
+	ON p.product_id = o.product_id
+WHERE o.order_item_id IS NULL;
+
+/* Q52. Write a SQL query to show every employee alongside
+their manager's name, including employees without a manager. */
+
