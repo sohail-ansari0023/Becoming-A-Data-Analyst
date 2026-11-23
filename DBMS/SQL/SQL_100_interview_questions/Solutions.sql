@@ -632,3 +632,376 @@ WHERE o.order_item_id IS NULL;
 /* Q52. Write a SQL query to show every employee alongside
 their manager's name, including employees without a manager. */
 
+SELECT * FROM employees;
+
+SELECT
+	e.employee_name AS employee,
+	e2.employee_name AS manager
+FROM employees AS e
+LEFT JOIN employees AS e2
+	ON e.manager_id = e2.employee_id;
+
+/* Q53. Write a SQL query to find employees who earn more than
+their immediate manager. */
+
+SELECT
+	e.employee_name AS employee,
+	e.salary AS employee_salary,
+	e2.employee_name AS manager,
+	e2.salary AS manager_salary
+FROM employees AS e
+JOIN employees AS e2
+	ON e.manager_id = e2.employee_id
+WHERE e.salary > e2.salary;
+
+/* Q54. Write a SQL query to show each order with its handling
+employee and that employee's department. Include orders with no 
+assigned employee.*/
+
+SELECT * FROM orders;
+SELECT * FROM employees;
+
+WITH employee_with_department AS (
+	SELECT
+		e.employee_id,
+		e.employee_name,
+		d.department_id,
+		d.department_name
+	FROM employees AS e
+	JOIN departments AS d
+		ON e.department_id = d.department_id
+)
+
+SELECT
+	o.order_id,
+	ed.employee_name,
+	ed.department_name
+FROM orders AS o
+LEFT JOIN employee_with_department AS ed
+	ON o.employee_id = ed.employee_id;
+
+/* Q55. Write a SQL query to count each customer’s delivered
+orders using a LEFT JOIN, including customers with zero
+delivered orders. Place the status condition so those 
+customers remain in the result. */
+
+SELECT * FROM orders;
+SELECT * FROM customers;
+WITH delivered_orders AS (
+	SELECT * 
+	FROM orders
+	WHERE status = 'delivered'
+)
+
+SELECT
+	c.customer_id,
+	c.full_name,
+	o.status,
+	COUNT(o.order_id) AS order_count
+FROM customers AS c
+LEFT JOIN delivered_orders AS o
+	ON c.customer_id = o.customer_id
+GROUP BY c.customer_id, c.full_name, o.status;
+
+/* Q56. Write a SQL query to show each wishlist entry and
+whether that customer has purchased the reviewed product
+in a delivered order, Return exactly one row per wishlist
+entry. */
+
+WITH delivered_items AS (
+	SELECT
+		o.customer_id,
+		o.order_id,
+		oi.product_id,
+		o.status
+	FROM orders AS o
+	JOIN order_items AS oi
+		ON o.order_id = oi.order_id
+	WHERE o.status = 'delivered'	
+)
+
+SELECT
+	w.customer_id,
+	w.product_id,
+	w.added_at,
+	CASE
+		WHEN EXISTS (
+			SELECT 1
+			FROM delivered_items AS di
+			WHERE w.customer_id = di.customer_id
+				AND w.product_id = di.product_id
+		) THEN 'Yes' ELSE 'No'
+	END AS is_purchased
+FROM wishlist AS w;
+
+/* Q57. Write a SQL query to find reviews written by customers
+who have never purchased the reviewed product in a delivered
+order. */
+
+WITH delivered_items AS (
+	SELECT
+		o.customer_id,
+		oi.product_id,
+		o.status
+	FROM orders AS o
+	JOIN order_items AS oi
+		ON o.order_id = oi.order_id
+	WHERE o.status = 'delivered'
+		
+)
+
+SELECT *
+FROM reviews AS r
+WHERE NOT EXISTS (
+	SELECT 1
+	FROM delivered_items AS di
+	WHERE di.customer_id = r.customer_id
+		AND di.product_id = r.product_id
+);
+
+/* Q58. Write a SQL query to find products purchased by at
+least two different customers in dleivered orders. Show each
+product and its number of distinct buyers. */
+
+WITH delivered_items AS (
+	SELECT
+		o.customer_id,
+		oi.product_id,
+		o.status
+	FROM orders AS o
+	JOIN order_items AS oi
+		ON o.order_id = oi.order_id
+	WHERE o.status = 'delivered'		
+)
+
+SELECT
+	p.product_id,
+	p.product_name,
+	COUNT(DISTINCT di.customer_id) AS distinct_customers
+FROM products AS p
+JOIN delivered_items AS di
+	ON p.product_id = di.product_id
+GROUP BY p.product_id, p.product_name
+HAVING COUNT(DISTINCT di.customer_id) >= 2;
+
+/* Q59. Write a SQL query to show each order's item sales, 
+total successful payments, and total approved refunds. Include
+orders with no payments or refunds, and avoid multiplying
+amounts when joining the tables. */
+
+WITH item_sales AS (
+	SELECT
+		order_id,
+		SUM((quantity*unit_price)-discount_amount) AS item_sales
+	FROM order_items
+	GROUP BY order_id
+),
+
+payments_cte AS (
+	SELECT
+		order_id,
+		SUM(amount) AS total_successful_payment
+	FROM payments
+	WHERE status = 'success'
+	GROUP BY order_id
+),
+
+refund_cte AS (
+	SELECT
+		order_id,
+		SUM(ors.refund_amount) AS total_approved_refunds
+	FROM order_items AS oi
+	JOIN order_returns AS ors
+		ON oi.order_item_id = ors.order_item_id
+	WHERE ors.status = 'approved'
+	GROUP BY order_id
+)
+
+SELECT
+	o.order_id,
+	COALESCE(i.item_sales, 0) AS item_sales,
+	COALESCE(p.total_successful_payment, 0) AS total_successful_payments,
+	COALESCE(r.total_approved_refunds, 0) AS total_approved_refunds
+FROM orders AS o
+LEFT JOIN item_sales AS i
+	ON o.order_id = i.order_id
+LEFT JOIN payments_cte AS p
+	ON o.order_id = p.order_id
+LEFT JOIN refund_cte AS r
+	ON o.order_id = r.order_id
+ORDER BY o.order_id;
+
+/* Q60. Write a SQL query to show each customer who referred
+another customer, along with their number of direct referrals.
+Count each referred customer once.*/
+
+SELECT
+	c.customer_id AS referrer_id,
+	c.full_name AS referrer_name,
+	COUNT(c2.customer_id) AS direct_referrals
+FROM customers AS c
+JOIN customers AS c2
+	ON c.customer_id = c2.referred_by
+GROUP BY
+	c.customer_id,
+	c.full_name;
+
+/* Q61. Write a SQL query to find customers who purchased a
+product from the Books category in a delivered order. Return
+each customer only once. */
+
+WITH order_item_book_cat AS (
+	SELECT
+		order_id
+	FROM order_items
+	WHERE product_id IN (
+		SELECT
+			product_id
+		FROM products 
+		WHERE category_id = (
+			SELECT
+				category_id
+			FROM categories
+			WHERE category_name = 'Books'
+		)
+	)
+)
+
+SELECT
+	c.customer_id,
+	c.full_name
+FROM customers AS c
+WHERE EXISTS (
+	SELECT 1
+	FROM (
+		SELECT o.customer_id
+		FROM orders AS o
+		JOIN order_item_book_cat AS oibc
+			ON o.order_id = oibc.order_id
+		WHERE status = 'delivered'
+	) AS order_with_book_category
+	WHERE order_with_book_category.customer_id = c.customer_id
+);
+
+/* Q62. Write a SQL query to list the items in delivered orders, 
+showing order ID, customer name, product name, quantity, and
+price charged per unit. Return one row per order item. */
+
+WITH customer_with_orders AS (
+	SELECT
+		c.customer_id,
+		c.full_name,
+		o.order_id,
+		o.status
+	FROM customers AS c
+	JOIN (
+		SELECT *
+		FROM orders
+		WHERE status = 'delivered'
+	) AS o
+		ON c.customer_id = o.customer_id		
+),
+
+product_in_order_items AS (
+	SELECT
+		oi.order_id,
+		oi.product_id,
+		oi.quantity,
+		p.product_name,
+		p.price AS price_per_unit
+	FROM order_items AS oi
+	JOIN products AS p
+		ON oi.product_id = p.product_id
+)
+
+SELECT
+	co.order_id,
+	co.full_name AS customer_name,
+	po.product_name,
+	po.quantity,
+	po.price_per_unit
+FROM customer_with_orders AS co
+JOIN product_in_order_items AS po
+	ON co.order_id = po.order_id;
+
+-- SIMPLE VERSION
+
+SELECT
+	o.order_id,
+	c.full_name AS customer_name,
+	p.product_name,
+	oi.quantity,
+	oi.unit_price AS price_charged_per_unit
+FROM orders AS o
+JOIN customers AS c
+	ON o.customer_id = c.customer_id
+JOIN order_items AS oi
+	ON o.order_id = oi.order_id
+JOIN products AS p
+	ON oi.product_id = p.product_id
+WHERE o.status = 'delivered'
+ORDER BY o.order_id, oi.order_item_id;
+
+/* Q63. Write a SQL query to find customer-product pairs that appear
+in both wishlist and reviews. Show the customer, product, and rating
+match on both customer ID and product ID. */
+
+SELECT
+	c.full_name,
+	p.product_name,
+	r.rating
+FROM wishlist AS w
+JOIN reviews AS r
+	ON w.customer_id = r.customer_id
+		AND w.product_id = r.product_id
+JOIN customers AS c
+	ON w.customer_id = c.customer_id
+JOIN products AS p
+	ON w.product_id = p.product_id;
+
+/* Q64. Write a SQL query to show each referred customer alongside
+the name of the customer who referred them. Return one row per
+referral and exclude customers with no referrer. */
+
+SELECT
+	c.full_name AS referred_customer,
+	ref.full_name AS referred_by
+FROM customers AS c
+JOIN customers AS ref
+	ON c.referred_by = ref.customer_id;
+
+/*--------------------------------------------------------------
+         STAGE 6 — Subqueries, CTEs and Set reasoning
+----------------------------------------------------------------*/
+
+/*---------------------------------------------------------------
+          STAGE 7 — Window functions and raning
+----------------------------------------------------------------*/
+
+/* Q78. Write a SQL query to find employees in the top three dist-
+inct salary levels within eah department. Include ties. */
+
+WITH ranked_salary AS (
+	SELECT
+		employee_id,
+		employee_name,
+		department_id,
+		salary,
+		DENSE_RANK() OVER (
+			PARTITION BY department_id
+			ORDER BY salary DESC
+		) AS rank_num
+    FROM employees
+)
+
+SELECT
+	rs.employee_id,
+	rs.employee_name,
+	rs.department_id,
+	d.department_name,
+	rs.salary,
+	rs.rank_num
+FROM ranked_salary AS rs
+JOIN departments AS d
+	ON rs.department_id = d.department_id
+WHERE rs.rank_num <= 3;

@@ -75,4 +75,3 @@ We will also introduce professional habits throughouot:
 - Avoid hardcoding values inside complex formulas.
 - Build reusable and understandable formulas.
 - Verify calculations before reporting results.
-

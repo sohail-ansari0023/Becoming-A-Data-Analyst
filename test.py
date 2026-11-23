@@ -4,11 +4,12 @@
 
 """
 # cases : 2 5 6 3 8
-# """
+#"""
+
 # list_ = [2, 9, 3, 5, 8, 9]
 # val = []
 # for i in range(len(list_)):
-#     if len(val) == 0: 
+#     if len(val) == 0:
 #         max_num = max(list_)
 #         val.append(max_num)
 #         list_.remove(max_num)
@@ -56,14 +57,14 @@
 # print(product_title[:10])
 # print(Raw_price[:10])
 
-_list = ['ghe', 'shdhf', 'sdf']
+# _list = ['ghe', 'shdhf', 'sdf']
 
-print(_list)
-copy_list = _list[:]
-print(copy_list)
-_list[1] = 'hello'
-print(_list)
-print(copy_list)
-copy_list[0] = 'hi'
-print(_list)
-print(copy_list) 
+# print(_list)
+# copy_list = _list[:]
+# print(copy_list)
+# _list[1] = 'hello'
+# print(_list)
+# print(copy_list)
+# copy_list[0] = 'hi'
+# print(_list)
+# print(copy_list)
